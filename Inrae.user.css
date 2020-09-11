@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Inrae
+@namespace      Hypersoby
+@homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
+@updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Inrae.user.css 
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("https://hal.inrae.fr/") {
+    #bloc-recherche {
+	background: top left no-repeat #757575 url("../public/trame.png");
+}
+}
