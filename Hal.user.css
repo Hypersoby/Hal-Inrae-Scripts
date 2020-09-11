@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Un @name vide remplace le modèle par défaut - 11/09/2020 à 13:17:43
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("https://hal.inrae.fr/") {
+    #bloc-recherche {
+	background: top left no-repeat #757575 url("../public/trame.png");
+}
+}
