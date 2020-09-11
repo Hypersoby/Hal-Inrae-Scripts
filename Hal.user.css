@@ -2,13 +2,13 @@
 @name           Hal Inrae
 @namespace      StylishThemes
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
-@updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/blob/master/Hal.user.css
-@version        1.0.0
+@updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/Hal.user.css
+@version        1.0.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
 
-@-moz-document domain("https://hal.inrae.fr/") {
+@-moz-document url-prefix("https://hal.inrae.fr/") {
     #bloc-recherche {
 	background: top left no-repeat #757575 url("../public/trame.png");
 }
