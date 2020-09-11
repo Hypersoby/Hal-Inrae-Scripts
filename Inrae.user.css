@@ -10,6 +10,6 @@
 
 @-moz-document url-prefix("https://hal.inrae.fr/") {
     #bloc-recherche {
-	background: top left no-repeat #757575 url("../public/trame.png");
+	background: top left no-repeat #000 url("../public/trame.png");
 }
 }
