@@ -1,0 +1,2711 @@
+/* ==UserStyle==
+@name           Base
+@namespace      Hypersoby
+@homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
+@updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Base.user.css 
+@version        1.0.0
+@description    Plateforme pour les styles visuels sur le site Hal-Inrae
+@author         Lallemant Christopher (HS|HyperSoby)
+==/UserStyle== */
+
+@-moz-document url-prefix("https://hal.inrae.fr/") {
+    /*EXP */
+
+#actualites .feed.item .display {
+	top: 20px;
+	right: 12px;
+	background-color: #faebd700;
+	border: 1px solid #7fffd400;
+}
+
+
+/* ANIMATION KEYFRAME */
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: 0; } 
+	100% { opacity: 1; }
+}
+
+@keyframes swing { 
+   20% { transform: rotate(15deg); } 
+   40% { transform: rotate(-10deg); } 
+   60% { transform: rotate(5deg); } 
+   80% { transform: rotate(-5deg); } 
+   100% { transform: rotate(0deg); } 
+} 
+/* SPECIAL INFO BOX */
+
+#recap-citation::before {
+	animation: swing 1.2s ease infinite;
+	position: absolute;
+	margin-left: -80px;
+	margin-top: 10px;
+	content: url("https://i.imgur.com/2qZx3M8.png");
+	filter: brightness(115%) saturate(50%);
+}
+
+#doublon-msg {
+    border: 1px solid rgb(217, 193, 193);
+	border-left: 88px solid #5b444d00;
+    border-right: 88px solid #5b444d00;
+}
+.alert-danger {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#doublon-msg:hover {
+	background-color: rgb(247, 183, 183);
+}
+#recap-citation:hover {
+	background-color: #ace195a6;
+}
+#recap-arxiv:hover {
+	background-color: #d7cddfa6;
+}
+#recap-pubmedcentral:hover {
+	background-color: #d7cddfa6;
+}
+
+#flash-messages > div:nth-child(1){	   
+    border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#doublon-msg::before {
+    animation: flash 1.2s ease infinite;
+	position: absolute;
+	margin-left: -80px;
+	margin-top: 10px;
+	content: url("https://i.imgur.com/h2ll1vR.png");
+    filter: brightness(415%) saturate(50%);
+}
+#doublon-msg::after {
+	position: fixed;
+	animation: flash 2s ease infinite;
+	color: #ca252a;
+	top: 0.2%;
+	left: 25%;
+	content: url("https://i.imgur.com/0UbrKr0.png");
+	scale: 0.87;
+	z-index: 3000;
+}
+#error-zone-recap {
+	line-height: 3;
+	font-size: 16px;
+	background-color: rgb(242, 235, 222);
+	color: #ae7810;
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+}
+#error-zone-recap:hover {
+	background-color: rgb(232, 215, 184);
+}
+#error-zone-recap::before {
+	position: absolute;
+	animation: swing 1.2s ease infinite;
+	margin-left: -80px;
+	margin-top: 0px;
+	content: url("https://i.imgur.com/pGXwYxg.png");
+    filter: brightness(135%) saturate(50%);
+}
+
+.alert-success {
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+    margin-right:50px;
+    margin-left:50px;
+}
+.alert-info{
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+    margin-right:50px;
+    margin-left:50px;
+}
+.alert-violet{
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+    margin-right:50px;
+    margin-left:50px;
+}
+.alert-warning {
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.alert-text{
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+/* SPECIAL CCSD BAR + ADDON COLOR SWAP */
+
+#nav-services > .navbar-nav > .active > button::after {
+	color: #008284;
+}
+.navbar-inverse {
+	border-color: #008284;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > button:nth-child(1) {
+	background-color: #008284;
+    transition:0.2s
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > button:nth-child(1):hover {
+	background-color: #00a3a5;
+    
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > button:nth-child(1) > b:nth-child(1) {
+	border-top-color: #fff!important;
+	border-bottom-color: #fff!important;
+}
+li.dropdown:nth-child(2) > button:nth-child(1) > b:nth-child(1){
+	border-top-color: #fff!important;
+	border-bottom-color: #fff!important;
+}
+#nav-services > .navbar-nav > li > button:hover, #nav-services > .navbar-nav > li > button:focus {
+	color: #fff;
+	background-color: #00a3a5;
+}
+.navbar-nav > li > a:hover {
+	background-color: #00a3a5 !important;
+}
+
+/* SPECIAL CCSD BAR DROPDOWN */
+
+li.divider:nth-child(6) {
+	background-color: #008284;
+}
+li.divider:nth-child(3){
+	background-color: #008284;
+}
+
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(9) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(10) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+li.dropdown:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+li.dropdown:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+li.dropdown:nth-child(2) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #00a3a5
+}
+
+/* SPECIAL EFFECT */
+
+#dernieres-pub .widget .media-body a {
+	text-decoration: none;
+}
+#dernieres-pub .widget .media-body a:hover {
+	text-decoration: underline;
+}
+#img-recherche {
+    background: url('https://i.imgur.com/RhHFidF.png') no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 75%;
+}
+
+/* SPECIAL */ 
+
+.nav > li > a:hover, .nav > li > a:focus { /**/
+    background-color: #eee0;
+}
+.glyphicon-info-sign::before {
+	content: "\e086";
+	color: white;
+}
+.glyphicon:empty {
+	width: 2em;
+}
+/* COLOR SWAP */
+#actualites .feed.item:hover {
+    background-color:#cac8bf;
+    transform: translate(0, -4px);
+}
+.container-blanc {
+	background-color: #f3f2f0;
+}
+.form-actions {
+	background-color: #f3f2f0;
+	border-top: 1px solid #f3f2f0;
+}
+html {
+	background-color: #f3f2f0;
+}
+html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps{ 
+	background: #f3f2f0;
+}
+#container {
+	background-color: #f3f2f0;
+}
+.nav .caret {
+	border-top-color: #00a3a5;
+	border-bottom-color: #00a3a5;
+}
+.dropdown:hover > .dropdown-menu {
+	display: block;
+	background-color: #222222e3;
+}
+
+
+/* TXT COLOR SWAP */
+
+div.alert:nth-child(1) > h6:nth-child(1) > small:nth-child(3){color: #3a87ad;}
+div.alert:nth-child(2) > h6:nth-child(1) > small:nth-child(3){color: #8C6682;}
+div.alert:nth-child(3) > h6:nth-child(1) > small:nth-child(3){color: #667350;}
+
+
+#paragraphes .para_texte li { 
+	color: bisque;
+}
+#paragraphes .para_texte p {
+	color: white;
+}
+
+.btn-default {
+	color: #fff;
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+}
+.btn-default:hover {
+	color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e
+}
+
+.form-actions { /* BOT Button "modifier" */
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.ui-autocomplete li span.valid:hover {
+	background: #a6b3a1;
+	color: #3f532a;
+}
+.ui-autocomplete li span.old:hover {
+	background: #b9b6a7;
+	color: #44361d;
+}
+.ui-autocomplete li span.incoming:hover {
+	background: #aa9d9d;
+	color: #6f2d2c;
+}
+
+.ui-autocomplete .ui-menu-item:first-child {
+	background: #b3b3b3;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+/* UNIVERSAL Modif & PADDING */
+
+.dropdown-height-limit {
+	padding: 5px 0px!important;
+}
+
+
+#deaffiliate_authors {
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+	background-color: #428bca;
+	border-color: #357ebd;
+	color: #e1e1e1;
+}
+#deaffiliate_authors:hover {
+	color: #fff;
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+	border-radius: 0;
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle):hover {
+	color: #fff;
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+span.label:nth-child(2) {font-size: 75% !important}
+span.label-danger:nth-child(3) {font-size: 75% !important}
+span.label:nth-child(4) {font-size: 75% !important}
+
+ul.navbar-right > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2){
+	position: absolute;
+	margin-top: 29px;
+}
+
+.label-rgplabo {
+	background-color: #40c8ae;
+}
+.label-rgpinst{
+	background-color: #ac6fc2;
+}
+
+.close {
+	line-height: 0.7;
+}
+
+hr {
+	border-top: 0px solid #eee;
+}
+
+blockquote {
+	border-left: 5px solid #00a3a5;
+}
+
+#actualites .feed.item { /* BOX INFO */
+    border-radius: 10px;
+}
+
+#w-recherche input {
+	background-color: #ffffff3b;
+    border-radius: 40px 0px 0px 40px;
+}
+
+#w-recherche input:hover {
+	background-color: #fff;
+    border-radius: 0px 0px 0px 0px;
+}
+#w-recherche input:focus {
+	background-color: #fff;
+    border-radius: 0px 0px 0px 0px;
+}
+#w-recherche button {
+	min-height: 50px;
+	min-width: 50px;
+	margin-left: 0px;
+	border: none;
+	border-radius: 0;
+	background-color: #ffffff3b;
+	color: #00a3a8;
+}
+
+#w-recherche button:hover {
+	min-height: 50px;
+	min-width: 50px;
+	margin-left: 0px;
+	border: none;
+	border-radius: 0;
+	background-color: #fff;
+	color: #00a3a8;
+}
+
+.nav a:hover .caret {
+	border-top-color: #00a3a6;
+	border-bottom-color: #00a3a6;
+}
+.form-control:focus {
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+	box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0),0 0 0px rgba(255, 255, 255, 0.6);
+}
+.form-control {
+	box-shadow: inset 0 1px 1px rgba(157, 34, 34, 0);
+}
+
+/* UNIVERSAL Button */
+
+#resetRequest {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#resetRequest:hover {
+	background-color: #3276b1!important;
+	border-color: #285e8e!important;
+}
+
+button.close {
+	background: transparent!important;
+}
+
+.btn-default .caret {
+	border-top-color: #fff;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	color: #fff;
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+.pagination > li > a, .pagination > li > span {
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+	color: white;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	border-color: #3276b1;
+	background-color: #3276b1;
+
+}
+.input-group-addon {
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+}
+.input-group-addon:hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+.input-group-addon {
+	color: #fff;
+}
+.has-error .input-group-addon {
+	color: #fff;
+	background-color: #c64a4a;
+	border-color: #b94a48;
+}
+.has-error .input-group-addon:hover {
+	color: #913a38;
+	background-color: #933838;
+	border-color: #953a38;
+}
+
+/* UNIVERSAL TRANSITION */
+
+#error-zone-recap{
+	transition: 0.5s;
+}
+#error-zone-recap:hover{
+	transition: 0.5s;
+}
+#doublon-msg {
+    transition:0.5s
+}
+#doublon-msg:hover {
+    transition:0.5s
+}
+.btn-info{
+	transition: 0.2s
+}
+.btn-info:hover{
+	transition: 0.2s
+}
+.btn-defaut:hover{
+	transition: 0.2s
+}
+.btn-defaut{
+	transition: 0.2s
+}
+.ui-autocomplete li span.valid{
+	transition: 0.2s
+}
+.ui-autocomplete li span.old{
+	transition: 0.2s
+}
+.ui-autocomplete li span.incoming{
+	transition: 0.2s
+}
+.navbar-nav > li > a:hover {
+	transition: 0.2s;
+}
+#nav-services > .navbar-nav > li > button:hover, #nav-services > .navbar-nav > li > button:focus {
+    transition:0.2s
+}
+#nav-services > .navbar-nav > li > button, #nav-services > .navbar-nav > li > button {
+    transition:0.2s
+}
+.btn-success {
+	transition: 0.2s;
+}
+
+.alert {
+	transition: 0.3s;
+}
+
+tr.author:hover {
+	transition: 0.2s;
+}
+tr.author {
+	transition: 0.2s;
+}
+.nav > li > a:hover, .nav > li > a {
+	transition: 0.3s;
+}
+.nav > li > a, .nav > li > a {
+	transition: 0.3s;
+}
+
+.sortable > li {
+	transition: 0.2s;
+}
+.sortable > li:hover {
+	transition: 0.2s;
+}
+.panel-default > .panel-heading:hover {
+	transition: 0.2s;
+}
+.panel-default > .panel-heading{
+	transition: 0.2s;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	transition: 0.2s;
+}
+.table-hover > tbody > tr > td, .table-hover > tbody > tr > th {
+	transition: 0.2s;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	transition: 0.2s;
+}
+#footer-menu li a{
+    transition: 0.2s;
+}
+#footer-menu li a:hover{
+    transition: 0.2s;
+}
+#global-navigation > ul.nav-tabs > li > a {
+    transition: 0.2s;
+}
+#global-navigation > ul.nav-tabs > li > a:hover {
+    transition: 0.2s;
+}
+#actualites .feed.item:hover {
+    transition:0.2s
+}
+#actualites .feed.item { /* BOX INFO */
+
+    transition:0.2s
+}
+#w-recherche input {
+    transition: 0.3s;
+}
+#w-recherche input:hover {
+    transition: 0.3s;
+}
+#w-recherche input:focus {
+    transition: 0.3s;
+}
+#w-recherche button {
+    transition: 0.3s
+}
+
+#w-recherche button:hover {
+    transition: 0.3s
+}
+.nav .caret {
+    transition:0.2s
+}
+.nav a:hover .caret {;
+    transition:0.2s
+}
+.pagination > li > a, .pagination > li > span {
+	transition: 0.2s;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+	transition: 0.2s;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	transition: 0.2s;
+}
+.dropdown-menu > li > a, .dropdown-menu > li > a{
+	transition: 0.2s;
+}
+#actualites .feed.item > .title > a:hover{
+	transition: 0.2s;
+}
+#actualites .feed.item > .title > a{
+	transition: 0.2s;
+}
+.input-group-addon:hover {
+	transition: 0.2s;
+}
+.input-group-addon {
+	transition: 0.2s;
+}
+
+.btn-danger{
+    transition:0.2s
+}
+.btn-danger:hover{
+    transition:0.2s
+}
+
+.btn-default {
+    transition:0.2s
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    transition:0.2s
+}
+.btn-primary{
+    transition:0.2s
+}
+.btn-primary:hover{
+    transition:0.2s
+}
+.btn-link{
+    transition:0.2s
+}
+.btn-link:hover{
+    transition:0.2s
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	transition: 0.3s;
+}
+/* UNIVERSAL DROP DOWN */
+
+li.divider:nth-child(6) {
+	background-color: #428ac9;
+}
+li.divider:nth-child(4){
+	background-color: #428ac9;
+}
+ul.dropdown-menu:nth-child(3) > li:nth-child(6){
+	background-color: #428ac9;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: #eee0;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #fff;
+	background-color: #245682;
+}
+.dropdown-header {
+	color: #fff;
+}
+#global-navigation > ul.nav-tabs ul.dropdown-menu {
+	background-color: #807e7cc2;
+	color: #000;
+}
+
+.dropdown-menu {
+    background-color: #428ac9;
+    color:white;
+    padding: 0px 0;
+    max-height: 370px !important;
+}
+
+.dropdown-menu > li > a {
+	color: #fff;
+}
+.navbar-nav > li > .dropdown-menu {
+	background-color: #222;
+}
+li.divider:nth-child(2){
+    margin: 4px 0;
+}
+.dropdown-menu .divider {
+    margin: 0px 0;
+	background-color: #59595900;
+}
+
+.user-photo-normal {
+	background-color: #fff0;
+	border: 1px solid #fff0;
+	/* filter: invert(87%); */
+	width: 0;
+	height: 0;
+	padding: 90px 0 0 90px;
+	background: url(https://i.imgur.com/yuPHJ4N.png) no-repeat 0 0;
+}
+
+
+#nav-services > .navbar-nav > li > button { /* BARRE HAL TXT COLOR*/
+	color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a { /* BARRE HAL TXT COLOR */
+	color: #fff;
+}
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(9) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(5) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(5) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover {
+	background-color: #00a3a5;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
+    /* UNIVERSAL TR */
+
+.ui-dialog .ui-dialog-buttonpane button {
+    transition:0.2s;
+}
+.ui-dialog .ui-dialog-buttonpane button:hover {
+    transition:0.2s;
+}
+div.row:nth-child(3) > div:nth-child(3) > blockquote:nth-child(1):hover {
+    transition:0.2s;
+}
+.structure-arborescence > div:nth-child(5) > div:nth-child(3) > blockquote:nth-child(1):hover {
+    transition:0.2s;
+}
+.structure-arborescence > div:nth-child(6) > div:nth-child(3) > blockquote:nth-child(1):hover {
+    transition:0.2s;
+}
+div.row:nth-child(3) > div:nth-child(3) > blockquote:nth-child(1) {
+    transition:0.2s;
+}
+.structure-arborescence > div:nth-child(5) > div:nth-child(3) > blockquote:nth-child(1) {
+    transition:0.2s;
+}
+.structure-arborescence > div:nth-child(6) > div:nth-child(3) > blockquote:nth-child(1) {
+    transition:0.2s;
+}
+
+#flash-messages {
+	margin-top: 0px;
+}
+.panel-title{
+	transition: 0.2s
+}
+.panel-title:hover{
+	transition: 0.2s
+}
+a {
+	transition: 0.2s
+}
+a:hover {
+	transition: 0.2s
+}
+#demo-upload, #id-zone {	
+    transition: 0.2s
+}
+#demo-upload:hover, #id-zone:hover {	
+    transition: 0.2s
+}
+#render-step .panel-default > .panel-heading:hover {
+    transition:0.2s
+}
+#render-step .panel-default > .panel-heading {
+    transition:0.2s
+}
+.detailed-view-transfer:hover {
+    transition:0.2s
+}
+.detailed-view-transfer {
+    transition:0.2s
+}
+#id-zone-detailed:hover {
+    transition:0.2s
+}
+#id-zone-detailed {
+    transition:0.2s
+}
+.li-file {
+	transition: 0.2s;
+}
+.li-file:hover {
+	transition: 0.2s
+}
+.structure-element-laboratory:hover{
+	transition: 0.2s
+}
+.structure-element-laboratory{
+	transition: 0.2s
+}
+.structure-element-regrouplaboratory{
+	transition: 0.2s
+}
+.structure-element-regrouplaboratory:hover{
+	transition: 0.2s
+}
+.structure-element-regroupinstitution:hover {
+	transition: 0.2s
+}
+.structure-element-regroupinstitution {
+	transition: 0.2s
+}
+.structure-element-institution:hover{
+	transition: 0.2s
+}
+.structure-element-department:hover{
+	transition: 0.2s
+}
+.structure-element-department{
+	transition: 0.2s
+}
+.structure-element-institution{
+	transition: 0.2s
+}
+.structure-element-researchteam:hover{
+	transition: 0.2s
+}
+.structure-element-researchteam{
+	transition: 0.2s
+}
+
+/* TXT COLOR SWAP */
+
+.structure-element-regrouplaboratory:hover{
+	color: #21995b;
+}
+
+
+h1, h2, h3, h4 {
+	color: #000;
+}
+
+/* COLOR SWAP */
+
+.ui-dialog .ui-dialog-buttonpane button {
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+	border-radius: 3px;
+	color: white;
+	height: 25px;
+	width: 55px;
+}
+.ui-dialog .ui-dialog-buttonpane button:hover {
+    background-color: #3276b1;
+    border: 1px solid #285e8e;
+}
+
+.popover-title {
+	background-color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.caret:hover {
+	border-top: 4px solid #fff!important;
+}
+
+.modal-body {
+	border-bottom: 1px solid #fff;
+}
+.modal-header {
+	border-bottom: 1px solid #fff;
+}
+.modal-footer {
+	border-top: 1px solid #fff;
+}
+.dropzone .dz-preview .dz-filename span, .dropzone .dz-preview .dz-details .dz-size span {
+	background-color: rgba(255, 255, 255, 0);
+}
+.dropzone .dz-preview.dz-image-preview {
+	background: #fff0;
+}
+
+button.btn-lg:nth-child(3){
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    border-radius: 3px;
+}
+button.btn-lg:nth-child(3):hover {
+    background-color: #47a447;
+    border-color: #398439
+}
+button.btn-lg:nth-child(2){
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    border-radius: 3px;
+}
+button.btn-lg:nth-child(2):hover {
+    background-color: #47a447;
+    border-color: #398439
+}
+#Enregistrer{
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+#Enregistrer:hover {
+    background-color: #47a447;
+    border-color: #398439
+}
+#recap-buttons > a:nth-child(1) > button:nth-child(1){
+    background-color: #ca4242;
+    border-color: #bd3535;
+}
+#recap-buttons > a:nth-child(1) > button:nth-child(1):hover{
+    background-color: #a23535;
+    border-color: #912929;
+}
+a.btn-sm{
+    background-color: #ca4242;
+    border-color: #bd3535;
+}
+a.btn-sm:hover{
+    background-color: #a23535;
+    border-color: #912929;
+}
+
+a.btn:nth-child(2){
+    background-color: #ca4242;
+    border-color: #bd3535;
+}
+a.btn:nth-child(2):hover{
+    background-color: #a23535;
+    border-color: #912929;
+}
+
+#recap-buttons > a:nth-child(2) > button:nth-child(1){
+    background-color: #ca4242;
+    border-color: #bd3535;
+}
+#recap-buttons > a:nth-child(2) > button:nth-child(1):hover{
+    background-color: #a23535;
+    border-color: #912929;
+}
+.struct-buttons-div > button:nth-child(1){
+    background-color: #ca4242;
+    border-color: #bd3535;
+    padding: 5.5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.struct-buttons-div > button:nth-child(1):hover{
+    background-color: #a23535;
+    border-color: #912929;
+}
+#save-struct{
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+#save-struct:hover {
+    background-color: #47a447;
+    border-color: #398439
+}
+
+.struct-line:hover {
+	background-color: #fff0;
+}
+
+html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps {
+	background: #f3f2f0;
+}
+#render-step .panel-default > .panel-heading {
+	background-color: #e6e6e6;
+}
+#render-step .panel-default > .panel-heading:hover {
+	background-color: #bfbfbf;
+}
+#demo-upload:hover, #id-zone:hover {
+	background: #eaeaea;
+}
+.detailed-view-transfer {
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+#id-zone-detailed:hover {
+	background-color: #eaeaea;
+}
+#id-zone-detailed {
+	border: 1px solid #ddd;
+}
+#id-zone-detailed {
+	background-color: #fff;
+}
+.detailed-view-transfer:hover {
+	background-color: #eaeaea;
+}
+.detailed-view-transfer {
+	background-color: #fff;
+}
+.form-actions {
+	background-color: #f5f5f5;
+	border-top: 1px solid #f5f5f5;
+}
+
+.li-file {
+	background: #428ac9;
+}
+.li-file:hover {
+	background: #6eb0ea;
+}
+#idtype-menu {
+	text-align: center;
+	padding: 1px;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	color: #fff;
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+#aut_new > span:nth-child(1):hover {
+    background-color: #428bca;
+    border-color: #357ebd;
+    cursor: context-menu;
+}
+div.add-authors-div:nth-child(2) > span:nth-child(1):hover {
+    background-color: #428bca;
+    border-color: #357ebd;
+    cursor: context-menu;
+}
+
+#idtype-menu {
+	color: white;
+}
+/* UNIVERSAL MODIFICATION */
+
+button.btn-lg:nth-child(3) {
+	width: 45px;
+	transition: 0.3s;
+	overflow: hidden;
+	text-indent: -7.6px;
+	border-radius: 25px;
+}
+button.btn-lg:nth-child(3):hover {
+	width: 129px;
+	transition: 0.3s;
+	text-indent: -4px;
+	border-radius: 3px;
+}
+.glyphicon-save{
+	width: 2em!important;
+}
+
+.col-md-3.control-label.required, .col-md-3.control-label.optional {
+	text-align: left;
+}
+
+#error-zone-meta {
+	display: none!important;
+}
+
+#demo-upload, #id-zone {
+	border: 1px solid #ddd;
+}
+#aut-struct .actions-hover, .new-struct-hover, .struct-dropdown-button {
+	opacity: 1;
+}
+.required::after {
+	content: ' -------->';
+	font-weight: bold;
+}
+
+/* UNIVERSAL PADDING */
+
+#author-form {margin-left: 110px;}
+#Enregistrer{margin-left: 150px;}
+.struct-buttons-div > button:nth-child(1) {margin-left: 135px;}
+
+.structure-icons {
+	float: initial;
+	margin-left: 25px;
+}
+.popover.bottom .arrow {
+	left: 22%;
+}
+
+div.new-struct-formé {
+	align-content: center;
+	display: grid;
+    margin-left: -70px;
+}
+.struct_new{
+	align-content: center;
+	display: grid;
+    margin-left: 70px;
+}
+
+button.btn-xs{margin-top: 0px!important}
+
+.popover .form label {
+	width: 1000px!important
+}
+
+.popover {
+	width: 950px;
+    left:204px!important;
+}
+.popover-content {
+	width: 950px;
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1){
+	width: 830px;
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1){
+	width: 730px;
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1){
+	width: 630px;
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1){
+	width: 525px;
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1){
+	width: 445px;
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(1) > i:nth-child(1){
+    top:9px
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(2) > i:nth-child(1){
+	margin-left: 255px;
+    left: -254px;
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(3) > i:nth-child(1){
+    top: -13px;
+    left: 530px;
+}
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(3) > i:nth-child(1){
+    top: -13px;
+    left: 530px;
+}
+
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(1) > i:nth-child(1) {
+	left: -1px;
+	top: 8px;
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(1) > i:nth-child(1){
+	top: 9px;
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(3) > i:nth-child(1) {
+    top: -13px;
+    left: 430px;
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(3) > i:nth-child(1) {
+    left: 530px;
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(1) > i:nth-child(1) {
+	top: 8px;
+}
+
+
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(2) > i:nth-child(1){
+    top:1px
+}
+.list-group-item > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(3) > i:nth-child(1) {
+	top: -16px;
+	left: 300px;
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(1) > i:nth-child(1){
+    top:6px;
+    left:-19px;
+
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(2) > i:nth-child(1){
+    top:6px;
+    left:-17px;
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(1) > i:nth-child(1) {
+	top: 9px;
+	left: -15px;
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(4) > a:nth-child(2) > i:nth-child(1){
+	top: 9px;
+	left: -13px;
+}
+
+.list-group-item > div:nth-child(1) > div:nth-child(2) > span:nth-child(1){
+    margin-top: 0px;
+}
+
+#recap-citation > h4:nth-child(1) {
+	font-size: 18px;
+	margin-top: 14px;
+}
+
+ul.navbar-right > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2){
+	position: absolute;
+	margin-top: 29px;
+}
+
+
+.glyphicon-ok-circle{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.add-authors-group {
+        border-bottom-right-radius: 3px!important;
+        border-top-right-radius: 3px!important;
+}
+
+.struct-line {
+	padding: 4px;
+}
+
+.modal-footer > button:nth-child(2) {
+    padding: 4px 12px;
+}
+.modal-footer .btn + .btn {
+	margin-left: 0px;
+}
+
+#div-files {
+	border: 0px solid #ddd;
+}
+
+.dropzone .dz-preview .dz-image {
+	height: 75%;
+}
+.dropzone .dz-preview {
+	max-height: 250px;
+}
+.dropzone .dz-mainfile {
+	border: 0px solid #3276B1;
+}
+.ui-widget-content {
+	border: 0px solid #DDD;
+}
+.ui-autocomplete {
+	max-height: 500px;
+}
+.searchStructure {
+	width: 225%;
+}
+.ui-menu {
+	width: 900px !important;
+}
+.panel-group .panel {
+	margin-right: 150px;
+	margin-left: 150px;
+}
+#doublon-msg {
+	font-size: 14px;
+}
+.glyphicon:empty {
+    width: 1em;
+}
+.file-delete > span:nth-child(1){
+    top:9px
+}
+.glyphicon-pencil{
+    top:9px
+}
+
+div.row:nth-child(3) > div:nth-child(3) > blockquote:nth-child(1){
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-arborescence > div:nth-child(5) > div:nth-child(3) > blockquote:nth-child(1){
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-arborescence > div:nth-child(6) > div:nth-child(3) > blockquote:nth-child(1){
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-element-laboratory {
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-element-institution{
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-element-regrouplaboratory{
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-element-regroupinstitution{
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-arborescence > div:nth-child(2) > div:nth-child(2) > blockquote:nth-child(1){
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-element-department{
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-element-researchteam {
+	border: 1px solid #eeeeee!important;
+	border-radius: 5px;
+}
+
+div.row:nth-child(3) > div:nth-child(2) > blockquote:nth-child(1){
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-arborescence > div:nth-child(4) > div:nth-child(2) > blockquote:nth-child(1){
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-arborescence > div:nth-child(5) > div:nth-child(2) > blockquote:nth-child(1){
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+.structure-element-{
+	border: 1px solid #eee!important;
+	border-radius: 5px;
+}
+
+.structure-element-researchteam:hover {
+	background-color: #499de63b;
+}
+
+.structure-element-regrouplaboratory:hover {
+	background-color: #a8ddd3;
+}
+.structure-element-regroupinstitution:hover {
+	background-color: #d3c0df;
+}
+.structure-element-regroupinstitution:hover h6 {
+	color: #7c2fac;
+}
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/search/index") {
+    /* COLOR SWAP */
+
+
+.row-fluid > .col-md-12 {
+	background-color: #f3f2f0;
+}
+.collapse.in {
+	display: block;
+	background-color: #e8e8e8;
+}
+.widget-header-search {
+	background-color: #b5b5b5;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #d9d9d9;
+}
+.widget-search {
+	border: 1px solid #e8e8e8;
+}
+/* TXT COLOR SWAP */
+
+.widget-header {
+	color: #4d4d4d;
+}
+/* UNIVERSAL PADDING */
+
+
+#search-simple {
+	padding: 40px 20px 0 20px;
+}
+
+.input-group {
+	margin-right: 26px;
+    margin-left: 26px;
+}
+.table > thead > tr > th {
+	border-bottom: 1px solid #ddd;
+}
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/browse/domain"), url-prefix("https://hal.inrae.fr/browse/doctype"), url-prefix("https://hal.inrae.fr/browse/period"), url-prefix("https://hal.inrae.fr/page/par-collaboration") {
+    /*COLOR SWAP*/
+
+html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps {
+	background: #f3f2f0;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+	background-color: #aeaeae;
+}
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+	padding: 5px;
+	background-color: #cecece;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px dashed #bdbdbd;
+}
+.table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 1px solid #aeaeae;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #ca4242;
+	border-color: #bd3535;
+}
+.btn-primary:hover {
+	color: #fff;
+	background-color: #973232;
+	border-color: #771f1f;
+}
+.btn-info {
+	color: #fff;
+	background-color: #db8b35;
+	border-color: #ae6321;
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
+	color: #fff;
+	background-color: #b7732a;
+	border-color: #93541b;
+}
+.table > thead > tr > td.active, .table > tbody > tr > td.active, .table > tfoot > tr > td.active, .table > thead > tr > th.active, .table > tbody > tr > th.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > tbody > tr.active > td, .table > tfoot > tr.active > td, .table > thead > tr.active > th, .table > tbody > tr.active > th, .table > tfoot > tr.active > th {
+	background-color: #dfdfdf;
+}
+a.btn:nth-child(7){
+    background-color: #428bca;
+    border: 1px solid #357ebd;
+}
+a.btn:nth-child(7):hover{
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+a.btn:nth-child(5){
+    background-color: #428bca;
+    border: 1px solid #357ebd;
+}
+a.btn:nth-child(5):hover{
+    background-color: #3276b1;
+    border-color: #285e8e;
+}
+
+
+
+/*TXT COLOR SWAP*/
+#paragraphes .para_texte p {
+	color: black;
+}
+a {
+	color: #000;
+}
+
+/* UNIVERSAL PADDING */
+
+.col-md-7 {
+	width: 70%;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+	float: left;
+	margin-left: 285px;
+}
+.table {
+	margin-bottom: 0px;
+}
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/page/par-collaboration") {
+    /* UNIV PADDING */
+
+.pull-right > li:nth-child(3) > span:nth-child(1) > a:nth-child(1) {
+	margin-top: 2px;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant") {
+    /* TXT COLOR SWAP */
+
+#paragraphes .para_texte p {
+	color: #275663;
+}
+
+#paragraphes .para_texte li{
+	color: #4da0b7;
+}
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/user/submissions") {
+    /* UNIVERSAL PADDING */
+
+.corps > fieldset:nth-child(4) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(2) > button:nth-child(1) {
+	padding: 5.9px 24px;
+}
+
+fieldset {
+	padding: 65px;
+}
+.progress {
+	height: 2px!important;
+}
+.table-overflow {
+	padding-top: 0px;
+    margin-top: 27px;
+    max-height: 300px;
+}
+.table-overflow tbody > tr:first-child {
+	top: -28px;
+}
+
+/* COLOR SWAP */
+
+.corps > fieldset:nth-child(5) > div:nth-child(2) > form:nth-child(1) > div:nth-child(5) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1):hover {
+	background-color: #f3f2f0;
+}
+.corps > fieldset:nth-child(4) > div:nth-child(2) > form:nth-child(1) > div:nth-child(5) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1):hover {
+	background-color: #f3f2f0;
+}
+
+#progress-offline_file {
+	background-color: rgb(213, 96, 35)!important;
+}
+#progress-online_file {
+	background-color: rgb(213, 96, 35)!important;
+}
+#progress-online_ref{
+	background-color: rgb(213, 96, 35)!important;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #e3e3e3;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px solid #e3e3e3;
+	background-color: #b3b3b3;
+}
+.table-overflow {
+	background-color: #e3e3e3;
+}
+.progress-bar-info {
+	background-color: #a4a4a4 !important;
+}
+.table-hover > tbody > tr:hover > td {
+	background-color: #fff;
+}
+.corps > fieldset:nth-child(5) > div:nth-child(2) > form:nth-child(1) > div:nth-child(5) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1):hover {
+	background-color: #e3e3e3;
+}
+
+
+/* BUTTON */
+
+
+#btn-tools-offline_file {
+	margin-left: 100px;
+	margin-top: 18px;
+	padding-top: 7px;
+	z-index: 1;
+	top: 1px;
+}
+.btn-group.open {
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0) inset;
+}
+
+button {
+	cursor: pointer;
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+    color:white;
+	padding: 6px 24px;
+	border-radius: 3px;
+	transition: 0.2s;
+}
+div.row:nth-child(5) > div:nth-child(2) > button:nth-child(1){
+	padding: 6.5px 24px;
+}
+
+.corps > fieldset:nth-child(5) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(2) > button:nth-child(1) {
+	cursor: pointer;
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+    color:white;
+	padding: 5.9px 24px;
+	border-radius: 3px;
+	transition: 0.2s;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
+	float: none;
+	margin-top: -31px;
+}
+.row {
+	padding-top: 20px;
+}
+#btn-tools-online_file {
+	z-index: 1;
+}
+#btn-tools-online_ref {
+	z-index: 1;
+}
+#btn-tools-online_ref{
+	margin-left: 100px;
+    height: 31px;
+}
+#btn-tools-online_file {
+	margin-left: 100px;
+    height: 31px;
+}
+
+button:hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+	transition: 0.2s;
+}
+li.active:nth-child(1) > button:nth-child(1){
+	border-radius: 0px;
+}
+li.dropdown:nth-child(2) > button:nth-child(1){
+	border-radius: 0px;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/user/related") {
+    /* UNIVERSAL PADDING */
+
+div.row:nth-child(2) {
+    margin-left:100px!important;
+    margin-right:100px!important;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/user"), url-prefix("https://hal.inrae.fr/stat/user"), url-prefix("https://hal.inrae.fr/stat/index"), url-prefix("https://hal.inrae.fr/website/search"), url-prefix("https://hal.inrae.fr/website/header"), url-prefix("https://hal.inrae.fr/website/menu"), url-prefix("https://hal.inrae.fr/website/news"), url-prefix("https://hal.inrae.fr/website/public") {
+    /* COLOR SWAP */
+
+.well {
+	background-color: #f3f2f0;
+    border: 1px solid #f3f2f0;
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0.05);
+}
+#container {
+	background-color: #f3f2f0;
+}
+.panel {
+	background-color: #f5f5f5;
+}
+.panel-default > .panel-heading {
+	background-color: #e6e6e6;
+	border-color: #e6e6e6;
+}
+.panel-default > .panel-heading:hover {
+	background-color: #bfbfbf;
+}
+.panel-default {
+	border-color: #e6e6e6;
+}
+#stat-module .active a {
+	opacity: 1;
+	color: #428bca;
+	background-color: #f3f2f0;
+}
+.table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 1px solid #f5f5f5;
+}
+.sortable > li {
+	background-color: #e6e6e6
+}
+.sortable > li:hover {
+	background: #cacaca
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #f3f2f0;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #fff;
+}
+
+
+div.form-actions:nth-child(4) > a:nth-child(1) > button:nth-child(1) {
+	background-color: #ca4242;
+	border-color: #bd3535;
+}
+div.form-actions:nth-child(4) > a:nth-child(1) > button:nth-child(1):hover {
+	background-color: #a23535;
+	border-color: #912929;
+}
+
+/* UNIV PADDING */
+
+div.form-actions:nth-child(4) > a:nth-child(1) > button:nth-child(1) {
+	padding: 7px 10px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 5px;
+}
+
+/* TXT COLOR SWAP */
+
+.text-muted {
+	color: #00a3a5;
+}
+
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/website/menu") {
+    .label {
+	font-size: 75%;
+	line-height: 0;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/website/header") {
+    /* UNIV PADDING */
+
+.glyphicon:empty {
+	width: 1em;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/user/docowner") {
+    /* UNIVERSAL PADDING */
+
+.panel-group .panel {
+	border-radius: 4px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/* COLOR SWAP */
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+	border: 0px solid #ddd!important;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #f5f5f5;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #ccc;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	background-color: #e6e6e6;
+	border: 1px solid #a8a8a8 !important;
+}
+table.table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1){
+	background-color: #e6e6e6;
+    	border: 1px solid #e6e6e6 !important;
+}
+
+/* TXT COLOR SWAP */
+
+a {
+	color: #00a3a5;
+}
+a:hover {
+	color: #095c5e;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/user/filerequest") {
+    /* UNIVERSAL PADDING */
+
+html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/website/index") {
+    /* COLOR SWAP */
+
+#container {
+	background-color: #f3f2f0;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/patrol/index"), url-prefix("https://hal.inrae.fr/patrol/listdocuments"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/patrol/doaction") {
+    /* SPECIAL SUMBIT BUTTON*/
+button:hover, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #3276b1;
+	border-color: #285e8e;
+	transition: 0.2s;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+    color:white;
+	padding: 6px 20px;
+	border-radius: 3px;
+	transition: 0.2s;
+	margin-left: 10px;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+	border: 0px solid #ddd;
+}
+
+/* UNIVERSAL PADDING */
+
+.table {
+	width: 94% !important;
+	margin-left: 50px !important;
+}
+
+.glyphicon-ok-circle {
+    margin-right: 0px!important;
+    margin-left: 0px!important;
+}
+button.close {
+	margin-top: -7px;
+}
+
+.close {
+	line-height: 1.5;
+}
+
+#filtre {
+	margin-top: 5px!important;
+}
+
+div.btn-group:nth-child(5) > div:nth-child(1){
+	margin: 0px!important;
+	margin-left: 5px!important;
+    margin-top: 5px!important;
+}
+div.btn-group:nth-child(5) > ul:nth-child(2) {
+	margin: 0px!important;
+	margin-left: 5px!important;
+    margin-top: 5px!important;
+}
+.btn-group > .btn-group:first-child > .btn:last-child, .btn-group > .btn-group:first-child > .dropdown-toggle {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+#moderate {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 94%!important;
+	margin-left: 50px!important;
+}
+.popover-content > table:nth-child(1) {
+	margin-left: 0px;
+}
+
+li.active:nth-child(1) > button:nth-child(1) {
+	border-radius: 0px;
+    margin-left: 0px;
+}
+li.dropdown:nth-child(2) > button:nth-child(1) {
+	border-radius: 0px;
+    margin-left: 0px;
+}
+
+/* COLOR SWAP */
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #b3b3b3;
+}
+#container {
+	background-color: #f3f2f0;
+}
+
+/* TXT COLOR SWAP */
+
+a {
+	color: #000;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/patrol/displaydocuments") {
+    /* PADDING */
+
+.glyphicon-ok-circle {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/moderate") {
+    /* UNIVERSAL PADDING */
+
+.table {
+	width: 94%;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+/* COLOR SWAP */
+
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+	border: 0px solid #ddd;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 1px solid #f5f5f5;
+}
+#container {
+	background-color: #f3f2f0;
+}
+
+
+
+
+
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/administrate/pending-modification") {
+    /* UNIVERSAL PADDING */
+
+.table-bordered {
+	margin-left: 50px;
+}
+.table {
+	width: 94%;
+}
+/* COLOR SWAP */
+
+.middle, .table > thead > tr > th.middle, .table > tbody > tr > th.middle, .table > tfoot > tr > th.middle, .table > thead > tr > td.middle, .table > tbody > tr > td.middle, .table > tfoot > tr > td.middle {
+	background-color: #eaeaea;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 1px solid #acacac;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	background-color: #c1c1c1;
+}
+span.glyphicon {
+	color: #fff!important;
+}
+.glyphicon:empty {
+	color: black;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/moderate/embargo") {
+    /* UNIVERSAL PADDING */
+
+.table {
+	width: 94% !important;
+	margin-left: 50px;
+}
+#container {
+
+	background-color: #f3f2f0;
+}
+
+.btn-group > .btn-group:first-child > .btn:last-child, .btn-group > .btn-group:first-child > .dropdown-toggle {
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+/* COLOR SWAP */
+
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border: 0px solid #ddd;
+}
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/settings/metadata") {
+    /* UNIVERSAL PADDING */
+
+.table {
+	width: 94%;
+	margin-left: 50px;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #f3f2f0;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #ddd !important
+}
+#list-users > tbody:nth-child(2) > tr:nth-child(1) > td:nth-child(4) > a:nth-child(1){
+	margin-left: 0px;
+}
+
+/* COLOR SWAP */
+
+#container {
+	background-color: #f3f2f0;
+}
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/administrate/doublons") {
+    /* UNIVERSAL PADDING*/
+
+#flash-messages > div:nth-child(1) {
+	border-left: 88px solid #5b444d00!important;
+	border-right: 88px solid #5b444d00!important;
+	margin-right: 50px!important;
+	margin-left: 50px!important;
+}
+
+#footer-content {
+	margin-top: 160px;
+}
+
+div.row:nth-child(5) {
+	margin-left: 21px !important;
+	margin-right: 17px !important;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 1px solid #ddd0;
+}
+.table > tbody + tbody {
+	border-top: 1px solid #ddd0;
+}
+.table-bordered {
+	border: 0px solid #ddd0;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px solid #cbd4d900;
+}
+/* COLOR SWAP BUTTON */
+
+.btn-default {
+	color: #fff;
+	background-color: #ca4242;
+	border: 1px solid #bd3535;
+}
+.btn-default:hover {
+	color: #fff;
+	background-color: #a23535;
+	border: 1px solid #912929;
+}
+#multiTextAreaLang0-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1) > button:nth-child(1):hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+#multiTextAreaLang0-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1) > button:nth-child(1) {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextAreaLang1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1) > button:nth-child(1) {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextAreaLang1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(1) > button:nth-child(1):hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+.btn-defaut:hover {
+	background-color: #a23535;
+	border: 1px solid #912929;
+	color: #fff;
+}
+.btn-defaut {
+	background-color: #ca4242;
+	border: 1px solid #bd3535;
+	color: #fff;
+}
+
+#multiTextAreaLang0-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextAreaLang0-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+#multiTextAreaLang1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextAreaLang1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+#multiTextSimple1-element > div:nth-child(1) > div:nth-child(1) > span:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextSimple1-element > div:nth-child(1) > div:nth-child(1) > span:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+div.input-group:nth-child(2) > span:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+div.input-group:nth-child(2) > span:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+#multiTextSimpleLang1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextSimpleLang1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+#multiTextSimpleLang1-element > div:nth-child(1) > div:nth-child(1) > span:nth-child(3) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextSimpleLang1-element > div:nth-child(1) > div:nth-child(1) > span:nth-child(3) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+#multiTextArea1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextArea1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+
+
+
+
+div.input-group:nth-child(3) > span:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+div.input-group:nth-child(3) > span:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+div.input-group:nth-child(4) > span:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+div.input-group:nth-child(4) > span:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+div.input-group:nth-child(5) > span:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+div.input-group:nth-child(5) > span:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+div.input-group:nth-child(6) > span:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+div.input-group:nth-child(6) > span:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+div.input-group:nth-child(7) > span:nth-child(2) > button:nth-child(1){	background-color: #428bca;	border-color: #357ebd;}
+div.input-group:nth-child(7) > span:nth-child(2) > button:nth-child(1):hover{	background-color: #3276b1;	border-color: #285e8e;}
+div.input-group:nth-child(8) > span:nth-child(2) > button:nth-child(1){	background-color: #428bca;	border-color: #357ebd;}
+div.input-group:nth-child(8) > span:nth-child(2) > button:nth-child(1):hover{	background-color: #3276b1;	border-color: #285e8e;}
+div.input-group:nth-child(9) > span:nth-child(2) > button:nth-child(1){	background-color: #428bca;	border-color: #357ebd;}
+div.input-group:nth-child(9) > span:nth-child(2) > button:nth-child(1):hover{	background-color: #3276b1;	border-color: #285e8e;}
+div.input-group:nth-child(10) > span:nth-child(2) > button:nth-child(1){	background-color: #428bca;	border-color: #357ebd;}
+div.input-group:nth-child(10) > span:nth-child(2) > button:nth-child(1):hover{	background-color: #3276b1;	border-color: #285e8e;}
+div.input-group:nth-child(11) > span:nth-child(2) > button:nth-child(1){	background-color: #428bca;	border-color: #357ebd;}
+div.input-group:nth-child(11) > span:nth-child(2) > button:nth-child(1):hover{	background-color: #3276b1;	border-color: #285e8e;}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+	color: #fff;
+	background-color: #a23535;
+	border: 1px solid #912929;
+}
+button.btn-primary:nth-child(2) {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+button.btn-primary:nth-child(2):hover {
+    background-color: #47a447;
+    border-color: #398439
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+.btn-primary:hover {
+    background-color: #47a447;
+    border-color: #398439
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    background-color: #47a447;
+    border-color: #398439;
+}
+a.btn:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+a.btn:nth-child(1):hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+a.btn:nth-child(5) {
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+a.btn:nth-child(5):hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+a.btn:nth-child(7){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+a.btn:nth-child(7):hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+#multiTextAreaLang0-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextAreaLang0-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(2) > button:nth-child(1):hover {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+#multiTextAreaLang1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(2) > button:nth-child(1){
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+#multiTextAreaLang1-element > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > span:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+
+
+/* COLOR SWAP */
+
+body {
+	background-color: #f3f2f0;
+}
+
+.alert-success {
+	border-color: #4cae4c!important; 
+    background-color: #dff0d8!important;
+}
+.alert {
+	border-color: #bd3535;
+	background-color: #f0d8d8;
+}
+#table1 > tbody:nth-child(13) > tr:nth-child(1) > td:nth-child(2) > span:nth-child(1) > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1) {
+	background-color: #fff0 !important;
+}
+#table0 > tbody:nth-child(13) > tr:nth-child(1) > td:nth-child(2) > span:nth-child(1) > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1) {
+	background-color: #fff0 !important;
+}
+
+/* PADDING */
+.alert-success {
+	border-left: 1px solid #5b444d00;
+	border-right: 1px solid #5b444d00;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+div.col-md-5:nth-child(2) {
+	margin-top: 120px;
+	position: absolute;
+	margin-left: 550px;
+    
+}
+div.col-md-5:nth-child(1) > div:nth-child(1) {
+	position: absolute;
+	margin-left: 550px;
+	margin-top: 60px;
+}
+#id1 {    width: 770px;}
+#id2{    width: 770px;}
+
+.footer {
+	margin-top: 90px;
+       
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments"), url-prefix("https://hal.inrae.fr/patrol/doaction") {
+    /* SPECIAL SUBMIT BUTTON */ 
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #428bca;
+	border: 1px solid #357ebd;
+    color:white;
+	padding: 6px 20px;
+	border-radius: 3px;
+	transition: 0.2s;
+	margin-left: 10px;
+}
+
+
+button:hover, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+/* SPECIAL PDF */
+
+tr.files > td:nth-child(2) > div:nth-child(1) > iframe:nth-child(1) {
+	border-color: #0000;
+	height: 250px !important;
+	transition: 0.2s;
+	-webkit-transition-delay: 0.7s;
+}
+tr.files > td:nth-child(2) > div:nth-child(1) > iframe:nth-child(1):hover{
+	height: 850px !important;
+    transition: 0.2s;
+    -webkit-transition-delay: 1s;
+}
+
+/* TXT COLOR SWAP*/
+
+
+
+/* COLOR SWAP */
+
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+	background-color: #f5f5f5;
+}
+.well blockquote {
+	border-color: rgb(0, 163, 165);
+}
+/* PADDING */
+
+small.pull-right {
+	float: right !important;
+	margin-bottom: 9px;
+	margin-top: -7px;
+}
+
+li.active:nth-child(1) > button:nth-child(1) {
+	border-radius: 0px;
+    margin-left: 0px;
+}
+li.dropdown:nth-child(2) > button:nth-child(1) {
+	border-radius: 0px;
+    margin-left: 0px;
+}
+
+.table > tbody + tbody {
+	border-top: 1px solid #ddd;
+}
+
+.btn-group > .btn:first-child {
+	margin-top: 0px;
+}
+.well {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border: 0px solid #ddd;
+}
+
+div.btn-group:nth-child(7){
+	padding-top: 0em!important;
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/settings/metadata"), url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/collection"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/") {
+    .opacity {
+	opacity: 1;
+}
+
+/* COLOR SWAP */
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+.widget {
+	background-color: #f3f2f0;
+	border: 1px solid #a6a6a6;
+} 
+.widget-header {
+	background-color: #e6e6e6;
+	border-bottom: 1px solid #f7f7f7;
+	color: #000;
+}
+.form-actions {
+	margin-left: 450px;
+}
+
+
+
+/* UNIVERSAL MODIF */
+
+.img-thumbnail {
+	border-radius: 10px;
+    background-color: #fff0;
+}
+
+
+
+.panel {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+#confirmRequest {
+	background-color: #ca4242;
+	border-color: #bd3535;
+}
+#confirmRequest:hover {
+    background-color: #a23535;
+    border-color: #912929;
+}
+#resetRequest {
+	background-color: #5cb85c;
+	border-color: #4cae4c;
+}
+#resetRequest:hover {
+    background-color: #47a447;
+    border-color: #398439;
+}
+
+
+
+.keyword-content > a:nth-child(5) {
+	position: initial;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+a.btn-default:nth-child(7){
+	position: initial;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.form-actions {
+	margin-left: 0px;
+}
+.readers {
+	margin-top: 0px!important;
+}
+.btn-danger{
+    cursor: inherit;
+}
+a.widget-export-btn:nth-child(1){
+	margin-left: 0px;
+}
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/user/editprefmail") {
+    /* UNIV PADDING */
+
+input[type="radio"], input[type="checkbox"] {
+	margin-right: 25px;
+}
+
+/* COLOR SWAP */
+
+.well blockquote {
+	border-color: rgb(0, 163, 165)
+}
+}
+@-moz-document url-prefix("https://hal.inrae.fr/search/advanced-export") {
+    /* UNIV PADDING */
+
+#fl {
+	border: 0px dotted #CCCCCC;
+}
+}
+@-moz-document url-prefix("https://cas.ccsd.cnrs.fr/") {
+    /* LOGIN CCSD */
+
+/* COLOR SWAP */
+
+body {
+	background-color: #f3f2f0;
+}
+.panel {
+	background-color: whitesmoke;
+}
+.panel-footer {
+	border-top: 1px solid #f5f5f5;
+}
+.panel-default > .panel-heading {
+	border-color: #f5f5f5;
+}
+.btn-default {
+	color: #fff;
+	background-color: #b95050;
+	border-color: #843d3d;
+    
+}
+.btn-default:hover {
+    color: #fff;
+    background-color: #a23535;
+    border-color: #912929;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open > .dropdown-toggle.btn-default.focus, .open > .dropdown-toggle.btn-default:focus, .open > .dropdown-toggle.btn-default:hover {
+    color: #fff;
+	background-color: #a23535;
+	border-color: #912929;
+}
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+    color: #fff;
+	background-color: #a23535;
+	border-color: #912929;
+}
+.input-group-addon {
+	color: #fff;
+	background-color: #337ab7;
+	border: 1px solid #2e6da4;
+}
+.navbar-inverse {
+	border-color: #00a1a3;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #00a3a5;
+}
+/* TXT COLOR SWAP */
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+}
+
+/* UNIVERSAL TR*/
+
+a:hover, a:focus {
+    transition:0.2s
+}
+a{
+    transition:0.2s
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    transition:0.2s
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a {
+    transition:0.2s
+}
+
+.btn-primary:hover {
+    transition:0.2s
+}
+.btn-primary {
+    transition:0.2s
+}
+.btn-default:hover{
+    transition:0.2s
+}
+.btn-default{
+    transition:0.2s
+}
+}
