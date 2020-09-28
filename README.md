@@ -20,7 +20,7 @@
 
 ## Aperçu
 
-![Aperçu](https://i.imgur.com/hbr0f46.png)
+![Aperçu](https://i.imgur.com/2XUcOQC.png)
 
 ## Installation
 
