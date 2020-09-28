@@ -1,12 +1,7 @@
 <p align="center">
-  <img alt="ColorFull Logo" src="https://i.imgur.com/QUypoxc.png">
+  <img alt="ColorFull Logo" src="https://i.imgur.com/nuUFQIR.png">
   <br>
-<p align="center">
-  <img alt="ColorFull Logo" src="https://i.imgur.com/4M37a1D.png">
-  <br>
-<p align="center">
-  <img alt="ColorFull Logo" src="https://i.imgur.com/TpWt0eg.png">
-  <br>  
+ 
 
 # Sommaire
 
