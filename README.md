@@ -28,6 +28,7 @@ La page dépôts est plus condensée pour une meilleure lecture de l'information
 La taille des tableaux est aussi condensée pour l'harmonisation du reste du site, ainsi qu'une clarté générale.
 Une charte de couleurs est mise en place pour les menus
 Les champs concernant les affiliations, auteurs, ainsi que les menus et sous menu sur la page dépôt sont revus à la hausse.
+La bannière principale sur l'accueil est modifié pour l'harmonisation du site
 ```
 2. `Correction` de bug visuel nécessaire au bon fonctionnement du site
 ```
