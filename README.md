@@ -9,13 +9,7 @@
   * [Aperçu](#Aperçu)
   * [Changement](#Changement)
   * [Installation](#installation)
-    * [Additional Userstyles](#additional-userstyles)
-    * [Supported GitHub Extensions](#supported-github-extensions)
-    * [Available Syntax Highlighting Themes](#available-syntax-highlighting-themes-demo)
-  * [Contributions and Development](#contributions-and-development)
-    * [Auto generated CSS](#auto-generated-css)
-    * [Manual override entries](#manual-override-entries)
-    * [Make targets](#make-targets)
+  * [Contribution et Développement](#Contribution et Développement)
   * [Notes](#notes)
 
 ## Changement
@@ -35,3 +29,7 @@ Base : Modification visant à améliorer l'ergonomie du site.
 
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
 2. Installer la [Base](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Base.user.css).
+
+## Contribution et Développement
+
+Si vous voulez contribuer à améliorer et déceler des bugs, veuillez ....
