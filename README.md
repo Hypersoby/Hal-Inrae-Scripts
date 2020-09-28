@@ -1,8 +1,6 @@
-
 <p align="center">
-  <img alt="ColorFull Logo" src="https://i.imgur.com/EPcgIvP.png">
+  <img alt="ColorFull Logo" src="https://i.imgur.com/TpWt0eg.png">
   <br>
-
 
 # Sommaire
 
