@@ -1,11 +1,11 @@
-# Hal-Inrae-Scripts
 
 <p align="center">
   <img alt="ColorFull Logo" src="https://i.imgur.com/EPcgIvP.png">
   <br>
 
 
-# SOMMAIRE
+# Hal-Inrae-Scripts
+
   * [Aperçu](#Aperçu)
   * [Installation](#installation)
     * [Additional Userstyles](#additional-userstyles)
