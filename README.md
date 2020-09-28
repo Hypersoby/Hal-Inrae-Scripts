@@ -17,25 +17,34 @@ Note du patch 1.0
 
 Base : Modification visant à améliorer l'ergonomie du site.
 
-0. `Harmonisation` du site pour une navigation plus facil
- expérience de navigation alignement d'éléments sur les boutons, taille des cadres/zone de recheche, etc...
- 
-1. `Correction` de bug visuel , sur des éléments tels que boutons, cadres, etc...
+1. `Harmonisation` du site pour une navigation plus facile.
+```
+Alignement d'éléments sur les boutons, taille des cadres/zonés de recherche, etc.
+Tous les boutons possèdent la même charte graphique désormais.
+Des éléments ont été modifié pour bien indiquer leurs fonctions (ajout/annuler/supprimer/valider) par un code couleur Vert et rouge
+La taille des zones de recherche est revue à la hausse pour une meilleure visibilité
+La page Mes dépôts est entièrement modifiée pour la clarté entre les éléments
+La page dépôts est plus condensée pour une meilleure lecture de l'information
+La taille des tableaux est aussi condensée pour l'harmonisation du reste du site, ainsi qu'une clarté générale.
+Une charte de couleurs est mise en place pour les menus
+```
+2. `Correction` de bug visuel nécessaire au bon fonctionnement du site
 ```
 Texte blanc non visible sur la sélection des affiliations.
 Cadre des affiliations qui se chevauchent lors de la modification.
-Correction de faux bouton qui laisse croire qu'ils sont cliquables
+Correction de faux bouton qui laisse croire qu'ils sont cliquables.
 ```
 <p align="center">
   <img alt="TextBlanc" src="https://i.imgur.com/rKENzmx.png">
   <br>
 
-2. `Ajout` d'éléments pour une meilleur expérience de navigation.
+3. `Ajout` d'éléments pour une meilleur expérience de navigation.
 ```
 Une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt.
 Des logo/symboles supplémentaires dans les cadres de validations, d'erreurs, de doubles.
 Des animations sur ce même logo.
-Certains boutons qui n'avaient aucun style par rapport à la charte graphique sont revus au goût du jour
+Certains boutons qui n'avaient aucun style par rapport à la charte graphique sont revus au goût du jour.
+Animations de transition entre les couleurs lorsque le curseur passe sur des éléments (bouton, menu).
 ```
 
 <p align="center">
