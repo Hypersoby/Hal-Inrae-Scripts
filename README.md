@@ -5,7 +5,7 @@
   <br>
 
 
-# TOC
+# SOMMAIRE
   * [Aperçu](#Aperçu)
   * [Installation](#installation)
     * [Additional Userstyles](#additional-userstyles)
