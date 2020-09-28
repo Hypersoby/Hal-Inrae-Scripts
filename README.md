@@ -62,14 +62,12 @@ Animations de transition entre les couleurs lorsque le curseur passe sur des él
 ## Installation
 
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
-2. Installer la [Base](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Base.user.css)
-
+2. Installer le script principal qui servira de HUB pour les extentions de coleur
 <p align="center">
   <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Base.user.css">
-    <img src="https://i.imgur.com/SIYXB6o.png" alt="DL LOGO"">
+    <img src="https://i.imgur.com/6mKy4t7.png" alt="DL LOGO"">
   </a>
 </p>
-
 
 ## Contribution et Développement
 
