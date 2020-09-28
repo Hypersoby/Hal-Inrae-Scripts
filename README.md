@@ -11,7 +11,7 @@
   * [Contribution et Développement](#Contribution-et-Développement)
   * [Notes](#notes)
 
-## Contenu
+## Contenu & Note de patch
 
 Note du patch 1.0
 
