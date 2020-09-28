@@ -33,6 +33,7 @@ Base : Modification visant à améliorer l'ergonomie du site.
 ## Aperçu
 
 ![Aperçu](https://i.imgur.com/2XUcOQC.png)
+![Aperçu2](https://i.imgur.com/LpmhLVM.png)
 
 ## Installation
 
