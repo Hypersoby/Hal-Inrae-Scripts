@@ -17,7 +17,13 @@ Que contiennent les scripts
 
 Base : Modification visant à améliorer l'ergonomie du site.
 - `Harmonise` le site pour une meilleure expérience de navigation alignement d'éléments sur les boutons, taille des cadres/zone de recheche, etc...
-- `Correction` de bug visuel (Texte blanc non visible sur la sélection des affiliations, sur des éléments tels que boutons, cadres, etc...
+- `Correction` de bug visuel , sur des éléments tels que boutons, cadres, etc...
+```
+Texte blanc non visible sur la sélection des affiliations.
+Cadre des affiliations qui se chevauchent lors de la modification.
+Correction de faux bouton qui laisse croire qu'ils sont cliquables
+
+```
 <p align="center">
   <img alt="TextBlanc" src="https://i.imgur.com/rKENzmx.png">
   <br>
@@ -27,6 +33,18 @@ Base : Modification visant à améliorer l'ergonomie du site.
   <img alt="alert" src="https://i.imgur.com/c4MFMG3.png">
   <br>
 
+0. Go to about:config and set the pref `toolkit.legacyUserProfileCustomizations.stylesheets` to `true` to make Firefox load userChrome.css and userContent.css
+
+1. `Harmonise` le site pour une meilleure expérience de navigation alignement d'éléments
+2. `Correction` de bug visuel
+3.  `Ajout` d'une bannière visible en haut de l'écran
+
+Clone this repository or individual files inside that newly created chrome-folder.
+In the end you should have a folder structure like this:
+
+```
+
+```
 
 
   
