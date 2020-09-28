@@ -21,13 +21,16 @@ Base : Modification visant à améliorer l'ergonomie du site.
 ```
 Alignement d'éléments sur les boutons, taille des cadres/zonés de recherche, etc.
 Tous les boutons possèdent la même charte graphique désormais.
-Des éléments ont été modifié pour bien indiquer leurs fonctions (ajout/annuler/supprimer/valider) par un code couleur Vert et rouge
+Des éléments ont été modifié pour bien indiquer leurs fonctions 
+(ajout/annuler/supprimer/valider) par un code couleur Vert et rouge
 La taille des zones de recherche est revue à la hausse pour une meilleure visibilité
 La page Mes dépôts est entièrement modifiée pour la clarté entre les éléments
 La page dépôts est plus condensée pour une meilleure lecture de l'information
-La taille des tableaux est aussi condensée pour l'harmonisation du reste du site, ainsi qu'une clarté générale.
+La taille des tableaux est aussi condensée pour l'harmonisation 
+du reste du site, ainsi qu'une clarté générale.
 Une charte de couleurs est mise en place pour les menus
-Les champs concernant les affiliations, auteurs, ainsi que les menus et sous menu sur la page dépôt sont revus à la hausse.
+Les champs concernant les affiliations, auteurs, ainsi que les menus et 
+sous menu sur la page dépôt sont revus à la hausse.
 La bannière principale sur l'accueil est modifié pour l'harmonisation du site
 ```
 2. `Correction` de bug visuel nécessaire au bon fonctionnement du site
@@ -62,8 +65,8 @@ Animations de transition entre les couleurs lorsque le curseur passe sur des él
 ## Installation
 
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
-2. Installer le script `principal` qui servira de HUB pour les extensions de couleur
-3. Installer les scripts `Mode nuit` et `Orange` pour profiter d'une variante de couleur
+2. Installer le script `principal` qui servira de HUB pour les extensions de couleur.
+3. Installer les scripts `Mode nuit` et `Orange` pour profiter d'une variante de couleur.
 
 [![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Base.user.css)
 [![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Couleur-Nuit.user.css)
