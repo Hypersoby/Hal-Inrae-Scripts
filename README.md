@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="ColorFull Logo" src="https://i.imgur.com/VW9HiWm.png">
+  <img alt="ColorFull Logo" src="https://i.imgur.com/NPBxFgd.png">
   <br>
   
 
