@@ -16,7 +16,11 @@
 Note du patch 1.0
 
 Base : Modification visant à améliorer l'ergonomie du site.
-- `Harmonise` le site pour une meilleure expérience de navigation alignement d'éléments sur les boutons, taille des cadres/zone de recheche, etc...
+- `Harmonisation` du site pour une navigation plus facil
+```
+ expérience de navigation alignement d'éléments sur les boutons, taille des cadres/zone de recheche, etc...
+
+
 - `Correction` de bug visuel , sur des éléments tels que boutons, cadres, etc...
 ```
 Texte blanc non visible sur la sélection des affiliations.
@@ -29,7 +33,7 @@ Correction de faux bouton qui laisse croire qu'ils sont cliquables
 
 - `Ajout` d'éléments pour une meilleur expérience de navigation.
 ```
-Une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt
+Une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt.
 Des logo/symboles supplémentaires dans les cadres de validations, d'erreurs, de doubles.
 Des animations sur ce même logo.
 Certains boutons qui n'avaient aucun style par rapport à la charte graphique sont revus au goût du jour
