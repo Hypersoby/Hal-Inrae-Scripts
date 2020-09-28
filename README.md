@@ -27,12 +27,12 @@ Correction de faux bouton qui laisse croire qu'ils sont cliquables
   <img alt="TextBlanc" src="https://i.imgur.com/rKENzmx.png">
   <br>
 
-- `Ajout` d'éléments pour meilleurs expérience de naivagation.
+- `Ajout` d'éléments pour une meilleur expérience de navigation.
 ```
 Une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt
-Des logo/symbole supplémentaire dans les cadres de validations, d'erreurs, de doubles.
-Des animations sur ces même logo.
-Certains boutons qui n'avait aucun style par rapport à la charte graphique sont revues au goût du jour
+Des logo/symboles supplémentaires dans les cadres de validations, d'erreurs, de doubles.
+Des animations sur ce même logo.
+Certains boutons qui n'avaient aucun style par rapport à la charte graphique sont revus au goût du jour
 ```
 
 <p align="center">
