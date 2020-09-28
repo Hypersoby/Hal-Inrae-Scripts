@@ -20,7 +20,7 @@
 
 ## Preview
 
-![Preview of GitHub Dark](./images/screenshot.png)
+![Aperçu](https://i.imgur.com/hbr0f46.png)
 
 ## Installation
 
