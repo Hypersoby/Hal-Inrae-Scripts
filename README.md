@@ -19,25 +19,25 @@ Base : Modification visant à améliorer l'ergonomie du site.
 
 1. `Harmonisation` du site pour une navigation plus facile.
 ```
-*Alignement d'éléments sur les boutons, taille des cadres/zonés de recherche, etc.
-*Tous les boutons possèdent la même charte graphique désormais.
-*Des éléments ont été modifié pour bien indiquer leurs fonctions 
+- Alignement d'éléments sur les boutons, taille des cadres/zonés de recherche, etc.
+- Tous les boutons possèdent la même charte graphique désormais.
+- Des éléments ont été modifié pour bien indiquer leurs fonctions 
 (ajout/annuler/supprimer/valider) par un code couleur Vert et rouge
-*La taille des zones de recherche est revue à la hausse pour une meilleure visibilité
-*La page Mes dépôts est entièrement modifiée pour la clarté entre les éléments
-*La page dépôts est plus condensée pour une meilleure lecture de l'information
-*La taille des tableaux est aussi condensée pour l'harmonisation 
+- La taille des zones de recherche est revue à la hausse pour une meilleure visibilité
+- La page Mes dépôts est entièrement modifiée pour la clarté entre les éléments
+- La page dépôts est plus condensée pour une meilleure lecture de l'information
+- La taille des tableaux est aussi condensée pour l'harmonisation 
 du reste du site, ainsi qu'une clarté générale.
-*Une charte de couleurs est mise en place pour les menus
-*Les champs concernant les affiliations, auteurs, ainsi que les menus et sous menu sur
+- Une charte de couleurs est mise en place pour les menus
+- Les champs concernant les affiliations, auteurs, ainsi que les menus et sous menu sur
 la page dépôt sont revus à la hausse.
-*La bannière principale sur l'accueil est modifié pour l'harmonisation du site
+- La bannière principale sur l'accueil est modifié pour l'harmonisation du site
 ```
 2. `Correction` de bug visuel nécessaire au bon fonctionnement du site
 ```
-Texte blanc non visible sur la sélection des affiliations.
-Cadre des affiliations qui se chevauchent lors de la modification/visualisation.
-Correction de faux bouton qui laisse croire qu'ils sont cliquables.
+- Texte blanc non visible sur la sélection des affiliations.
+- Cadre des affiliations qui se chevauchent lors de la modification/visualisation.
+- Correction de faux bouton qui laisse croire qu'ils sont cliquables.
 ```
 <p align="center">
   <img alt="TextBlanc" src="https://i.imgur.com/rKENzmx.png">
@@ -45,11 +45,11 @@ Correction de faux bouton qui laisse croire qu'ils sont cliquables.
 
 3. `Ajout` d'éléments pour une meilleur expérience de navigation.
 ```
-Une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt.
-Des logo/symboles supplémentaires dans les cadres de validations, d'erreurs, de doubles.
-Des animations sur ce même logo.
-Certains boutons qui n'avaient aucun style par rapport à la charte graphique sont revus au goût du jour.
-Animations de transition entre les couleurs lorsque le curseur passe sur des éléments (bouton, menu).
+- Une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt.
+- Des logo/symboles supplémentaires dans les cadres de validations, d'erreurs, de doubles.
+- Des animations sur ce même logo.
+- Certains boutons qui n'avaient aucun style par rapport à la charte graphique sont revus au goût du jour.
+- Animations de transition entre les couleurs lorsque le curseur passe sur des éléments (bouton, menu).
 ```
 
 <p align="center">
