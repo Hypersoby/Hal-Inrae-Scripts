@@ -13,7 +13,7 @@
 
 ## Contenu
 
-Que contiennent les scripts
+Note du patch 1.0
 
 Base : Modification visant à améliorer l'ergonomie du site.
 - `Harmonise` le site pour une meilleure expérience de navigation alignement d'éléments sur les boutons, taille des cadres/zone de recheche, etc...
@@ -22,13 +22,19 @@ Base : Modification visant à améliorer l'ergonomie du site.
 Texte blanc non visible sur la sélection des affiliations.
 Cadre des affiliations qui se chevauchent lors de la modification.
 Correction de faux bouton qui laisse croire qu'ils sont cliquables
-
 ```
 <p align="center">
   <img alt="TextBlanc" src="https://i.imgur.com/rKENzmx.png">
   <br>
 
-- `Ajout` d'une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt, d'animations, et d'autres effets liés aux boutons, menu etc.
+- `Ajout` d'éléments pour meilleurs expérience de naivagation.
+```
+Une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt
+Des logo/symbole supplémentaire dans les cadres de validations, d'erreurs, de doubles.
+Des animations sur ces même logo.
+Certains boutons qui n'avait aucun style par rapport à la charte graphique sont revues au goût du jour
+```
+
 <p align="center">
   <img alt="alert" src="https://i.imgur.com/c4MFMG3.png">
   <br>
