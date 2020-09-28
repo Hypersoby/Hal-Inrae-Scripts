@@ -27,11 +27,12 @@ La page Mes dépôts est entièrement modifiée pour la clarté entre les élém
 La page dépôts est plus condensée pour une meilleure lecture de l'information
 La taille des tableaux est aussi condensée pour l'harmonisation du reste du site, ainsi qu'une clarté générale.
 Une charte de couleurs est mise en place pour les menus
+Les champs concernant les affiliations, auteurs, ainsi que les menus et sous menu sur la page dépôt sont revus à la hausse.
 ```
 2. `Correction` de bug visuel nécessaire au bon fonctionnement du site
 ```
 Texte blanc non visible sur la sélection des affiliations.
-Cadre des affiliations qui se chevauchent lors de la modification.
+Cadre des affiliations qui se chevauchent lors de la modification/visualisation.
 Correction de faux bouton qui laisse croire qu'ils sont cliquables.
 ```
 <p align="center">
