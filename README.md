@@ -22,7 +22,7 @@ Base : Modification visant à améliorer l'ergonomie du site.
   <img alt="TextBlanc" src="https://i.imgur.com/rKENzmx.png">
   <br>
 
-- `Ajout` d'une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt.
+- `Ajout` d'une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt, d'animations, et d'autres effets liés aux boutons, menu etc.
 <p align="center">
   <img alt="alert" src="https://i.imgur.com/c4MFMG3.png">
   <br>
