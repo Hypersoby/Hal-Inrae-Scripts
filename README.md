@@ -65,7 +65,7 @@ Animations de transition entre les couleurs lorsque le curseur passe sur des él
 2. Installer le script principal qui servira de HUB pour les extentions de coleur
 <p align="left">
   <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Base.user.css">
-    <img src="https://i.imgur.com/6mKy4t7.png" alt="DL LOGO""  padding-left="20">
+    <img src="https://i.imgur.com/6mKy4t7.png" alt="DL LOGO" "padding-left="20px">
   </a>
 </p>
 
