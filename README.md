@@ -63,7 +63,7 @@ Animations de transition entre les couleurs lorsque le curseur passe sur des él
 
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
 2. Installer le script principal qui servira de HUB pour les extensions de couleur
-3. Installer les scripts `couleur nuit` et `Orange` pour profiter d'une variante de couleur
+3. Installer les scripts `Mode nuit` et `Orange` pour profiter d'une variante de couleur
 
 [![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Base.user.css)
 [![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Couleur-Nuit.user.css)
