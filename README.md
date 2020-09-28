@@ -6,7 +6,7 @@
 
 
 # TOC
-  * [Preview](#preview)
+  * [Aperçu](#Aperçu)
   * [Installation](#installation)
     * [Additional Userstyles](#additional-userstyles)
     * [Supported GitHub Extensions](#supported-github-extensions)
@@ -18,7 +18,7 @@
   * [Notes](#notes)
 
 
-## Preview
+## Aperçu
 
 ![Aperçu](https://i.imgur.com/hbr0f46.png)
 
