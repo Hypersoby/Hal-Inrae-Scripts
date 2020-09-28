@@ -7,6 +7,7 @@
 # Sommaire
 
   * [Aperçu](#Aperçu)
+  * [Changement] (#Changement)
   * [Installation](#installation)
     * [Additional Userstyles](#additional-userstyles)
     * [Supported GitHub Extensions](#supported-github-extensions)
@@ -17,6 +18,7 @@
     * [Make targets](#make-targets)
   * [Notes](#notes)
 
+## Changement
 
 ## Aperçu
 
