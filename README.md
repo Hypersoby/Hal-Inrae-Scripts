@@ -16,12 +16,18 @@
 Que contiennent les scripts
 
 Base : Modification visant à améliorer l'ergonomie du site.
-- `Harmonise` le site pour une meilleure expérience de navigation alignement d'éléments sur boutons, taille des cadres/zone de recheche, etc...
+- `Harmonise` le site pour une meilleure expérience de navigation alignement d'éléments sur les boutons, taille des cadres/zone de recheche, etc...
 - `Correction` de bug visuel (Texte blanc non visible sur la sélection des affiliations, sur des éléments tels que boutons, cadres, etc...
+<p align="center">
+  <img alt="TextBlanc" src="https://i.imgur.com/rKENzmx.png">
+  <br>
 - `Ajout` d'une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt.
 <p align="center">
-  <img alt="ColorFull Logo" src="https://i.imgur.com/c4MFMG3.png">
+  <img alt="alert" src="https://i.imgur.com/c4MFMG3.png">
   <br>
+
+
+
   
 ## Aperçu
 
