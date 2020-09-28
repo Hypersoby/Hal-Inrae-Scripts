@@ -16,7 +16,7 @@
 Que contiennent les scripts
 
 Base : Modification visant à améliorer l'ergonomie du site.
-- `Harmonise` Le site pour une meilleure expérience de navigation (bouton, couleur, fonction etc.)
+- `Harmonise` le site pour une meilleure expérience de navigation (bouton, couleur, fonction etc.)
 - `Correction` de bug visuel : Texte blanc non visible sur la sélection des affiliations.
 - `Ajout` d'une bannière visible en haut de l'écran quand il y a un potentiel double lors d'un dépôt.
 
