@@ -6,7 +6,7 @@
 # Sommaire
 
   * [Aperçu](#Aperçu)
-  * [Contenu](#Contenu)
+  * [Contenu](#Contenu-&-Note-de-patch)
   * [Installation](#installation)
   * [Contribution et Développement](#Contribution-et-Développement)
   * [Notes](#notes)
