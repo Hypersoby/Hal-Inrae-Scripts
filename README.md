@@ -15,7 +15,8 @@
 
   * [Aperçu](#Aperçu)
   * [Contenu](#Contenu-&-Note-de-patch)
-  * [Installation](#installation)
+  * [Pré-requis](#Pré-requis)
+  * [Installation](#Installation)
   * [Contribution et Développement](#Contribution-et-Développement)
   * [Notes](#notes)
 
@@ -69,7 +70,7 @@ la page dépôt sont revus à la hausse.
 ![Aperçu](https://i.imgur.com/2XUcOQC.png)
 ![Aperçu2](https://i.imgur.com/LpmhLVM.png)
 
-## Installation
+## Pré-requis
 
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/).
 2. Installer le script `principal` qui servira de HUB pour les extensions de couleur.
@@ -79,6 +80,15 @@ la page dépôt sont revus à la hausse.
 [![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
 [![Orange](https://i.imgur.com/kpYaQ5K.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
 
+## Installation
+
+Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
+
+Remerciement spécial :
+
+<a href="mailto:pascal.lallemant@inrae.fr?subject=Mail from our Website">Pascal Lallemant</a> À contribuer de la version à la détection de bugs. Et à
+<a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> pour la mise en place de ce projet
+
 ## Contribution et Développement
 
 Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
@@ -86,4 +96,7 @@ Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, ve
 Remerciement spécial :
 
 <a href="mailto:pascal.lallemant@inrae.fr?subject=Mail from our Website">Pascal Lallemant</a> À contribuer de la version à la détection de bugs. Et à
-<a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> À la mise en place de ce projet
+<a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> pour la mise en place de ce projet
+
+
+## Note
