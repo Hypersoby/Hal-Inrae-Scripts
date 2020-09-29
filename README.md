@@ -81,4 +81,4 @@ la page dépôt sont revus à la hausse.
 
 ## Contribution et Développement
 
-Si vous voulez contribuer à améliorer et déceler des bugs, veuillez ....
+Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
