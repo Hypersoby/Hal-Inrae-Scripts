@@ -1,6 +1,16 @@
 <p align="center">
   <img alt="ColorFull Logo" src="https://i.imgur.com/maSGINc.png">
   <br>
+  
+<p align="center">
+  Elégant, intuitif et plus puissant que jamais pour une navigation plus rapide et plus facile.
+  <br>
+  <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=rapport-de-bug.md">Rapporter un bug</a>
+  ·
+  <a href="https://github.com/twbs/bootstrap/issues/new?template=feature_request.md">Demande de fonctionnalité</a>
+
+
+</p>
 
 # Sommaire
 
