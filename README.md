@@ -9,8 +9,7 @@
   ·
   <a href="https://github.com/twbs/bootstrap/issues/new?template=feature_request.md">Demande de fonctionnalité</a>
   ·
-  You can [contact us](mailto:christopher.lallemant@inrae.fr)
-  
+  <a href="mailto:christopher.lallemant@inrae.fr?subject=Mail from our Website">Contactez moi</a>
   
 # Sommaire
 
