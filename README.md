@@ -82,3 +82,8 @@ la page dépôt sont revus à la hausse.
 ## Contribution et Développement
 
 Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
+
+Remerciement spécial :
+
+<a href="mailto:pascal.lallemant@inrae.fr?subject=Mail from our Website">Pascal Lallemant</a> À contribuer de la version à la détection de bugs
+<a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> À la mise en place de ce projet
