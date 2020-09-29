@@ -7,7 +7,7 @@
   <br>
   <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=rapport-de-bug.md">Rapporter un bug</a>
   ·
-  <a href="https://github.com/twbs/bootstrap/issues/new?template=feature_request.md">Demande de fonctionnalité</a>
+  <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=demande-d-am-lioration.m">Demande de fonctionnalité</a>
   ·
   <a href="mailto:christopher.lallemant@inrae.fr?subject=Mail from our Website">Contactez moi</a>
   
