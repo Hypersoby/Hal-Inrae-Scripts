@@ -52,10 +52,9 @@ la page dépôt sont revus à la hausse.
 ```
 
 <p align="center">
-  <img alt="alert" src="https://i.imgur.com/c4MFMG3.png">
+  <img alt="alert" src="https://i.imgur.com/jvPKFDV.gif">
   <br>
 
-  
 ## Aperçu
 
 ![Aperçu](https://i.imgur.com/2XUcOQC.png)
