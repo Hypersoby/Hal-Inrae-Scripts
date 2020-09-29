@@ -9,9 +9,7 @@
   ·
   <a href="https://github.com/twbs/bootstrap/issues/new?template=feature_request.md">Demande de fonctionnalité</a>
   ·
-  <a href="christopher.lallemant@inrae.fr">Me contacter</a>
-
-</p>
+[Dr. Ken Lunde](mailto:lunde@adobe.com?subject=[GitHub]%20Source%20Han%20Sans)
 
 # Sommaire
 
