@@ -17,7 +17,7 @@
   * [Contenu](#Contenu)
   * [Pré-requis](#Pré-requis)
   * [Installation](#Installation)
-  * [Maintenance & mise à jour](#Maintenance-&-mise-à-jour) 
+  * [Maintenance-&mise-à-jour](#Maintenance-&-mise-à-jour) 
   * [Contribution et Développement](#Contribution-et-Développement)
   * [Notes](#notes)
 
