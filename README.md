@@ -31,7 +31,6 @@ IE 8 et plus ❌ | Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |
   
   
   - [Contribution et Développement](#Contribution-et-Développement)
-  - [Notes](#notes)
 
 
 # Installation
