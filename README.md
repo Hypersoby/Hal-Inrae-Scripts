@@ -51,7 +51,10 @@ IE 8 et plus ❌ | Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |
 1. Cliquez sur le lien qui correspond à votre navigateur puis, installer le script en cliquant sur le bouton`ajouter/installer`.
 2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. 
 ![Firefox](https://i.imgur.com/28AipgL.png)
-Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler `Stylus` dans votre barre de navigation.
+
+*Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler `Stylus` dans votre barre de navigation.*
+![Chrome](https://i.imgur.com/a6PzHSY.png)
+
 
 3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus.
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
