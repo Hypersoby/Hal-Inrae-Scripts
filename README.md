@@ -16,8 +16,8 @@
   * [Aperçu](#Aperçu)
   * [Contenu](#Contenu)
   * [Pré-requis](#Pré-requis)
-  * [Installation](#Installation)
-  * [Maintenance-&mise-à-jour](#Maintenance-&-mise-à-jour) 
+  * [Guide d'installation](#Guide-d'installation)
+  * [Mise à jour](#Mise-à-jour) 
   * [Contribution et Développement](#Contribution-et-Développement)
   * [Notes](#notes)
 
@@ -84,7 +84,7 @@ la page dépôt sont revus à la hausse.
 [![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
 [![Orange](https://i.imgur.com/kpYaQ5K.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
 
-## Guide d'installation & d'utilisation
+## Guide d'installation
 
 1. Ouvrez le lien pour qui correspond à votre navigateur puis, installer le script en cliquant sur le bouton`ajouter`.
 2. Une icône représentant un S s'ajoutera en haut de votre navigateur dans la barre de navigation. Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler Stylus dans votre barre de navigation.
@@ -92,7 +92,7 @@ la page dépôt sont revus à la hausse.
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône S de l'extension Stylus.
 5. Cliquez sur la case correspondant à l'extension que vous voudrez activer pour l'appliquer sur le site.
 
-## Maintenance & mise à jour
+## Mise à jour
 
 
 
