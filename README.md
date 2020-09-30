@@ -38,7 +38,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 ## Pré-requis
 
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
-2. Installer le script `principal` qui servira de `HUB` pour les extensions de couleur.
+2. Installer le script `principal` qui `modifie` l'ergonomie du site et qui servira de `HUB` pour les extensions de couleur.
 3. Installer les scripts `Mode nuit` et `Orange` pour profiter d'une variante de couleur.
 
 [![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
