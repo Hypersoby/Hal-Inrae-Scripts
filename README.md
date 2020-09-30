@@ -99,9 +99,9 @@ la page dépôt sont revus à la hausse.
 
 ## Contribution et Développement
 
-Créer et développer par <a href="mailto:christopherlallemant@inrae.fr?subject=Mail from our Website">Christopher Lallemant</a>
-
 Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
+
+Créer et développer par <a href="mailto:christopherlallemant@inrae.fr?subject=Mail from our Website">Christopher Lallemant</a>
 
 Remerciement spécial:
 
@@ -111,4 +111,4 @@ Remerciement spécial:
 
 ## Note
 
-License GPLv3 -> Libre d'utilisation et de modification à usage personnel. 
+License GPLv3 -> Libre d'utilisation et de modification à usage personnel. 2020
