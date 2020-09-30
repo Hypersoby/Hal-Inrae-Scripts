@@ -57,7 +57,9 @@ IE 8 et plus ❌ | Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |
 
 
 3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus.
+
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
+![Hal](https://i.imgur.com/6Wsf1nH.png)
 5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site.
 
 # Contenu
