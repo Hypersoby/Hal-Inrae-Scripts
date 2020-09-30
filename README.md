@@ -67,7 +67,7 @@ la page dépôt sont revus à la hausse.
   <br>
 
 
-4. `Couleur` pour des variations de style sur la charte graphique.
+4. `Chroma` sur le style pour la charte graphique.
 ```
 - Un mode nuit. Sobre et reposant, il saura vous faires vite oubliez le style classique du portail Hal-Inrae .
 - Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
