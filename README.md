@@ -95,7 +95,7 @@ la page dépôt sont revus à la hausse.
 ## Mise à jour
 
 1. Pour voir si un script est à jour, rendez-vous dans l'extension Stylus en cliquant sur `S` puis sur `Gestion`
-2. 
+2. Sur le panneau de droite qui contient les scripts, rendez-vous sur la ligne du script puis cliquez sur l'icône `⟲` pour vérifier si une mise à jour est possible. 
 
 ## Contribution et Développement
 
