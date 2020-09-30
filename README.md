@@ -27,6 +27,25 @@
 
 # Installation
 
+## Pré-requis
+
+1. Installer [Stylus pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
+2. Installer le script `principal` qui servira de `HUB` pour les extensions de couleur.
+3. Installer les scripts `Mode nuit` et `Orange` pour profiter d'une variante de couleur.
+
+[![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
+[![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
+[![Orange](https://i.imgur.com/kpYaQ5K.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+
+### Comment faire
+
+1. Ouvrez le lien pour qui correspond à votre navigateur puis, installer le script en cliquant sur le bouton`ajouter`.
+2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler `Stylus` dans votre barre de navigation.
+3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus.
+4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
+5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site.
+
+
 ## Contenu
 
 Note du patch 1.0
@@ -88,23 +107,6 @@ la page dépôt sont revus à la hausse.
 ![Aperçu4](https://i.imgur.com/Jd2i6fQ.png)
 
 
-## Pré-requis
-
-1. Installer [Stylus pour Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
-2. Installer le script `principal` qui servira de `HUB` pour les extensions de couleur.
-3. Installer les scripts `Mode nuit` et `Orange` pour profiter d'une variante de couleur.
-
-[![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
-[![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
-[![Orange](https://i.imgur.com/kpYaQ5K.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
-
-## Installation
-
-1. Ouvrez le lien pour qui correspond à votre navigateur puis, installer le script en cliquant sur le bouton`ajouter`.
-2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler `Stylus` dans votre barre de navigation.
-3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus.
-4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
-5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site.
 
 ## Mise à jour
 
