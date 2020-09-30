@@ -99,6 +99,8 @@ la page dépôt sont revus à la hausse.
 
 ## Contribution et Développement
 
+Créer et développer par <a href="mailto:christopherlallemant@inrae.fr?subject=Mail from our Website">Christopher Lallemant</a>
+
 Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
 
 Remerciement spécial:
