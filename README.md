@@ -90,11 +90,12 @@ la page dépôt sont revus à la hausse.
 2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler `Stylus` dans votre barre de navigation.
 3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus.
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
-5. Cliquez sur la `case ☑` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site.
+5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site.
 
 ## Mise à jour
 
-
+1. Pour voir si un script est à jour, rendez-vous dans l'extension Stylus en cliquant sur `S` puis sur `Gestion`
+2. 
 
 ## Contribution et Développement
 
