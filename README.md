@@ -61,15 +61,18 @@ la page dépôt sont revus à la hausse.
 - Certains boutons qui n'avaient aucun style par rapport à la charte graphique sont revus au goût du jour.
 - Animations de transition entre les couleurs lorsque le curseur passe sur des éléments (bouton, menu).
 ```
+
+<p align="center">
+  <img alt="alert" src="https://i.imgur.com/jvPKFDV.gif">
+  <br>
+
+
 4. `Couleur` des variantes de style pour la charte graphique.
 ```
 - Un mode nuit. Sobre et reposant, il saura vous faires vite oubliez le style classique du portail Hal-Inrae .
 - Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
 ```
 
-<p align="center">
-  <img alt="alert" src="https://i.imgur.com/jvPKFDV.gif">
-  <br>
 
 ## Aperçu
 
