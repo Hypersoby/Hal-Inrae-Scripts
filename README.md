@@ -13,8 +13,8 @@
   
 # Sommaire
 
-  * [Aperçu](#Aperçu)
   * [Contenu](#Contenu)
+  * [Aperçu](#Aperçu)
   * [Pré-requis](#Pré-requis)
   * [Installation](#Installation)
   * [Mise à jour](#Mise-à-jour) 
