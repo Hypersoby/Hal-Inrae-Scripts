@@ -30,6 +30,11 @@
 
 ## Pré-requis
 
+![IE](https://cloud.githubusercontent.com/assets/398893/3528325/20373e76-078e-11e4-8e3a-1cb86cf506f0.png) | ![Chrome](https://cloud.githubusercontent.com/assets/398893/3528328/23bc7bc4-078e-11e4-8752-ba2809bf5cce.png) | ![Firefox](https://cloud.githubusercontent.com/assets/398893/3528329/26283ab0-078e-11e4-84d4-db2cf1009953.png) | ![Opera](https://cloud.githubusercontent.com/assets/398893/3528330/27ec9fa8-078e-11e4-95cb-709fd11dac16.png) | ![Safari](https://cloud.githubusercontent.com/assets/398893/3528331/29df8618-078e-11e4-8e3e-ed8ac738693f.png)
+--- | --- | --- | --- | --- |
+IE 8 et + ✖ | Prêt ✔ | Prêt ✔ | Prêt✔ | Prêt ✔ |
+
+
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
 2. Installer le script `principal` qui servira de `HUB` pour les extensions de couleur.
 3. Installer les scripts `Mode nuit` et `Orange` pour profiter d'une variante de couleur.
@@ -107,7 +112,6 @@ la page dépôt sont revus à la hausse.
 ![Aperçu2](https://i.imgur.com/LpmhLVM.png)
 ![Aperçu3](https://i.imgur.com/lwiIxNW.png)
 ![Aperçu4](https://i.imgur.com/Jd2i6fQ.png)
-
 
 # Contribution et Développement
 
