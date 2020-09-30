@@ -15,12 +15,13 @@
   - [Installation](#Installation)
     - [Pré-requis](#Pré-requis)
     - [Comment faire](#Comment-faire)
+  - [Contenu](#Contenu) 
+    - [Note de patch](#Note-de-patch)
+    - [Mise à jour](#Mise-à-jour) 
   
-  - [Contenu](#Contenu)
-
-
-  - [Mise à jour](#Mise-à-jour) 
   - [Aperçu](#Aperçu)
+  
+  
   - [Contribution et Développement](#Contribution-et-Développement)
   - [Notes](#notes)
 
@@ -45,12 +46,9 @@
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
 5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site.
 
+# Contenu
 
-## Contenu
-
-Note du patch 1.0
-
-Base : Modification visant à améliorer l'ergonomie du site.
+## Note-de-patch
 
 1. `Harmonisation` du site pour une navigation plus facile.
 ```
@@ -98,8 +96,12 @@ la page dépôt sont revus à la hausse.
 - Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
 ```
 
+## Mise à jour
 
-## Aperçu
+1. Pour voir si un script est à jour, rendez-vous dans l'extension Stylus en cliquant sur `S` puis sur `Gestion`
+2. Sur le panneau de droite qui contient les scripts, rendez-vous sur la ligne du script puis cliquez sur l'icône `⟲` pour vérifier si une mise à jour est possible. 
+
+# Aperçu
 
 ![Aperçu](https://i.imgur.com/2XUcOQC.png)
 ![Aperçu2](https://i.imgur.com/LpmhLVM.png)
@@ -107,13 +109,7 @@ la page dépôt sont revus à la hausse.
 ![Aperçu4](https://i.imgur.com/Jd2i6fQ.png)
 
 
-
-## Mise à jour
-
-1. Pour voir si un script est à jour, rendez-vous dans l'extension Stylus en cliquant sur `S` puis sur `Gestion`
-2. Sur le panneau de droite qui contient les scripts, rendez-vous sur la ligne du script puis cliquez sur l'icône `⟲` pour vérifier si une mise à jour est possible. 
-
-## Contribution et Développement
+# Contribution et Développement
 
 Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
 
@@ -125,6 +121,6 @@ Remerciement spécial:
 <a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> pour la mise en place de ce projet
 
 
-## Note
+# Note
 
 License GPLv3 -> Libre d'utilisation et de modification.
