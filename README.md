@@ -119,4 +119,4 @@ Remerciement spécial:
 
 ## Note
 
-License GPLv3 -> Libre d'utilisation et de modification à usage personnel. 2020
+License GPLv3 -> Libre d'utilisation et de modification. 2020
