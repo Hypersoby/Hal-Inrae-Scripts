@@ -1,4 +1,4 @@
-# 
+# .
 
 <p align="center">
   <img alt="ColorFull Logo" src="https://i.imgur.com/maSGINc.png">
