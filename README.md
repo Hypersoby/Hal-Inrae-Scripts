@@ -13,8 +13,8 @@
   
 # Sommaire
 
-  * [Contenu](#Contenu)
-  * [Aperçu](#Aperçu)
+  - [Contenu](#Contenu)
+    - [Aperçu](#Aperçu)
   * [Pré-requis](#Pré-requis)
   * [Installation](#Installation)
   * [Mise à jour](#Mise-à-jour) 
@@ -119,4 +119,4 @@ Remerciement spécial:
 
 ## Note
 
-License GPLv3 -> Libre d'utilisation et de modification. 2020
+License GPLv3 -> Libre d'utilisation et de modification.
