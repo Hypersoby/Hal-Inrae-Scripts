@@ -49,6 +49,7 @@ IE 8 et plus ❌ | Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |
 ### Comment faire
 
 1. Cliquez sur le lien qui correspond à votre navigateur puis, installer le script en cliquant sur le bouton`ajouter/installer`.
+![ajout](https://i.imgur.com/8LEySe4.png)
 2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. 
 ![Firefox](https://i.imgur.com/28AipgL.png)
 
@@ -56,7 +57,7 @@ IE 8 et plus ❌ | Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |
 ![Chrome](https://i.imgur.com/a6PzHSY.png)
 
 
-3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus.
+3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus. `Principal` / `Mode Nuit` / `Orange`
 
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/6Wsf1nH.png)
