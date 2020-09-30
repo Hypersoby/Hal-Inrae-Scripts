@@ -14,13 +14,13 @@
 # Sommaire
 
   * [Aperçu](#Aperçu)
-  * [Contenu](#Contenu-&-Note-de-patch)
+  * [Contenu](#Contenu)
   * [Pré-requis](#Pré-requis)
   * [Installation](#Installation)
   * [Contribution et Développement](#Contribution-et-Développement)
   * [Notes](#notes)
 
-## Contenu & Note de patch
+## Contenu
 
 Note du patch 1.0
 
@@ -85,12 +85,7 @@ la page dépôt sont revus à la hausse.
 
 ## Installation
 
-Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
-
-Remerciement spécial :
-
-<a href="mailto:pascal.lallemant@inrae.fr?subject=Mail from our Website">Pascal Lallemant</a> À contribuer de la version à la détection de bugs. Et à
-<a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> pour la mise en place de ce projet
+2. Installer le script en cliquant sur le bouton`installer` qui servira de HUB pour les extensions de couleur.
 
 ## Contribution et Développement
 
