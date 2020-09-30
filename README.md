@@ -103,7 +103,7 @@ Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, ve
 
 Remerciement spécial :
 
-<a href="mailto:pascal.lallemant@inrae.fr?subject=Mail from our Website">Pascal Lallemant</a> À contribuer de la version à la détection de bugs. Et à
+<a href="mailto:pascal.lallemant@inrae.fr?subject=Mail from our Website">Pascal Lallemant</a> qui à contribuer aux versions Alpha et Beta et à la détection de bugs. Et à
 <a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> pour la mise en place de ce projet
 
 
