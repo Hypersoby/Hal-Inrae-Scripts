@@ -12,14 +12,20 @@
   <a href="mailto:christopher.lallemant@inrae.fr?subject=Mail from our Website">Contactez moi</a>
   
 # Sommaire
-
+  - [Installation](#Installation)
+    - [Pré-requis](#Pré-requis)
+    - [Comment faire](#Comment-faire)
+  
   - [Contenu](#Contenu)
-    - [Aperçu](#Aperçu)
-  * [Pré-requis](#Pré-requis)
-  * [Installation](#Installation)
-  * [Mise à jour](#Mise-à-jour) 
-  * [Contribution et Développement](#Contribution-et-Développement)
-  * [Notes](#notes)
+
+
+  - [Mise à jour](#Mise-à-jour) 
+  - [Aperçu](#Aperçu)
+  - [Contribution et Développement](#Contribution-et-Développement)
+  - [Notes](#notes)
+
+
+# Installation
 
 ## Contenu
 
