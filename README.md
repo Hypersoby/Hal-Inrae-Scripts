@@ -103,7 +103,7 @@ la page dépôt sont plus grands et plus larges
 
 4. `Style de couleur` pour varier les nuances.
 ```
-- Un mode nuit. Sobre et reposant, il saura vous faire passer du côté obscur en un claquement de doigts.
+- Un mode nuit. Sobre et reposant, il saura vous faire passer du côté obscur en un claquement de doigt.
 - Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
 ```
 
