@@ -43,26 +43,27 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 *Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler `Stylus` dans votre barre de navigation.*
 ![Chrome](https://i.imgur.com/a6PzHSY.png)
 
-3. Pour télécharger et installer le ou les scripts, il vous suffira de cliquer sur les boutons `Principal` / `Mode Nuit` / `Orange` ci-dessous puis de cliquer sur installer sur le panneau de gauche. /!\ Ensuite vous pourrez fermer l'onglet /!\
+3. Pour télécharger et installer le ou les scripts, il vous suffira de cliquer sur les liens `Script Principal` / `Script Mode Nuit` / `Script Orange` ci-dessous puis de cliquer sur installer sur le panneau de gauche. /!\ Ensuite vous pourrez fermer l'onglet /!\
 
-![Télécharger le script Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
-  ·
-![Le script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
-  ·
-![Le script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+Lien de Téléchargement : 
+Pour le script Principal : ![Script Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
+
+Pour le Mode Nuit : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
+
+Pour le Orange : ![Script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
  
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/6Wsf1nH.png)
 5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site. 
 
-/!\ Attention /!\ Le script principal doit être tout le temps activé. Pour changer de `style de couleur` vous devrez ainsi cocher soit `Mode nuit` soit `Orange` en faisant bien attention de ne pas désactiver le `Principal`.
+/!\ Attention /!\ Le script principal doit être tout le temps activé. Pour changer de `Style de couleur` vous devrez ainsi cocher soit entre `Mode nuit` soit `Orange` en faisant bien attention de ne pas désactiver le `Principal`.
 
 # Contenu
 
 1. `Harmonisation` du site pour une navigation plus facile.
 ```
 - Alignement d'éléments sur les boutons, taille des cadres/zonés de recherche, etc.
-- Tous les boutons possèdent la même charte graphique désormais.
+- Tous les boutons possèdent désormais la même charte graphique.
 - Des éléments ont été modifié pour bien indiquer leurs fonctions 
 (ajout/annuler/supprimer/valider) par un code couleur Vert et rouge
 - La taille des zones de recherche est revue à la hausse pour une meilleure visibilité
