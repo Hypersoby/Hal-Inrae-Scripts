@@ -72,8 +72,8 @@ Pour le Orange : ![Script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts
 - La page Mes dépôts est entièrement modifiée pour la clarté entre les éléments
 - La page dépôts est plus condensée pour une meilleure lecture de l'information
 - Une charte de couleurs est mise en place pour les menus
-- Les champs concernant les affiliations, auteurs, ainsi que les menus et sous menu sur
-la page dépôt sont revus à la hausse.
+- Les champs concernant les affiliations, auteurs, ainsi que les menus déroulants et sous menu déroulant sur
+la page dépôt sont plus grands et plus larges
 - La bannière principale sur l'accueil est modifié pour l'harmonisation du site
 ```
 2. `Correction` de bug visuel nécessaire au bon fonctionnement du site
@@ -108,7 +108,7 @@ la page dépôt sont revus à la hausse.
 
 ## Note de patch
 
-![Voir les logs de mise à jours](http:www.exemple.com) -> 404 pour le mometnt
+![Voir les logs de mise à jours](http:www.exemple.com) -> 404 pour le moment
 
 ## Mise à jour
 
@@ -121,8 +121,12 @@ la page dépôt sont revus à la hausse.
 
 ![Update](https://i.imgur.com/CEODpLJ.png)
 
-# Aperçu
+# Aperçu 
 
+<p align="center">
+| Principal | Mode Nuit | Orange |
+<br>
+  
 ![Aperçu](https://i.imgur.com/2XUcOQC.png)
 ![Aperçu4](https://i.imgur.com/Jd2i6fQ.png)
 ![Aperçu2](https://i.imgur.com/LpmhLVM.png)
