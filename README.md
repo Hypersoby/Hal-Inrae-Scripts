@@ -5,7 +5,7 @@
 <p align="center">
   Elégant, intuitif et plus puissant que jamais pour une navigation plus rapide et plus facile. 
    <br>
-   Seulement disponible pour portail hal inrae. Les scripts ne sont pas incompatibles avec les sites de collection, vous devrez alors les désactiver
+   Seulement disponible pour portail hal inrae. Les scripts ne sont pas incompatibles avec les sites de collection, vous devrez alors les désactiver.
    <br>
   <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=rapport-de-bug.md">Rapporter un bug</a>
   ·
