@@ -45,7 +45,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 
 3. Pour télécharger et installer le ou les scripts, il vous suffira de cliquer sur les liens `Script Principal` / `Script Mode Nuit` / `Script Orange` ci-dessous puis de cliquer sur installer sur le panneau de gauche. /!\ Ensuite vous pourrez fermer l'onglet /!\
 
-Important : Il faut forcément installer Principal pour que le reste fonctionne.
+Important : Il faut forcément installer le script `Principal` pour que le reste fonctionne.
 
 Liens des Téléchargements. 
 
