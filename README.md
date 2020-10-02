@@ -33,11 +33,13 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 
 # Comment faire ?
 
-1. Installer ![Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), ![Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), ![Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou ![Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
+1. Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
 
-![Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
-![Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
-![Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+![Principal >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
+
+![Mode Nuit >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
+
+![Orange >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
  
 [![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
 [![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
