@@ -34,11 +34,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 # Comment faire ?
 
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
-/*
-[![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
-[![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
-[![Orange](https://i.imgur.com/kpYaQ5K.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
-*/
+
 1. Cliquez sur le lien qui correspond à votre navigateur puis, installer le script en cliquant sur le bouton`ajouter/installer`.
 ![ajout](https://i.imgur.com/8LEySe4.png)
 2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. 
@@ -47,9 +43,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 *Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler `Stylus` dans votre barre de navigation.*
 ![Chrome](https://i.imgur.com/a6PzHSY.png)
 
-
-3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus. `Principal` / `Mode Nuit` / `Orange`
-
+3. Pour télécharger et installer le ou les scripts, il vous suffira de cliquer sur les boutons `Principal` / `Mode Nuit` / `Orange` ci-dessous puis de cliquer sur installer sur le panneau de gauche. /!\ Ensuite vous pourrez fermer l'onglet /!\
 
 ![Télécharger le script Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
   ·
@@ -57,10 +51,11 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
   ·
 ![Télécharger le script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
  
-
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/6Wsf1nH.png)
-5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site.
+5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site. 
+
+/!\ Attention /!\ Le script principal doit être tout le temps activé. Pour changer de `style de couleur` vous devrez ainsi cocher soit `Mode nuit` soit `Orange` en faisant bien attention de ne pas désactiver le `Principal`.
 
 # Contenu
 
@@ -73,8 +68,6 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 - La taille des zones de recherche est revue à la hausse pour une meilleure visibilité
 - La page Mes dépôts est entièrement modifiée pour la clarté entre les éléments
 - La page dépôts est plus condensée pour une meilleure lecture de l'information
-- La taille des tableaux est aussi condensée pour l'harmonisation 
-du reste du site, ainsi qu'une clarté générale.
 - Une charte de couleurs est mise en place pour les menus
 - Les champs concernant les affiliations, auteurs, ainsi que les menus et sous menu sur
 la page dépôt sont revus à la hausse.
@@ -104,7 +97,7 @@ la page dépôt sont revus à la hausse.
   <br>
 
 
-4. `Chroma` sur le style pour la charte graphique.
+4. `Style de couleur` pour varier les nuances.
 ```
 - Un mode nuit. Sobre et reposant, il saura vous faire passer du côté obscur en un claquement de doigts.
 - Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
@@ -112,7 +105,7 @@ la page dépôt sont revus à la hausse.
 
 ## Note de patch
 
-Voir les logs des mises à jours [# Insert link PLACEHOLDER]
+![Voir les logs de mise à jours](http:www.exemple.com) -> 404 pour le mometnt
 
 ## Mise à jour
 
