@@ -35,12 +35,6 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 
 1. Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
 
-![Principal >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
-
-![Mode Nuit >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
-
-![Orange >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
- 
 [![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
 [![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
 [![Orange](https://i.imgur.com/kpYaQ5K.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
@@ -56,13 +50,19 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 
 3. Pour télécharger le ou les scripts, il vous suffira de cliquer sur les boutons ci-dessus. `Principal` / `Mode Nuit` / `Orange`
 
+
+![Principal >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
+  ·
+![Mode Nuit >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
+  ·
+![Orange >>>](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+ 
+
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/6Wsf1nH.png)
 5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site.
 
 # Contenu
-
-## Note-de-patch
 
 1. `Harmonisation` du site pour une navigation plus facile.
 ```
@@ -109,6 +109,10 @@ la page dépôt sont revus à la hausse.
 - Un mode nuit. Sobre et reposant, il saura vous faire passer du côté obscur en un claquement de doigts.
 - Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
 ```
+
+## Note de patch
+
+Voir les logs des mises à jours [# Insert link PLACEHOLDER]
 
 ## Mise à jour
 
