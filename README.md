@@ -49,11 +49,11 @@ Important : Il faut forcément installer le script `Principal` pour que le reste
 
 Liens des Téléchargements. 
 
-Pour le script Principal : ![Script Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
+Pour le script `Principal` : ![Script Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
 
-Pour le Mode Nuit : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
+Pour le `Mode Nuit` : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
 
-Pour le Orange : ![Script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+Pour le `Orange` : ![Script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
  
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/6Wsf1nH.png)
