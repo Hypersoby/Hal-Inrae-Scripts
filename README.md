@@ -39,7 +39,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 2. Une icône représentant un `S` s'ajoutera en haut de votre navigateur dans la barre de navigation. 
 ![Firefox](https://i.imgur.com/28AipgL.png)
 
-*Si vous utilisez `Chrome` veuillez cliquer sur l'icône en forme de `puzzle` et ensuite vous devrez pouvoir épingler `Stylus` dans votre barre de navigation.*
+*Si vous utilisez `Chrome` cliquer sur l'icône en forme de `puzzle` et ensuite épinglez `Stylus` dans votre barre de navigation.*
 ![Chrome](https://i.imgur.com/a6PzHSY.png)
 
 3. Pour télécharger et installer le ou les scripts, il vous suffira de cliquer sur les liens `Script Principal` / `Script Mode Nuit` / `Script Orange` ci-dessous puis de cliquer sur installer sur le panneau de gauche. /!\ Ensuite vous pourrez fermer l'onglet /!\
