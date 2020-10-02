@@ -125,7 +125,7 @@ la page dépôt sont plus grands et plus larges
 # Aperçu 
 
 <p align="center">
-| Principal | Mode Nuit | Orange |
+| Principal | Orange | Mode Nuit |
 <br>
   
 ![Aperçu](https://i.imgur.com/2XUcOQC.png)
