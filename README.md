@@ -113,7 +113,7 @@ la page dépôt sont plus grands et plus larges
 
 ## Mise à jour
 
-Des `mises à jour` pourront être disponible dans le futur en faisant remonter `les bugs` ou `une demande de fonctionnalité` supplémentaire via les liens suivants ; 
+Des `mises à jour` pourront être disponible dans le futur en faisant `remonter les bugs` ou suite à `une demande de fonctionnalité` supplémentaire via les liens suivants ; 
 
   <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=rapport-de-bug.md">Rapporter un bug</a>
   ·
