@@ -46,7 +46,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 
 Important : Il faut forcément installer Principal pour que le reste fonctionne.
 
-Lien de Téléchargement. 
+Liens des Téléchargements. 
 
 Pour le script Principal : ![Script Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
 
