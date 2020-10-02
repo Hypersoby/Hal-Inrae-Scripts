@@ -47,9 +47,9 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 
 ![Télécharger le script Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
   ·
-![Télécharger le script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
+![Le script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
   ·
-![Télécharger le script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+![Le script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
  
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/6Wsf1nH.png)
