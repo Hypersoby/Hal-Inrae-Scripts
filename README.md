@@ -33,8 +33,12 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 
 # Comment faire ?
 
-1. Installer [Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou [Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
+1. Installer ![Stylus pour Firefox](https://addons.mozilla.org/fr/firefox/addon/styl-us/), ![Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), ![Opera](https://addons.opera.com/en-gb/extensions/details/stylus/) ou ![Cascadea pour Safari](https://cascadea.app/). Aucun support n'est disponible pour les navigateurs Internet Explorer et Edge.
 
+![Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
+![Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
+![Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+ 
 [![Base](https://i.imgur.com/otg0kBH.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
 [![Nuit](https://i.imgur.com/zKLsWz5.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
 [![Orange](https://i.imgur.com/kpYaQ5K.png)](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
@@ -100,7 +104,7 @@ la page dépôt sont revus à la hausse.
 
 4. `Chroma` sur le style pour la charte graphique.
 ```
-- Un mode nuit. Sobre et reposant, il saura vous faires vite oubliez le style classique du portail Hal-Inrae.
+- Un mode nuit. Sobre et reposant, il saura vous faire passer du côté obscur en un claquement de doigts.
 - Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
 ```
 
