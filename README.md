@@ -5,7 +5,7 @@
 <p align="center">
   Elégant, intuitif et plus puissant que jamais pour une navigation plus rapide et plus facile. 
    <br>
-   Seulement disponible pour portail hal inrae. le style est incompatible avec les sites de collection.
+   Seulement disponible pour portail hal inrae. Les scripts ne sont pas incompatibles avec les sites de collection, vous devrez alors les désactiver
    <br>
   <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=rapport-de-bug.md">Rapporter un bug</a>
   ·
@@ -26,10 +26,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
   - [Contenu](#Contenu) 
     - [Note de patch](#Note-de-patch)
     - [Mise à jour](#Mise-à-jour) 
-  
   - [Aperçu](#Aperçu)
-  
-  
   - [Contribution et Développement](#Contribution-et-Développement)
 
 
@@ -47,7 +44,9 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 
 3. Pour télécharger et installer le ou les scripts, il vous suffira de cliquer sur les liens `Script Principal` / `Script Mode Nuit` / `Script Orange` ci-dessous puis de cliquer sur installer sur le panneau de gauche. /!\ Ensuite vous pourrez fermer l'onglet /!\
 
-Lien de Téléchargement, *Il faut forcément installer Principal pour que le reste fonctionne 
+Important : Il faut forcément installer Principal pour que le reste fonctionne.
+
+Lien de Téléchargement. 
 
 Pour le script Principal : ![Script Principal](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css)
 
