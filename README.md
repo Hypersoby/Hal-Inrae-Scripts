@@ -3,7 +3,9 @@
   <br>
   
 <p align="center">
-  Elégant, intuitif et plus puissant que jamais pour une navigation plus rapide et plus facile. /!\ Ne s'applique pas sur les collections /!\
+  Elégant, intuitif et plus puissant que jamais pour une navigation plus rapide et plus facile. 
+  
+  /!\ Seulement disponible pour portail hal inrae. le style est incompatible avec les sites de collection /!\
   <br>
   <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=rapport-de-bug.md">Rapporter un bug</a>
   ·
