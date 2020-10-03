@@ -53,10 +53,10 @@ Pour le script `Principal` : ![Script Principal](https://github.com/Hypersoby/Ha
 
 Pour le `Mode Nuit` : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
 
-Pour le `Orange` : ![Script Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+Pour le `Orange` : ![Script Couleur Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
  
 4. Une fois installé, rendez-vous sur le site `Hal Inrae` puis vous allez cliquer sur l'icône `S` de l'extension Stylus.
-![Hal](https://i.imgur.com/6Wsf1nH.png)
+![Hal](https://i.imgur.com/UfravXq.png)
 5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous voudrez activer pour l'appliquer sur le site. 
 
 /!\ Attention /!\ Le script principal doit être tout le temps activé. Pour changer de `Style de couleur` vous devrez ainsi cocher soit entre `Mode nuit` soit `Orange` en faisant bien attention de ne pas désactiver le `Principal`.
@@ -103,8 +103,8 @@ la page dépôt sont plus grands et plus larges
 
 4. `Style de couleur` pour varier les nuances.
 ```
-- Un mode nuit. Sobre et reposant, il saura vous faire passer du côté obscur en un claquement de doigt.
-- Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
+- Mode nuit. Sobre et reposant, il saura vous faire passer du côté obscur en un claquement de doigt.
+- Couleur Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
 ```
 
 ## Note de patch
