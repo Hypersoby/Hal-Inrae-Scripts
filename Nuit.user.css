@@ -1800,38 +1800,7 @@ div.widget:nth-child(8) > div:nth-child(2) > img:nth-child(1) {
 	background-color: #292929 !important;
 	color: #fff !important;
 }
-.widget-header {
-	background-color: #515f6f;
-	border-bottom: 1px solid #515f6f;
-	color: #fff;
-}
-.widget {
-	background-color: #424e5b;
-	border: 1px solid #424e5b;
-}
-.widget-header {
-	background-color: #515f6f;
-	border-bottom: 1px solid #515f6f;
-	color: #fff;
-}
-#document table .meta-name {
-	background: #3d5064;
-}
-.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
-	border: 1px solid #3d5064;
-}
-.table-bordered {
-	border: 0px solid #ddd;
-}
-.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-	border-top: 1px solid #5e6f82;
-}
-.btn-danger {
-	background-color: #d9534f00;
-	border: 1px solid #ff7b77;
-	border-radius: 3px;
-	color: #ff9693 !important;
-}
+
 
 .panel-default > .panel-heading {
 	color: #fff;
