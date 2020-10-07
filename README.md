@@ -108,7 +108,7 @@ la page dépôt sont plus grands et plus larges
 
 ## Note de patch
 
-*Version 1.0, il n'y a pour le moment aucune mise à jour de disponible !
+![Notes de patch](https://github.com/Hypersoby/Hal-Inrae-Scripts/wiki/Notes-de-patch)
 
 ## Mise à jour
 
