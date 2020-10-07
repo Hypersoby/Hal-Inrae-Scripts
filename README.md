@@ -142,11 +142,11 @@ Des `mises à jour` pourront être disponibles dans le futur en faisant `remonte
 
 # Contribution et Développement
 
-Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet
+Si vous voulez contribuer à améliorer et déceler des bugs ou me contacter, veuillez voir ci-dessus les éléments prévus à cet effet.
 
-Créé et développé par <a href="mailto:christopherlallemant@inrae.fr?subject=Mail from our Website">Christopher Lallemant</a>
+Créé et développé par <a href="mailto:christopherlallemant@inrae.fr?subject=Mail from our Website">Christopher Lallemant</a>.
 
 Remerciement spécial:
 
 <a href="mailto:pascal.lallemant@inrae.fr?subject=Mail from our Website">Pascal Lallemant</a> qui a contribué aux versions Alpha et Beta et à la détection de bugs. Et à
-<a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> pour la mise en place de ce projet
+<a href="mailto:vincent.rappeneau@inrae.fr?subject=Mail from our Website">Vincent Rappeneau</a> pour la mise en place de ce projet.
