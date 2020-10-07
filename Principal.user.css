@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css 
-@version        1.0.2
+@version        1.0.3
 @description    Plateforme pour les styles visuels sur le site Hal-Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -2529,6 +2529,10 @@ div.btn-group:nth-child(7){
 }
 
 /* COLOR SWAP */
+	
+.img-thumbnail {
+	border: 1px solid #fff0;
+}
 	
 .col-right .widget-header {
 	border-bottom: 1px solid #e6e6e6;
