@@ -1515,6 +1515,26 @@ div.row:nth-child(3) > div:nth-child(2) > blockquote:nth-child(1){
 .structure-element-regroupinstitution:hover h6 {
 	color: #7c2fac;
 }
+/* COLLECTION */
+
+.col-right .widget-header {
+	border-bottom: 1px solid #e6e6e6;
+	background-color: #e6e6e6;
+	border: 1px solid #a6a6a6;
+}
+.col-right .widget {
+	border: 1px solid #a6a6a6;
+}
+.col-right {
+	background-color: #f5f5f500;
+}
+.widget-content {
+	background-color: #f5f5f5;
+}
+.widget-download .widget-header {
+	background: #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
 
 }
 @-moz-document url-prefix("https://hal.inrae.fr/search/index") {
