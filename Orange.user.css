@@ -496,6 +496,27 @@ li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(4) > a:nth-chi
 li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover {
     background-color: #eb6f4a;
 }
+	
+/* COLLECTION */
+
+.col-right .widget-header {
+	border-bottom: 1px solid #878a8e;
+	background-color: #878a8e;
+}
+.col-right .widget {
+	border: 1px solid #dcdfe1;
+}
+.col-right {
+	background-color: #f5f5f500;
+}
+.widget-content {
+	background-color: #acacac6e;
+}
+.widget-download .widget-header {
+	background: #878a8e;
+	border-bottom: 1px solid #878a8e;
+}	
+	
 }
 @-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
     /* SPECIAL SWAP */
