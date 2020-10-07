@@ -3,9 +3,9 @@
   <br>
   
 <p align="center">
-  Elégant, intuitif et plus puissant que jamais pour une navigation plus rapide et plus facile. 
+  Elégant, intuitif et plus ergonomique : une nouvelle expérience de navigation sur HAL INRAE. 
    <br>
-   Seulement disponible pour portail hal inrae. Les scripts ne sont pas compatibles avec les sites de collection, vous devrez alors les désactiver.
+   Seulement disponible pour le portail hal inrae. Les scripts ne sont pas compatibles avec les sites de collection, vous devrez alors les désactiver lors de la navigation.
    <br>
   <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=rapport-de-bug.md">Rapporter un bug</a>
   ·
@@ -54,7 +54,7 @@ Pour le `Mode Nuit` : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae
 
 Pour le `Orange` : ![Script Couleur Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
  
-4. Une l'installation complète, rendez-vous sur le site `Hal Inrae` puis cliquez sur l'icône `S` de l'extension Stylus.
+4. Une fois l'installation complète, rendez-vous sur le site `Hal Inrae` puis cliquez sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/UfravXq.png)
 5. Cliquez sur la `case ☐` correspondant au(x) script(s) que vous souhaitez activer pour l'appliquer sur le site. 
 
