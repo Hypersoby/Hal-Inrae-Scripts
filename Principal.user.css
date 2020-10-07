@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css 
-@version        1.0.1
+@version        1.0.2
 @description    Plateforme pour les styles visuels sur le site Hal-Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -1515,26 +1515,6 @@ div.row:nth-child(3) > div:nth-child(2) > blockquote:nth-child(1){
 .structure-element-regroupinstitution:hover h6 {
 	color: #7c2fac;
 }
-/* COLLECTION */
-
-.col-right .widget-header {
-	border-bottom: 1px solid #e6e6e6;
-	background-color: #e6e6e6;
-	border: 1px solid #a6a6a6;
-}
-.col-right .widget {
-	border: 1px solid #a6a6a6;
-}
-.col-right {
-	background-color: #f5f5f500;
-}
-.widget-content {
-	background-color: #f5f5f5;
-}
-.widget-download .widget-header {
-	background: #e6e6e6;
-	border-bottom: 1px solid #e6e6e6;
-}
 
 }
 @-moz-document url-prefix("https://hal.inrae.fr/search/index") {
@@ -2543,12 +2523,31 @@ div.btn-group:nth-child(7){
 	padding-top: 0em!important;
 }
 }
-@-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/settings/metadata"), url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/collection"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/") {
+@-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/settings/metadata"), url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/collection"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/"), url-prefix("https://hal.inrae.fr/medihal") {
     .opacity {
 	opacity: 1;
 }
 
 /* COLOR SWAP */
+	
+.col-right .widget-header {
+	border-bottom: 1px solid #e6e6e6;
+	background-color: #e6e6e6;
+	border: 1px solid #a6a6a6;
+}
+.col-right .widget {
+	border: 1px solid #a6a6a6;
+}
+.col-right {
+	background-color: #f5f5f500;
+}
+.widget-content {
+	background-color: #f5f5f5;
+}
+.widget-download .widget-header {
+	background: #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+}
 
 .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
     background-color: #d9534f;
