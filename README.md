@@ -108,7 +108,7 @@ la page dépôt sont plus grands et plus larges
 
 ## Note de patch
 
-![Voir les logs de mise à jours](http:www.exemple.com) -> 404 pour le moment
+*Version 1.0, il n'y a pour le moment aucune mise à jour de disponible !
 
 ## Mise à jour
 
