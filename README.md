@@ -106,7 +106,7 @@ la page dépôt sont plus grands et plus larges
 - Couleur Orange. D'une belle teinte orange et d'un mode dont les couleurs sont plus appuyées pour une modernité inégalable.
 ```
 
-## Note de patch
+## Notes de patch
 
 ![Voir les notes de patch](https://github.com/Hypersoby/Hal-Inrae-Scripts/wiki/Notes-de-patch)
 
