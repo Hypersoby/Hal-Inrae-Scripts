@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css 
-@version        1.0.1
+@version        1.0.2
 @description    Variante Nuit pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -707,6 +707,7 @@ li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-chi
 	border-bottom: 1px solid #515f6f;
 	background-color: #515f6f;
 	border: 1px solid #424e5b;
+	color: #fff;
 }
 .col-right .widget {
 	border: 1px solid #424e5b;
