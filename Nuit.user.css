@@ -702,6 +702,27 @@ li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-chi
 	background-color: #36798c;
     color: #fff;
 }
+/* COLLECTION */
+
+.col-right .widget-header {
+	border-bottom: 1px solid #515f6f;
+	background-color: #515f6f;
+	border: 1px solid #424e5b;
+}
+.col-right .widget {
+	border: 1px solid #424e5b;
+}
+.col-right {
+	background-color: #f5f5f500;
+}
+.widget-content {
+	background-color: #424e5b;
+}
+.widget-download .widget-header {
+	background: #515f6f;
+	border-bottom: 1px solid #515f6f;
+}
+
 
 }
 
