@@ -108,7 +108,7 @@ la page dépôt sont plus grands et plus larges
 
 ## Note de patch
 
-![Notes de patch](https://github.com/Hypersoby/Hal-Inrae-Scripts/wiki/Notes-de-patch)
+![Voir le Notes de patch](https://github.com/Hypersoby/Hal-Inrae-Scripts/wiki/Notes-de-patch)
 
 ## Mise à jour
 
