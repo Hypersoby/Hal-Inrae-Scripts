@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css 
-@version        1.0.3
+@version        1.0.4
 @description    Variante Nuit pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -1008,6 +1008,10 @@ div.row:nth-child(3) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1) {col
 /* TEXT COLOR SWAP*/
 
 
+.wizard h4 {
+	color: #ffdd59;
+}   
+    
 
 .ui-widget-content {
 	color: #fff;
@@ -1723,6 +1727,14 @@ a {
 @-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inserm"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/settings/metadata"), url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/collection/list"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/"), url-prefix("https://hal.inrae.fr/medihal") {
     /* TXT COLOR SWAP */
 
+div[id^="_altmetric_popover_el"].altmetric-embed div.altmetric_container a.link-to-altmetric-details-tab {
+	color: #fff;
+}
+.tip_mendeley{
+	color: #fff!important;
+}
+    
+    
 #mergeModalLabel{
 	color: #fff;
 }
@@ -1761,8 +1773,18 @@ body {
 h1, h2, h3, h4 {
 	color: #FFA87A;
 }
+.tip_mendeley{
+	color: black;
+}
+.tip_citeulike{
+	color: black;
+}
 
 /* COLOR SWAP */
+    
+.altmetric-popover-content {
+	background-color: #424e5b!important;
+}    
 	
 .table-bordered {
 	border: 0px solid #ddd;
