@@ -112,11 +112,7 @@ la page Dépôt sont plus grands et plus larges
 
 ## Mise à jour
 
-Des `mises à jour` pourront être disponibles dans le futur en faisant `remonter les bugs` ou suite à `une demande de fonctionnalité` supplémentaire via les liens suivants ; 
-
-  <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=rapport-de-bug.md">Rapporter un bug</a>
-  ·
-  <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/issues/new?template=demande-de-fonctionnalit-.md">Demande de fonctionnalité</a>
+Des `mises à jour` pourront être disponibles dans le futur en faisant `remonter les bugs` ou suite à `une demande de fonctionnalité`.
 
 1. Pour voir si un script est à jour, rendez-vous dans l'extension Stylus en cliquant sur `S` puis sur `Gestion`
 
