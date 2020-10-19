@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css 
-@version        1.0.4
+@version        1.0.41
 @description    Plateforme pour les styles visuels sur le site Hal-Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -1751,7 +1751,7 @@ button {
 	transition: 0.2s;
 }
 div.row:nth-child(5) > div:nth-child(2) > button:nth-child(1){
-	padding: 6.5px 24px;
+	padding: 6.4px 24px;
 }
 
 .corps > fieldset:nth-child(5) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(2) > button:nth-child(1) {
