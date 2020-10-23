@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css 
-@version        1.0.41
+@version        1.0.5
 @description    Plateforme pour les styles visuels sur le site Hal-Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -118,14 +118,15 @@
     filter: brightness(415%) saturate(50%);
 }
 #doublon-msg::after {
-	position: fixed;
 	animation: flash 2s ease infinite;
 	color: #ca252a;
-	top: 0.2%;
-	left: 25%;
+	top: 25px;
 	content: url("https://i.imgur.com/0UbrKr0.png");
 	scale: 0.87;
-	z-index: 3000;
+	z-index: 1040;
+	position: fixed;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 #error-zone-recap {
 	line-height: 3;
@@ -367,9 +368,7 @@ div.alert:nth-child(3) > h6:nth-child(1) > small:nth-child(3){color: #667350;}
 
 /* UNIVERSAL Modif & PADDING */
     
-.pull-right > li:nth-child(3) {
-	padding: 20px 10px 10px!important;
-} 
+
 
 .dropdown-height-limit {
 	padding: 5px 0px!important;
@@ -749,6 +748,7 @@ ul.dropdown-menu:nth-child(3) > li:nth-child(6){
     padding: 0px 0;
     max-height: 370px !important;
 }
+
 
 .dropdown-menu > li > a {
 	color: #fff;
@@ -1210,20 +1210,11 @@ div.add-authors-div:nth-child(2) > span:nth-child(1):hover {
 	color: white;
 }
 /* UNIVERSAL MODIFICATION */
-
+    
 button.btn-lg:nth-child(3) {
-	width: 45px;
-	transition: 0.3s;
-	overflow: hidden;
-	text-indent: -7.6px;
-	border-radius: 25px;
+	margin-left:20px
 }
-button.btn-lg:nth-child(3):hover {
-	width: 129px;
-	transition: 0.3s;
-	text-indent: -4px;
-	border-radius: 3px;
-}
+    
 .glyphicon-save{
 	width: 2em!important;
 }
@@ -1426,7 +1417,7 @@ ul.navbar-right > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > table:nt
 	max-height: 500px;
 }
 .searchStructure {
-	width: 225%;
+	width: 52.3vw;
 }
 .ui-menu {
 	width: 900px !important;
@@ -1540,6 +1531,9 @@ div.row:nth-child(3) > div:nth-child(2) > blockquote:nth-child(1){
 }
 .widget-search {
 	border: 1px solid #e8e8e8;
+}
+.widget-search {
+	background-color: #e8e8e8;
 }
 /* TXT COLOR SWAP */
 
@@ -1763,6 +1757,11 @@ div.row:nth-child(5) > div:nth-child(2) > button:nth-child(1){
 	border-radius: 3px;
 	transition: 0.2s;
 }
+.corps > fieldset:nth-child(5) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(2) > button:nth-child(1):hover{
+	background-color: #3276b1;
+	border-color: #285e8e;
+}
+    
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
 	float: none;
 	margin-top: -31px;
@@ -2431,16 +2430,16 @@ body {
 div.col-md-5:nth-child(2) {
 	margin-top: 120px;
 	position: absolute;
-	margin-left: 550px;
+	margin-left: 29vw;
     
 }
 div.col-md-5:nth-child(1) > div:nth-child(1) {
 	position: absolute;
-	margin-left: 550px;
+	margin-left: 29vw;
 	margin-top: 60px;
 }
-#id1 {    width: 770px;}
-#id2{    width: 770px;}
+#id1 {    width: 42vw;}
+#id2{    width: 42vw;}
 
 .footer {
 	margin-top: 90px;
@@ -2533,11 +2532,28 @@ div.btn-group:nth-child(7){
 }
 
 /* COLOR SWAP */
+    
+.references-section .reference-row {
+	border-bottom: thick solid #F3F2F0;
+}    
+    
+.references .validation-button {
+	color: #fff;
+}
+.references .edit-button {
+	color: #fff;
+}
+.references .remove-button {
+	color: #fff;
+}    
 	
 .img-thumbnail {
 	border: 1px solid #fff0;
 }
-	
+div.col-md-4:nth-child(1) > a:nth-child(1) > img:nth-child(1){
+	background-color: #fff;
+}	
+    
 .col-right .widget-header {
 	border-bottom: 1px solid #e6e6e6;
 	background-color: #e6e6e6;
@@ -2577,6 +2593,17 @@ div.btn-group:nth-child(7){
 
 
 /* UNIVERSAL MODIF */
+    
+.references-section .reference-row .reference-text .references-identifier {
+	font-weight: normal;
+} 
+.references-section .reference-row .reference-text .references-identifier-value {
+    font-weight: normal;
+}        
+    
+.col-content {
+	margin-left: 16px;
+}    
 
 .img-thumbnail {
 	border-radius: 10px;
@@ -2631,6 +2658,12 @@ a.btn-default:nth-child(7){
 a.widget-export-btn:nth-child(1){
 	margin-left: 0px;
 }
+    
+/* ANIMTATION */
+    
+.references-section .reference-row .reference-text .references-identifier-value {
+	transition:0.2s;
+}  
 
 }
 @-moz-document url-prefix("https://hal.inrae.fr/user/editprefmail") {
