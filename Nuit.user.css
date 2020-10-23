@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css 
-@version        1.0.4
+@version        1.0.5
 @description    Variante Nuit pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -1188,6 +1188,9 @@ div.error, span.error {
 .widget-search {
 	border: 1px solid #465b71;
 }
+.widget-search {
+	background-color: #465b71;
+}    
 .widget-header-search {
 	background-color: #3a444f;
 }
@@ -1779,8 +1782,30 @@ h1, h2, h3, h4 {
 .tip_citeulike{
 	color: black;
 }
+.references-section .reference-row .reference-text .references-identifier-value {
+	color: #fff;
+}
+.references-section .reference-row .reference-text a:hover, .references-section .reference-row .reference-text a:focus {
+	color: #ffd980;
+}    
 
 /* COLOR SWAP */
+
+    
+.references-section #free-full-text-hal {
+	background-color: #bf3f69;
+}    
+    
+.references-section .reference-row .reference-text .references-identifier-value {
+	background-color: #202020;
+}    
+
+    
+.references-section .reference-row {
+	background-color: #424E5B;
+	color: #fff;
+	border-bottom: thick solid #2F3E4E;
+}
     
 .altmetric-popover-content {
 	background-color: #424e5b!important;
@@ -1940,6 +1965,7 @@ div[id^="_altmetric_popover_el"].altmetric-embed div#_altmetric_container.altmet
 .table > tbody + tbody {
 	border-top: 1px solid #ddd;
 }
+
 
 }
 
