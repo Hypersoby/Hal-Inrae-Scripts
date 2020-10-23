@@ -19,7 +19,7 @@
 <p align="center">
   <img alt="?New" src="https://i.imgur.com/ZGTAJCY.png">
 <p align="center">
-  Un Thème pour Halloween est disponible ! Voir le lien Ci-dessous 🡓
+  Un Thème pour Halloween est disponible ! Voir le lien ci-dessous 🡓
    <br>  
   
 ## Prise en charge du navigateur
