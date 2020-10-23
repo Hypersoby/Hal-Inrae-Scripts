@@ -13,7 +13,14 @@
   ·
   <a href="mailto:christopher.lallemant@inrae.fr?subject=Mail from our Website">Contactez moi</a>
   
+  
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Generic badge](https://img.shields.io/badge/Version-1.0-<COLOR>.svg)](https://shields.io/) [![CSS](https://img.shields.io/badge/Language-CSS-red.svg)](https://shields.io/)
+  
+<p align="center">
+  <img alt="?New" src="https://i.imgur.com/ZGTAJCY.png">
+<p align="center">
+  Un Thème pour Halloween est disponible ! Voir le lien Ci-dessous 🡓
+   <br>  
   
 ## Prise en charge du navigateur
 
@@ -53,6 +60,8 @@ Pour le script `Principal` : ![Script Principal](https://github.com/Hypersoby/Ha
 Pour le `Mode Nuit` : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
 
 Pour le `Orange` : ![Script Couleur Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
+
+Pour `HALloween` : ![Script HALloween](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/HALloween.user.css)
  
 4. Une fois l'installation complète, rendez-vous sur le site `Hal Inrae` puis cliquez sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/UfravXq.png)
@@ -133,6 +142,12 @@ Des `mises à jour` pourront être disponibles dans le futur en faisant `remonte
 ![Aperçu4](https://i.imgur.com/Jd2i6fQ.png)
 ![Aperçu2](https://i.imgur.com/LpmhLVM.png)
 ![Aperçu3](https://i.imgur.com/lwiIxNW.png)
+
+<p align="center">
+| Special HALLOWEEN |
+<br>
+
+![AperçusHL](https://i.imgur.com/DcGJcIg.png)
 
 
 
