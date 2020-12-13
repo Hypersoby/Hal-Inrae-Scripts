@@ -62,6 +62,8 @@ Pour le `Mode Nuit` : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae
 Pour le `Orange` : ![Script Couleur Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
 
 Pour `HALloween` : ![Script HALloween](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/HALloween.user.css)
+
+Pour `Joyeuses Fêtes !` : ![Script HALloween](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Noel.user.css)
  
 4. Une fois l'installation complète, rendez-vous sur le site `Hal Inrae` puis cliquez sur l'icône `S` de l'extension Stylus.
 ![Hal](https://i.imgur.com/UfravXq.png)
@@ -148,6 +150,12 @@ Des `mises à jour` pourront être disponibles dans le futur en faisant `remonte
 <br>
 
 ![AperçusHL](https://i.imgur.com/DcGJcIg.png)
+
+<p align="center">
+| Joyeuses Fêtes ! |
+<br>
+  
+![AperçusNL](https://i.imgur.com/mb2QBRH.jpg)
 
 
 
