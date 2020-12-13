@@ -1,0 +1,2714 @@
+/* ==UserStyle==
+@name           Joyeuses Fêtes !
+@namespace      Hypersoby
+@homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
+@updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Noel.user.css 
+@version        1.0.0
+@description    Variante Nuit pour Hal Inrae
+@author         Lallemant Christopher (HS|HyperSoby)
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://hal.inrae.fr") {
+    
+#global-navigation > ul.nav-tabs > li.active > a, #global-navigation > ul.nav-tabs > li.active > a:hover {
+	color: #fff;
+	border-radius: 30px;
+	border: 2px solid #475665;
+	background-color: #27313a!important;
+}
+
+/* SWAP NOEL*/    
+    
+.nav a:hover .caret {
+	border-top-color: #ba5151;
+	border-bottom-color: #ba5151;
+}    
+
+ 
+/* SPECIAL ZONE RECHERCHE */  
+    
+#w-recherche > .widget {
+	background: none;
+	border: none;
+	background-color: white;
+	border-radius: 50px;
+}    
+    
+   
+/* SPECIAL COLOR ZOOM MODE */
+ 
+.logo {
+	background-color: #2f3e4e;
+}
+#global-navigation ul.nav-tabs > li > a {
+	background: #fff0;
+}
+#global-navigation > ul.nav-tabs > li.active > a {
+	background: #fff0;
+}
+/* SPECIAL CCSD BAR + ADDON COLOR SWAP */
+
+#nav-services > .navbar-nav > .active > button::after {
+	color: #275663;
+}
+.navbar-inverse {
+	border-color: #275663;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > button:nth-child(1) {
+	background-color: #275663;
+	color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > button:nth-child(1):hover {
+	background-color: #723d43;
+    color:#fff;
+}
+.caret:hover {
+	border-top: 4px solid #000;
+}
+#nav-services > .navbar-nav > li > button:hover, #nav-services > .navbar-nav > li > button:focus {
+	color: #fff;
+	background-color: #723d43;
+}
+.navbar-nav > li > a:hover {
+	background-color: #723d43 !important;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1):hover {
+	color: #fff;
+	background-color: #723d43;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1):hover {
+	color: #fff;
+	background-color: #723d43;
+}
+ul.navbar-right > li:nth-child(1) > a:nth-child(1):hover {
+	color: #fff;
+}
+
+/* SPECIAL CCSD BAR DROPDOWN */
+li.dropdown:nth-child(1) > ul:nth-child(2) > li:nth-child(6){
+    background-color: #723d43;
+}
+
+li.divider:nth-child(3){
+	background-color: #723d43;
+}
+
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(9) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+#nav-services > ul:nth-child(1) > li:nth-child(1) > ul:nth-child(2) > li:nth-child(10) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(2) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(2) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(2) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+
+
+/* SPECIAL SWAP LOGO */
+
+.logo > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > a:nth-child(1) > img:nth-child(1) {
+	width: 0;
+	height: 0;
+	padding: 85px 0 0 267px;
+	background: url(https://i.imgur.com/n85kTok.png) no-repeat 0 0;
+}
+#footer-logo > a:nth-child(1) > img:nth-child(1) {
+	scale: 0.7;
+	width: 0;
+	height: 0;
+	padding: 90px 0 0 505px;
+	background: url(https://i.imgur.com/KSseSRr.png) no-repeat 0 0;
+	margin-left: -50px !important;
+}
+
+#footer-menu > ul:nth-child(1) > li:nth-child(4) > img:nth-child(1) {
+	filter: grayscale(60%) brightness(120%) hue-rotate(280deg);
+}
+.close {
+	color: #fff;
+	opacity: 0.5;
+}
+.close:hover, .close:focus {
+	color: #fff;
+	opacity: 1;
+}
+
+/* SPECIAL NOEL SWAP */
+    
+html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps {
+	background: url(https://i.imgur.com/2Te2r6G.jpg);
+}
+   
+    
+#dernieres-pub::before {
+	content: url(https://i.imgur.com/NNjsVGz.png);
+	position: absolute;
+	margin-top: -91px;
+    margin-left: 428px;
+}  
+    
+#dernieres-pub {
+	background-color: #36581f;
+	border-radius: 2px;
+	border: 2px solid #324d20;
+	background: linear-gradient(90deg, #66a140 46.5%,#324d20 45%,#324d20 50%, #324d20 50%,#324d20 54%, #66a140 54%);
+    margin-top: 70px;
+} 
+    
+#connexion img {
+	filter: grayscale(100%) brightness(200%);
+}   
+    
+#texte-inte::before {
+    width:0;
+    height:0;
+    margin-left:-139px;
+    margin-bottom:27px;
+    content: url(https://i.imgur.com/r1fc6ol.png);   
+}   
+#texte-inte {
+	background-color: #ba515100;
+}
+#references::before {
+    width:0;
+    height:0;
+    margin-left:-139px;
+    margin-bottom:40px;
+    content: url(https://i.imgur.com/Dienl11.png);   
+}   
+#references {
+	background-color: #27566300;
+}
+#contact::before {
+    width:0;
+    height:0;
+    margin-left:-139px;
+    margin-bottom:28px;
+    content: url(https://i.imgur.com/r1fc6ol.png);   
+}     
+#contact {
+	background-color: #ef6e4200;
+}
+#connexion::before {
+    width:0;
+    height:0;
+    margin-left:-139px;
+    margin-bottom:18px;
+    content: url(https://i.imgur.com/Dienl11.png);   
+}   
+#connexion {
+	background-color: #e1dfd900;
+}  
+    
+#actualites .widget-header, #dernieres-pub .widget-header {
+	background: left center no-repeat transparent url("https://i.imgur.com/bGqVKhC.png");
+	padding: 0 0 0 50px;
+}     
+
+/* SPECIAL SWAP*/
+
+#w-recherche .glyphicon-search::before {
+	content: url('https://i.imgur.com/OPOckim.png');
+	filter: brightness(07%);
+}
+#footer-menu li img {
+	filter: brightness(20%);
+}    
+
+.label-danger {
+	background-color: #d9534f00;
+	border: 1px solid #ff7b77;
+	border-radius: 3px;
+	color: #ff9693 !important;
+}
+
+/* TEXT COLOR SWAP*/
+        
+#references .widget-header, #references .label-default {
+	color: #fff;
+} 
+#connexion {
+	color: #fff;
+}
+#connexion a, #connexion a:hover {
+	color: #fff;
+}
+    
+#actualites .feed.item > .title > a:hover    {
+	color: #000;
+}    
+    
+#actualites .feed.item > .description a {
+	color: #fff;
+}    
+    
+#actualites .feed.item > .date {
+	color: #fff;
+}    
+
+#actualites .feed.item > .description { /* BOX INFO TXT */
+	color: #fff;
+}
+
+#dernieres-pub .widget .media-body a {
+	color: #fff;
+}
+#actualites .widget-header, #dernieres-pub .widget-header {
+	color: #fff;
+}
+
+#global-navigation > ul.nav-tabs > li > a:hover {
+	color: #ba5151;
+}
+#actualites .feed.item > .title, #actualites .feed.item > .title > a {
+	color: #fff;
+}
+
+#global-navigation > ul.nav-tabs > li > a { /* TXT COLOR */
+	color: #fff;
+}
+#footer-menu li a { /* BOT TXT COLOR */
+	color: #7bae62;
+}
+#footer-menu li a:hover {
+	color: #ae6262;
+}    
+blockquote small {
+	color: #fff;
+}
+
+/* SPECIAL SWAP COLOR & PADDING */
+
+#actualites .feed.item .display {
+	top: 3px;
+	right: -3px;
+}   
+    
+
+.sherpa-green {
+	background-color: #D0F9D200;
+	color: #a8ffb9;
+	border: 1px solid #9ee1a2;
+	border-radius: 3px;
+	font-size: 8px;
+}
+.sherpa-blue {
+	background-color: #D0F9D200;
+	color: #9fdfff;
+	border: 1px solid #9fdfff;
+	border-radius: 3px;
+	font-size: 8px;
+}
+.sherpa-yellow
+{
+	background-color: #D0F9D200;
+	color: #FFE973;
+	border: 1px solid #FFE973;
+	border-radius: 3px;
+	font-size: 8px;
+}
+
+.label-default {
+	background-color: #9990;
+	border: 1px solid;
+	border-radius: 3px;
+	color: #f7f6a4;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+	background-color: #d9534f00;
+	border: 1px solid #ff7b77;
+	border-radius: 3px;
+	color: #ff9693!important;
+}
+.label-warning {
+	background-color: #f0ad4e00;
+	border: 1px solid;
+	border-radius: 3px;
+    color:#ffca6a;
+}
+.label-primary {
+	background-color: #428bca00;
+	border: 1px solid; 
+	border-radius: 3px;
+    color:#339bff;
+}
+.label-rgplabo {
+	background-color: #428bca00;
+	border: 1px solid #56eace;
+	border-radius: 3px;
+	color: #56eace;
+}
+.label-rgpinst {
+	background-color: #ac6fc200;
+	color: #daa1ee;
+    border-radius: 3px;
+	border: 1px solid;
+}
+.label-info {
+	background-color: #5bc0de00;
+	border: 1px solid; 
+	border-radius: 3px;
+    color:#99dbfb;
+}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1) {color:#fbe399;}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1){color:#fbe399;}
+#new-struct-form > ul:nth-child(3) > li:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1){color:#fbe399;}
+
+.label-success {
+	background-color: #fff0;
+	border: 1px solid #93ea93;
+	color: #93ea93;
+    border-radius: 3px;
+}
+
+
+/* COLOR SWAP */
+
+.modal-content {
+	background-color: #3a444f;
+}
+.modal-header {
+	border-bottom: 1px solid #2f343a;
+}
+.modal-footer {
+	border-top: 1px solid #2f343a;
+}
+
+#recap-buttons > a:nth-child(1) > button:nth-child(1) {
+	background-color: #b95050;
+	border: 1px solid #843d3d;
+}
+#recap-buttons > a:nth-child(1) > button:nth-child(1):hover {
+    background-color: #a23535;
+    border: 1px solid #912929;
+}
+
+
+blockquote {
+	border-left: 5px solid #e4c56a;
+}
+
+#container {
+	background-color: #eff4f7;
+}
+
+.nav .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff;
+}
+.dropdown-submenu:hover > a::after {
+	border-left-color: #fff;
+}
+
+.table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 1px solid #5e6f82;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px dashed #5e6f82;
+}
+.table .table {
+	background-color: #394553;
+}
+.popover.right {
+	background-color: #394553;
+}
+.popover.right .arrow::after {
+	border-right-color: #394553;
+}
+.popover.bottom .arrow::after {
+	border-bottom-color: #394553;
+}
+.popover {
+	background-color: #394553;
+	border: 1px solid rgb(72, 88, 106);
+}
+
+.container-gris {
+	background-color: #eff4f7;
+	background: url(https://i.imgur.com/B2X0F1Y.jpg);
+	height: 540px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+    
+#global-navigation {
+	background-color: #041622;
+	background: url(https://i.imgur.com/ECuELnc.jpg);
+	background-position-x: 0%;
+	background-position-y: 0%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.container-blanc {
+	background-color: #eff4f7;
+}
+.form-actions {
+	background-color: #eff4f7;
+    border-top: 1px solid #eff4f7;
+}
+.footer {
+	background: #eff4f7;
+}
+#footer-content {
+	background: #eff4f7 url("https://i.imgur.com/8iw9wTK.png") no-repeat 0 center;
+}
+html {
+	background: #2f3e4e;
+}
+#actualites .feed.item::before {
+	border-color: #1a2529 #1a2529 #30455100 #fff0;
+	border-width: 20px 20px 20px 20px;
+	border-top-right-radius: 8px;
+}
+#actualites .feed.item .glyphicon {
+	color: #fff;
+}
+
+#actualites .feed.item {
+	background: right top no-repeat #304551 url("https://i.imgur.com/Z590UXU.png");
+}
+#actualites .feed.item:hover {
+	background: right top no-repeat #446273 url("https://i.imgur.com/Z590UXU.png");
+}
+#bloc-recherche {
+	background: url(https://i.imgur.com/w8j5Dxj.jpg);
+	margin: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#img-recherche {
+	background: none;
+}
+
+
+
+/* UNIVERSAL TEXT BOX */
+
+input[type="text"], input[type="password"], .ui-autocomplete-input, textarea, .uneditable-input {
+	color: #fff;
+	border: 1px solid #357ebd;
+    background-color: #292b2d;
+}
+select optgroup {
+	background-color: #515f6f;
+}
+.form-control {
+	color: #fff;
+	background-color: #2e3137;
+    border: 1px solid #357ebd;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	background-color: #666;
+	border: 1px solid #8f8f8f;
+}
+.alert-warning {
+	color: #fff !important;
+	background-color: #483b11;
+	border-color: #ffcb2e;
+    border-left: 88px solid #5b444d00;
+    border-right: 88px solid #5b444d00;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.alert-danger {
+	color: #f7c0bf;
+	background-color: #201919cc;
+	border-color: #ac1830;
+    border-left: 88px solid #5b444d00;
+    border-right: 88px solid #5b444d00;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+.alert-info {
+	color: #b3e6ff;
+	background-color: #1f242d;
+	border-color: #65a6df;
+    border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.alert-success {
+	color: #c3ffb3;
+	background-color: #4a5854;
+	border-color: #50bb46;
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.alert-violet {
+	color: #DAC9DD;
+	background-color: #584560;
+	border-color: #A98EAE;
+    border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+    margin-right:50px;
+    margin-left:50px;
+}
+div.alert:nth-child(1) > h6:nth-child(1) > small:nth-child(3){color: #b3e6ff;}
+div.alert:nth-child(2) > h6:nth-child(1) > small:nth-child(3){color: #DAC9DD;}
+div.alert:nth-child(3) > h6:nth-child(1) > small:nth-child(3){color: #b0ffb3;}
+
+/* SPECIAL BOX INFO*/
+
+#doublon-msg {
+	border: 1px solid rgba(241, 6, 6, 0.81);
+	background-color: rgba(126, 9, 0, 0.3);
+	box-shadow: 0px 0px 2px #ff0303;
+	color: #ffc4c4;
+	text-shadow: 2px 1px #00040a4f;
+	border-left: 88px solid #5b444d00;
+    border-right: 88px solid #5b444d00;
+}
+
+#doublon-msg:hover {
+	background-color: rgba(220, 17, 1, 0.33);
+}
+#recap-citation {
+	border: 1px solid rgba(36, 241, 6, 0.46);
+	background-color: rgba(7, 149, 66, 0.12156862745098039);
+	box-shadow: 0px 0px 2px #259c08;
+	color: #b6fbb5;
+	text-shadow: 2px 1px #00040a4f;
+	border-left: 88px solid #5b444d00;
+    border-right: 88px solid #5b444d00;
+}
+#recap-citation:hover {
+	background-color: rgba(7, 149, 66, 0.35);
+}
+
+#recap-arxiv {	
+    border: 1px solid rgb(141, 141, 183);
+	background-color: rgba(86, 50, 111, 0.12);
+	text-shadow: 2px 1px #00040a4f;
+    border-left: 88px solid #5b444d00;
+    border-right: 88px solid #5b444d00;
+}
+
+#recap-arxiv:hover {	
+	background-color: rgba(122, 63, 162, 0.27);
+}
+
+#recap-pubmedcentral{	  
+    border: 1px solid rgb(141, 141, 183);
+	background-color: rgba(86, 50, 111, 0.12);
+	text-shadow: 2px 1px #00040a4f;
+    border-left: 88px solid #5b444d00;
+    border-right: 88px solid #5b444d00;
+}
+#recap-pubmedcentral:hover {	
+	background-color: rgba(122, 63, 162, 0.27);
+}
+
+#error-zone-recap {
+    border: 1px solid rgba(241, 142, 6, 0.81);
+    background-color: rgba(220, 128, 1, 0.16);
+	box-shadow: 0px 0px 2px #ff7003;
+	color: #ffe6c4;
+	text-shadow: 2px 1px #00040a4f;
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+}
+#error-zone-recap:hover {
+	background-color: rgba(220, 128, 1, 0.33);
+}
+#error-zone-recap::before {
+    filter: brightness(175%) saturate(50%);
+}
+
+
+/* DROP DOWN */
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	background-color: #344455d4;
+}
+
+#global-navigation > ul.nav-tabs ul.dropdown-menu {
+	background-color: #344455d4;
+}
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(9) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(7) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(3) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(5) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(5) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(10) > a:nth-child(1):hover{
+	background-color: #723d43;
+    color: #fff;
+}
+
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
+   
+    /* TEST */
+#render-step .panel-default > .panel-heading::before { /* NEIGE*/
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0px;
+	right: 0;
+	height: 23px;
+	background: url(https://i.imgur.com/c98znUv.png) no-repeat 0 0, url(https://i.imgur.com/e12feYU.png) no-repeat 50% 0, url(https://i.imgur.com/Df3cXE5.png) no-repeat 100% 0;
+	margin-right: 144px;
+	margin-left: 147px;
+	margin-top: -16px;
+}
+    
+ 
+
+  
+#render-step .panel-default > .panel-heading {
+	background-color: #354553 !important;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 7px;
+	box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0), inset 0 0 6px #44151500, inset 0 80px 80px -40px #4a6073, 1px 1px 3px rgba(0, 0, 0, 0);
+}
+   
+
+ 
+    
+    
+.footer {
+	background: url(https://i.imgur.com/VP5vDYG.jpg);
+	padding-top: 231px;
+	background-position-y: 234px;
+}
+#footer-content {
+	background: #eff4f700 url("https://i.imgur.com/8iw9wTK.png") no-repeat 0 center;
+}
+    
+#container {
+	background-color: #eff4f7;
+	background: url(https://i.imgur.com/20YQUid.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position-y: 120px;
+}    
+html {
+	background-color: #eff4f7;
+}  
+    
+    
+    /* COLOR SWAP */
+
+.ui-widget-content .ui-icon {
+	background-image: url(images/ui-icons_222222_256x240.png);
+	filter: invert(100%) brightness(120%);
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+	background-color: #21272d;
+	border-top: 1px solid #21272d;;
+    box-shadow: inset 0 1px 0 #21272d;
+}
+
+.ui-widget-content {
+	background-color: #21272d;
+}
+.ui-dialog .ui-dialog-titlebar {
+	border-color: #21272d;
+	border-bottom: 1px solid #21272d;
+}
+
+a.btn:nth-child(2) {
+	background-color: #b95050;
+	border-color: #843d3d;
+}
+a.btn:nth-child(2):hover {
+	background-color: #a23535;
+	border-color: #912929;
+}
+
+.badge {
+	padding: 2px 4px;
+	font-size: 12px;
+	line-height: 1;
+	border-radius: 8px;
+	color: #d9d9d9;
+    border: 1px solid;
+    background-color: #fff0;
+	padding-bottom: 2px;
+	padding-top: 1px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px solid #7f94ac;
+}
+.table > thead > tr > th {
+	border-bottom: 1px solid #7f94ac;
+}
+.has-error .form-control {
+	border-color: #b94a48;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	background-color: #512c2c;
+}
+
+.alert-text {
+	background-color: #6c6c82;
+	border: 1px solid #8d8db7;
+}
+.alert-warning hr {
+	border-top-color: #ff2e2e;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #6d8095;
+}
+#file-details-0 > td:nth-child(1):hover {
+	background-color: #607184;
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+	border-top: 1px solid #515f6f;
+	background-image: linear-gradient(rgba(81, 95, 111, 0.64), rgba(81, 95, 111, 0.64)), url("https://i.imgur.com/2Te2r6G.jpg");
+}
+    
+.form-actions {
+	background-color: #424e5b00;
+	border-top: 1px solid #424e5b00;
+}
+#render-step .panel-default > .panel-heading {
+	background-color: #515f6f;
+}
+div.panel-collapse {
+	background-color: #354553;
+	border-left: 1px solid #515f6f00;
+	border-bottom: 1px solid #515f6f00;
+	border-right: 1px solid #515f6f00;
+}
+#demo-upload, #id-zone {
+	border: 1px solid #7f94ac4d;
+	background: #515f6fa3;
+}
+#demo-upload:hover, #id-zone:hover {
+	background: #607184;
+}
+#render-step .panel-default > .panel-heading:hover {
+    background: #607184;
+}
+.detailed-view-transfer {
+	background-color: #515f6fa3;
+}
+#id-zone-detailed{
+	background-color: #515f6fa3;
+}
+.modal-content {
+	background-color: #21272d;
+	border: 1px solid rgb(33, 39, 45);
+}
+.modal-header {
+	border-bottom: 1px solid #21272d;
+}
+.modal-body {
+	border-bottom: 1px solid #21272d;
+}
+tr.author:hover {
+	background-color: #7f373778;
+}
+
+.popover-title {
+	background-color: #394553;
+	border-bottom: 1px solid #394553;
+}
+input[type="text"], input[type="password"], .ui-autocomplete-input, textarea, .uneditable-input {
+	color: #fff;
+	background-color: #2e3137;
+}
+.list-group-item {
+	background-color: #394553;
+	border: 1px solid #5e6f82;
+}
+.structure-element-laboratory {
+	border: 1px solid #5e6f82!important;
+}
+.structure-element-institution{
+    border: 1px solid #5e6f82!important;
+}
+.structure-element-{
+	border: 1px solid #5e6f82!important;
+}
+.structure-arborescence > div:nth-child(2) > div:nth-child(2) > blockquote:nth-child(1){
+	border: 1px solid #5e6f82!important;
+}
+.structure-element-department{
+	border: 1px solid #5e6f82!important;
+}
+.structure-element-regrouplaboratory{
+	border: 1px solid #5e6f82!important;
+}
+.structure-element-researchteam{
+	border: 1px solid #5e6f82!important;
+}
+.structure-element-regroupinstitution{
+	border: 1px solid #5e6f82!important;
+}
+
+div.row:nth-child(3) > div:nth-child(2) > blockquote:nth-child(1){
+	border: 1px solid #5e6f82!important;
+
+}
+.structure-arborescence > div:nth-child(4) > div:nth-child(2) > blockquote:nth-child(1){
+	border: 1px solid #5e6f82!important;
+
+}
+.structure-arborescence > div:nth-child(5) > div:nth-child(2) > blockquote:nth-child(1){
+	border: 1px solid #5e6f82!important;
+}
+.structure-element-laboratory:hover {
+	background-color: #c4b36082;
+}
+.structure-element-researchteam:hover {
+	background-color: #6587ac;
+}
+.structure-element-institution:hover {
+	background-color: #d36c6ca3;
+}
+.structure-element-department:hover {
+	background-color: #88c66f5e;
+}
+.structure-element-regrouplaboratory:hover {
+	background-color: #7ac4b6ad;
+}
+.structure-element-regroupinstitution:hover {
+	background-color: #866a9799;
+}
+div.row:nth-child(3) > div:nth-child(3) > blockquote:nth-child(1) {
+	border: 1px solid #5e6f82 !important;
+}
+.structure-arborescence > div:nth-child(5) > div:nth-child(3) > blockquote:nth-child(1) {
+	border: 1px solid #5e6f82 !important;
+}
+.structure-arborescence > div:nth-child(6) > div:nth-child(3) > blockquote:nth-child(1) {
+	border: 1px solid #5e6f82 !important;
+}
+div.row:nth-child(3) > div:nth-child(3) > blockquote:nth-child(1):hover {
+	background-color: #866a9799;
+}
+.modal-footer {
+	border-top: 1px solid #21272d;
+}
+#recap-buttons > a:nth-child(2) > button:nth-child(1) {
+	background-color: #b95050;
+	border: 1px solid #843d3d;
+}
+a.btn-sm {
+	background-color: #b95050;
+	border-color: #843d3d;
+}
+a.btn-sm:hover {
+	background-color: #a23535;
+	border-color: #912929;
+}
+
+#recap-buttons > a:nth-child(2) > button:nth-child(1):hover {
+	background-color: #a23535;
+	border-color: #912929;
+}
+button.btn-lg:nth-child(3) {
+    background-color: #609b6e;
+    border-color: #44824c;
+}
+button.btn-lg:nth-child(3):hover {
+    background-color: #4a7955;
+    border-color: #244f24;
+}
+button.btn-lg:nth-child(2) {
+    background-color: #609b6e;
+    border-color: #44824c;
+}
+button.btn-lg:nth-child(2):hover {
+    background-color: #4a7955;
+    border-color: #244f24;
+}
+.struct-buttons-div > button:nth-child(1) {
+	background-color:#b95050;
+	border-color: #843d3d;
+}
+.struct-buttons-div > button:nth-child(1):hover {
+	background-color: #a23535;
+	border-color: #912929;
+}
+#save-struct{
+    background-color: #609b6e;
+    border-color: #44824c;
+}
+#save-struct:hover {
+    background-color: #4a7955;
+    border-color: #244f24;
+}
+#Enregistrer{
+    background-color: #609b6e;
+    border-color: #44824c;
+}
+#Enregistrer:hover {
+    background-color: #4a7955;
+    border-color: #244f24;
+}
+
+
+button.btn-xs{
+	color: #fff;
+	background-color: #428bca00;
+	border-color: #357ebd00;
+    margin-top: 0px!important;
+    margin-right: -1px!important;
+}
+.label-primary > span:nth-child(2){
+    margin-top: 1px;
+}
+
+button.btn-xs:hover{
+	color: #fff;
+	background-color: #3276b100;
+	border-color: #357ebd00;
+}
+
+/* SPECIAL SWAP LOGO */
+
+#drop-message > img:nth-child(1) {
+	filter: contrast(1%) brightness(200%);
+}
+.caret {
+	border-top: 4px solid #fff;
+}
+
+.b_vertical {
+	border-left: 3px solid rgb(94, 111, 130);
+}
+.b_horizontal {
+	border-bottom: 3px solid rgb(94, 111, 130);
+}
+.structure-arborescence > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1){color : #5e6f82; }
+div.row:nth-child(3) > div:nth-child(2) > div:nth-child(2) > i:nth-child(1) {color : #5e6f82; }
+.structure-arborescence > div:nth-child(4) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1) {color : #5e6f82; }
+.structure-arborescence > div:nth-child(5) > div:nth-child(2) > div:nth-child(2) > i:nth-child(1) {color : #5e6f82; }
+.structure-arborescence > div:nth-child(6) > div:nth-child(2) > div:nth-child(2) > i:nth-child(1){color : #5e6f82; }
+div.row:nth-child(3) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1) {color : #5e6f82; }
+.b_horizontal_1 > i:nth-child(1) {color : #5e6f82; }
+.structure-arborescence > div:nth-child(5) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1) {color : #5e6f82; }
+.structure-arborescence > div:nth-child(6) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1) {color : #5e6f82; }
+.structure-arborescence > div:nth-child(7) > div:nth-child(1) > div:nth-child(2) > i:nth-child(1) {color : #5e6f82; }
+
+/* TEXT COLOR SWAP*/
+
+
+.wizard h4 {
+	color: #ffdd59;
+}   
+    
+
+.ui-widget-content {
+	color: #fff;
+}
+
+.ui-dialog .ui-dialog-title {
+	color: #fff;
+}
+#dialog-confirm > p:nth-child(1){
+	color: #fff;
+}
+
+.structure-element-regroupinstitution:hover h6 {
+	color: #fff;
+}
+
+#myModalLabel > span:nth-child(2) > strong:nth-child(1){
+	color: #fff;
+}
+
+.structure-element-regrouplaboratory:hover{
+	color: #fff;
+}
+
+.glyphicon:empty {
+	color: white;
+}
+#form_meta label.required {
+	color: #7aad60 !important
+}
+
+.structure-element-laboratory:hover h6 {
+	color: #fff;
+}
+.structure-element-researchteam:hover h6 {
+	color: #fff;
+}
+.structure-element-institution:hover h6 {
+	color: #fff;
+}
+.structure-element-department:hover h6{
+	color: #fff;
+}
+
+h1, h2, h3, h4 {
+	color: #FFF;
+}
+#doublon-msg > a:nth-child(2){
+	color: #ff8059;
+}
+.aut-idhal {
+	color: #96cfff;
+}
+.valid-struct {
+	color: #80df82;
+}
+.old-struct {
+	color: #f2cd8d;
+}
+.incoming-struct {
+	color: #ee615e;
+}
+
+.panel-title {
+	color: #fff;
+}
+.panel-title:hover {
+	color: #7aad60;
+}
+
+#step-file-footer {
+	color: white;
+}
+#submit-file-header {
+	color: white;
+}
+.wizard h2, #id-zone h2 {
+
+	color: #7aad60;
+}
+.dropzone, .dropzone * {
+	color: white;
+}
+#id-info {
+	color: white;
+}
+.switch-view-button {
+	color: white;
+}
+.help-block {
+	color: #fff!important;
+}
+.form dd p.description, .ccsd_form_required {
+	color: #FFF;
+}
+#form_meta label.required {
+	color: white;
+}
+#meta-footer-note {
+	color: white;
+}
+a {
+	color: #ffdd59;
+}
+a:hover, a:focus{
+	color: #fff3c5;
+}
+body {
+	color: #fff;
+}
+div.error, span.error {
+	color: #ff8c8a;
+}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline {
+	color: #ff8e8c;
+}
+.has-error .help-block {
+	color: #ff9896 !important;
+}    
+    
+
+/* Special EFFECT */
+
+.detailed-view-transfer {
+	border: 1px solid #7f94ac4d;
+    border-radius: 5px;
+}
+#id-zone-detailed {
+	border: 1px solid #7f94ac4d;
+}
+.detailed-view-transfer:hover {
+    background-color:#607184;
+}
+#id-zone-detailed:hover {
+    background-color:#607184;
+}
+
+/* PADDING */
+
+.glyphicon-ok-circle{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+
+
+
+
+
+}
+@-moz-document url-prefix("https://hal.inrae.fr/search/index") {
+    /* COLOR SWAP */
+
+.row-fluid > .col-md-12 {
+	background-color: #2f3e4e;
+}
+
+.panel {
+	background-color: #24343e91;
+	border: 1px solid #29333c;
+}
+.panel-default > .panel-heading {
+	color: #fff;
+	background-color: #242f3994;
+	border-color: #242f3994;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #cd4e4e42;
+}
+.collapse.in {
+	background-color: #25313e8a;
+}
+.widget-header {
+	border-bottom: 1px solid #4048511c;
+}
+.widget-search {
+	border: 1px solid #465b7182;
+}
+.widget-search {
+	background-color: #465b715c;
+}   
+.widget-header-search {
+	background-color: #3a444f82;
+}
+
+/* TXT COLOR SWAP */
+body {
+	color: #7aad60;
+}
+.text-muted {
+	color: #fff;
+}
+.widget-header {
+	color: #fff;
+}
+.btn-link:hover, .btn-link:focus {
+	color: #6febff;
+}
+.btn-link {
+	color: #3fbed2;
+}
+a {
+	color: #fff;
+}
+a:active, a:hover {
+	color: #ffadad;
+}
+
+/* UNIVERSAL PADDING */
+
+.table > thead > tr > th {
+	border-bottom: 1px solid #754343;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px solid #754343;
+}
+
+
+button.btn:nth-child(2) {
+	background-color: #428bca00;
+	border-color: #357ebd00;
+}
+button.btn:nth-child(2):hover {
+	background-color: #428bca00;
+	border-color: #357ebd00;
+}
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/browse/domain"), url-prefix("https://hal.inrae.fr/browse/doctype"), url-prefix("https://hal.inrae.fr/browse/period"), url-prefix("https://hal.inrae.fr/page/par-collaboration") {
+   
+body {
+	background: none!important;
+	background-color: #eff4f7;
+    }
+    
+    /*COLOR SWAP*/
+
+html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps {
+	background: #2f3e4e;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+	background-color: #4f5b717a;
+}
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+	padding: 5px;
+	background-color: #7a829187;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #97474782;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px solid #686f7b61;
+}
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+	padding: 5px;
+	background-color: #7a829187;
+}
+.table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 1px solid #4f5b717a;
+}
+.table > thead > tr > td.active, .table > tbody > tr > td.active, .table > tfoot > tr > td.active, .table > thead > tr > th.active, .table > tbody > tr > th.active, .table > tfoot > tr > th.active, .table > thead > tr.active > td, .table > tbody > tr.active > td, .table > tfoot > tr.active > td, .table > thead > tr.active > th, .table > tbody > tr.active > th, .table > tfoot > tr.active > th {
+	background-color: #283748d6;
+    color: white;
+}
+#widget_map {
+	background: #2f3e4e80;
+	padding-top: 50px;
+}
+
+
+/* TXT COLOR SWAP*/
+.titre_picto_hal h1, .titre_picto_hal h2 {
+	color: #1e8a78;
+}
+#widget_map #countryinfo h5 {
+	color: white;
+}
+#paragraphes .para_texte p {
+	color: #fff;
+}
+.table-condensed > thead > tr > th, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > tbody > tr > td, .table-condensed > tfoot > tr > td {
+	color: white;
+}
+a {
+	color: #fff;
+}
+a:hover, a:focus {
+	color: #a4d4fd;
+}
+small, .small {
+	font-size: 85%;
+	color: #c0f7a4;
+}
+.glyphicon:empty {
+	color: white;
+}
+.caret {
+	border-top: 4px solid #fff;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant") {
+    /* TXT COLOR SWAP */
+
+#paragraphes .para_texte p {
+	color: white;
+}
+#paragraphes .para_texte li {
+	color: #ffa8a8;
+}
+ 
+#paragraphes .para_texte a {
+	color: #7aad60;
+}
+#paragraphes h2 {
+	color: #fff;
+
+}    
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/user/submissions") {
+    /* COLOR SWAP*/
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #607184;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px solid #60718499;
+	background-color: #798ca28a;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #2f3e4ea1!important;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #933e3e87!important;
+}    
+    
+.table-overflow {
+	background-color: #798ca27d;
+}
+.table-hover > tbody > tr:hover > td {
+	background-color: #798ca27d;
+}
+.progress-bar-info {
+	background-color: #a4a4a4 !important;
+}
+.table-hover > tbody > tr:hover > td {
+	background-color: #95aeca;
+}
+.corps > fieldset:nth-child(5) > div:nth-child(2) > form:nth-child(1) > div:nth-child(5) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1):hover {
+	background-color: #2f3e4e;
+}
+.corps > fieldset:nth-child(4) > div:nth-child(2) > form:nth-child(1) > div:nth-child(5) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1):hover {
+	background-color: #2f3e4e;
+}
+
+#progress-offline_file {
+	background-color: #e64e4e!important;
+}
+#progress-online_file {
+	background-color: #e64e4e!important;
+}
+#progress-online_ref{
+	background-color: #e64e4e!important;
+}
+.label-h4 {
+	background-color: #c44242;
+}
+
+/* TXT COLOR SWAP*/
+label {
+	color: #fff!important;
+}    
+body {
+	color: #fff;
+}
+h1, h2, h3, h4 {
+	color: #e64e4e;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/user/related") {
+    /* TXT COLOR SWAP */
+
+body {
+	color: #fff;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/user"), url-prefix("https://hal.inrae.fr/stat/user"), url-prefix("https://hal.inrae.fr/stat/index"), url-prefix("https://hal.inrae.fr/website/search"), url-prefix("https://hal.inrae.fr/website/header"), url-prefix("https://hal.inrae.fr/website/menu"), url-prefix("https://hal.inrae.fr/website/news"), url-prefix("https://hal.inrae.fr/website/public") {
+    /* COLOR SWAP */
+
+.well {
+	background-color: #2f3e4e;
+	border: 1px solid #2f3e4e;
+}
+#container {
+	background-color: #2f3e4e;
+}
+.panel-default > .panel-heading {
+	background-color: #313b4691;
+	border-color: #6a829d00;
+	color: #fff;
+}
+.panel-default > .panel-heading:hover {
+	background-color: #60718496;
+}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #424e5bab;
+}
+.panel-default {
+	border-color: #424e5b;
+}
+#accordion button:not([type="submit"]) {
+	color: #7aad60;
+}
+.panel {
+	background-color: #282e35b3;
+}
+
+#stat-module .active a {
+	color: #fff;
+	background-color: #2f3e4e;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #6efdf645;
+}
+.sortable > li {
+	background-color: #415062;
+}
+.sortable > li:hover {
+	background: #5d728c;
+}
+.table > thead > tr > th {
+	vertical-align: bottom;
+	border-bottom: 1px solid #2f3e4e;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #2f3e4ea6;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #5d728c9c;
+}
+
+div.form-actions:nth-child(4) > a:nth-child(1) > button:nth-child(1) {
+    background-color: #b95050;
+    border: 1px solid #843d3d;
+}
+div.form-actions:nth-child(4) > a:nth-child(1) > button:nth-child(1):hover {
+    background-color: #a23535;
+    border: 1px solid #912929;
+}
+
+/* TXT COLOR SWAP */
+
+body {
+	color: #fff;
+}
+a {
+	color: #ccc;
+}
+a:hover, a:focus {
+	color: bisque;
+}
+label {
+	color: #7aad60;
+}
+.text-muted {
+	color: bisque;
+}
+
+/* SPECIAL SWAP */
+
+#profil_hal > legend:nth-child(1) > img:nth-child(1) {
+	filter: invert(100%) grayscale(100%);
+}
+#profil_ccsd > legend:nth-child(1) > img:nth-child(1) {
+	filter: invert(100%) grayscale(100%);
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/user/docowner") {
+    /* COLOR SWAP */
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	background-color: #3840495c;
+	border: 1px solid #434f5ea3 !important;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #02020296;
+}
+table.table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) {
+	background-color: #525e6aad;
+	border: 1px solid #525e6aa1 !important;
+}
+
+/* TXT COLOR SWAP*/
+
+a {
+	color: bisque;
+}
+a:hover {
+	color: #ffbf75;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/user/filerequest") {
+    /* TXT COLOR SWAP*/
+
+h1, h2, h3, h4 {
+	color: #4EE6CC;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/user/ftp") {
+    /* COLOR SWAP */
+
+.glyphicon:empty {
+	color: #4ee6cc;
+}
+
+/* TXT COLOR SWAP */
+
+a {
+	color: bisque;
+}
+a:hover, a:focus {
+	color: #ffbf75;
+}
+h1, h2, h3, h4 {
+	color: #4EE6CC;
+}
+
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/collection/list") {
+    /* COLOR SWAP */
+
+body {
+	color: #fff;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/website/index"), url-prefix("https://hal.inrae.fr/website/common"), url-prefix("https://hal.inrae.fr/moderate/index"), url-prefix("https://hal.inrae.fr/administrate/index") {
+    /* COLOR SWAP */
+
+#container {
+	background-color: #2f3e4e;
+}
+
+/* TXT COLOR SWAP */
+
+a {
+	color: bisque;
+}
+a:hover, a:focus {
+	color: #ffe6ac;
+}
+body {
+	color: bisque;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/website/footer") {
+    /* PADDING */
+.label-primary {
+	background-color: #428bca;
+	border: 0px solid #56a5ea00;
+	border-radius: 3px;
+	color: #fff;
+}
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/website/style"), url-prefix("https://hal.inrae.fr/website/footer") {
+    /* TXT COLOR SWAP */
+
+body {
+	color: #fff;
+}
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/patrol/index"), url-prefix("https://hal.inrae.fr/patrol/listdocuments"), url-prefix("https://hal.inrae.fr/patrol/doaction") {
+    /* COLOR SWAP */
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #798ca2a6;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+	border: 0px solid #48596a;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 1px solid #48596a;
+    background-color: #3d444b75;
+}
+#moderate > thead:nth-child(1) > tr:nth-child(1) {
+	border: 1px solid #48596a;
+}    
+    
+#container {
+	background-color: #2f3e4e;
+}
+
+
+.label-primary {
+	background-color: #428bca00;
+	border: 1px solid #a8d6ff;
+	border-radius: 3px;
+	color: #a8d6ff;
+}
+
+/* PADDING */
+
+.label {
+	font-size: 85%;
+}
+
+/* TXT COLOR SWAP */
+
+body {
+	color: #fff;
+}
+a {
+	color: #fff;
+}
+
+a:hover, a:focus {
+	color: #fff3c5
+}
+
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/moderate"), url-prefix("https://hal.inrae.fr/administrate") {
+    /* COLOR SWAP */
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #798ca2a6;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border-top: 0;
+	border: 0px solid #48596a;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 1px solid #48596a;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 1px solid #5f7185;
+}
+
+#container {
+	background-color: #2f3e4e;
+}
+
+
+/* TXT COLOR SWAP */
+
+
+
+body {
+	color: #fff;
+}
+
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/moderate/documents/"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments") {
+    /* COLOR SWAP */
+
+   
+.well {
+	background-color: #424e5b;
+	border: 1px solid #515f6f;
+}
+.panel {
+	background-color: #515f6f;
+	border: 1px solid #515f6f;
+}
+.panel-default > .panel-heading {
+	color: #333;
+	background-color: #515f6f;
+	border-color: #515f6f;
+}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+	background-color: #424e5b;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 1px solid #616c79;
+}
+
+/* TXT COLOR SWAP */
+
+body {
+	color: #fff;
+}
+
+.panel-title > a {
+	color: white;
+}
+.alert h4 {
+	color: white;
+}
+.alert > p, .alert > ul {
+	margin-bottom: 0;
+	color: white;
+}
+
+b, strong {
+	color: #ffdd59;
+}
+span.referentiel > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(2) > small:nth-child(4) > a:nth-child(1){
+	color: #ffdd59;
+}
+span.referentiel > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(2) > small:nth-child(5) > a:nth-child(1){
+	color: #ffdd59;
+}
+span.referentiel > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(2) > small:nth-child(4) > a:nth-child(1):hover{
+	color: #fff3c5;
+}
+span.referentiel > blockquote:nth-child(1) > div:nth-child(1) > div:nth-child(2) > small:nth-child(5) > a:nth-child(1):hover{
+	color: #fff3c5;
+}
+ul.pull-right > li:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > strong:nth-child(1){
+	color: #fff;
+}
+ul.navbar-right > li:nth-child(1) > a:nth-child(1){
+	color: #fff!important;
+}
+a {
+	color: #b6fff3;
+}
+
+
+
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inserm"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/settings/metadata"), url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/collection/list"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/"), url-prefix("https://hal.inrae.fr/medihal"), url-prefix("https://hal.inrae.fr/pasteur") {
+    /* TXT COLOR SWAP */
+
+div[id^="_altmetric_popover_el"].altmetric-embed div.altmetric_container a.link-to-altmetric-details-tab {
+	color: #fff;
+}
+.tip_mendeley{
+	color: #fff!important;
+}
+    
+    
+#mergeModalLabel{
+	color: #fff;
+}
+
+#document .title {
+	color: #4ee6cc;
+}
+
+a {
+	color: #fff7e0;
+}
+
+a:hover, a:focus {
+	color: #fff3c5
+}
+body {
+	color: #fff;
+}
+div[id^="_altmetric_popover_el"].altmetric-embed div#_altmetric_container.altmetric_container a.link-to-altmetric-details-tab {
+	color: #fff;
+}
+
+#document .title {
+	color: #4ee6cc;
+}
+a {
+	color: #fff7e0;
+}
+a:hover, a:focus {
+	color: #fff3c5;
+	text-decoration: underline;
+}
+body {
+	color: #fff;
+}
+h1, h2, h3, h4 {
+	color: #FFA87A;
+}
+.tip_mendeley{
+	color: black;
+}
+.tip_citeulike{
+	color: black;
+}
+.references-section .reference-row .reference-text .references-identifier-value {
+	color: #fff;
+}
+.references-section .reference-row .reference-text a:hover, .references-section .reference-row .reference-text a:focus {
+	color: #ffd980;
+}    
+
+/* COLOR SWAP */
+
+    
+.references-section #free-full-text-hal {
+	background-color: #bf3f69;
+}    
+    
+.references-section .reference-row .reference-text .references-identifier-value {
+	background-color: #202020;
+}    
+
+    
+.references-section .reference-row {
+	background-color: #424E5B;
+	color: #fff;
+	border-bottom: thick solid #2F3E4E;
+}
+    
+.altmetric-popover-content {
+	background-color: #424e5b!important;
+}    
+	
+.table-bordered {
+	border: 0px solid #ddd;
+}
+
+.col-right .widget-header {
+	border-bottom: 1px solid #515f6f!important;
+	background-color: #515f6f!important;
+	border: 1px solid #424e5b!important;
+    color:white;
+}
+.col-right .widget {
+	border: 1px solid #424e5b!important;
+}
+.col-right {
+	background-color: #f5f5f500;
+}
+.widget-content {
+	background-color: #424e5b!important;
+}
+.widget-download .widget-header {
+	background: #515f6f!important;
+	border-bottom: 1px solid #515f6f!important;
+    color:white;
+}
+
+div.widget:nth-child(8) > div:nth-child(2) > img:nth-child(1) {
+	filter: invert(100%);
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	border: 1px solid #357ebd;
+}
+.textarea-link-video {
+	background-color: #292929 !important;
+	color: #fff !important;
+}
+
+
+.panel-default > .panel-heading {
+	color: #fff;
+	background-color: #515f6f;
+	border-color: #515f6f;
+}
+.panel-default {
+	border-color: #515f6f;
+}
+.panel {
+	background-color: #515f6f;
+}
+.panel-body {
+	background-color: #424e5b;
+}
+.panel-footer {
+	background-color: #424e5b;
+	border-top: 1px solid #424e5b;
+}
+#confirmRequest {
+    background-color: #b95050;
+    border-color: #843d3d;
+}
+#confirmRequest:hover {
+    background-color: #a23535;
+    border-color: #912929;
+}
+#resetRequest {
+    background-color: #609b6e;
+    border-color: #44824c;
+}
+#resetRequest:hover {
+    background-color: #4a7955;
+    border-color: #244f24;
+}
+
+.modal-content {
+	background-color: #424e5b;
+	border: 1px solid #424e5b;
+}
+.modal-header {
+	border-bottom: 1px solid #424e5b;
+}
+.modal-footer {
+	border-top: 1px solid #424e5b;
+}
+
+
+.label-primary {
+	background-color: #428bca00;
+	border: 1px solid #a8d6ff;
+	border-radius: 3px;
+	color: #a8d6ff;
+}
+
+.label-danger {
+	background-color: #d9534f00;
+	border: 1px solid #ff7b77;
+	border-radius: 3px;
+	color: #ff9693!important;
+}
+.btn-danger{
+	background-color: #d9534f00;
+	border: 1px solid #ff7b77;
+	border-radius: 3px;
+	color: #ff9693!important;
+}
+#container {
+	background-color: #2f3e4e;
+}
+.well {
+	background-color: #424e5b;
+	border: 1px solid #808e9d;
+}
+.well blockquote {
+	border-color: #e4c56a;
+}
+
+#document .abstract-content {
+	background: #2f3e4e;
+	border-bottom: 1px solid #4c5a6a;
+}
+#document table .meta-name {
+	background: #3d5064;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 1px solid #424e5b;
+}
+
+.widget-header {
+	background-color: #515f6f;
+	border-bottom: 1px solid #515f6f;
+	color: #fff;
+}
+.widget {
+	background-color: #424e5b!important;
+	border: 1px solid #424e5b!important;
+}
+div[id^="_altmetric_popover_el"].altmetric-embed div#_altmetric_container.altmetric_container div#_altmetric_popover_inner .altmetric-popover-content {
+	background-color: #424e5b;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #2f3e4e;
+}
+.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+	background-color: #607184 !important;
+}
+/* SPECIAL SWAP LOGO */
+
+.altmetric-embed > a:nth-child(1) {
+	filter: invert(50%);
+}
+
+/* PADDING */
+
+.table > tbody + tbody {
+	border-top: 1px solid #ddd;
+}
+
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/error/collectionnotfound") {
+    /* TXT COLOR SWAP */
+
+.alert h4 {
+	color: white;
+}
+.alert > p, .alert > ul {
+	color: white;
+}
+
+/* COLOR SWAP */
+
+.btn-danger {
+	background-color: #b95050;
+	border: 1px solid #843d3d;
+}
+.btn-danger:hover {
+	background-color: #a23535;
+	border-color: #912929;
+    color:white!important;
+}
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/user/editprefmail") {
+    /* TXT COLOR SWAP */
+
+legend {
+	color: #7aad60;
+}
+
+/* COLOR SWAP */
+
+.well blockquote {
+	border-color: rgb(228, 197, 106);
+}
+}
+
+
+@-moz-document url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/") {
+    /* COLOR SWAP */
+
+
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+	background-color: #515f6f;
+}
+.panel-default > .panel-heading {
+	color: #fff;
+	background-color: #607184;
+	border-color: #607184;
+}
+.panel {
+	border: 0px solid transparent;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+	background-color: #798ca2a6;
+}
+.glyphicon-file::before {
+	content: "\e022";
+	color: white;
+}
+
+/* TXT COLOR SWAP */
+
+
+.editable-empty, .editable-empty:hover, .editable-empty:focus {
+	color: #FF678D;
+}
+
+
+}
+
+
+@-moz-document url-prefix("https://hal.inrae.fr/administrate/pending-modification") {
+    /* TXT COLOR SWAP */
+
+body {
+	color: #fff;
+}
+
+/* COLOR SWAP */
+
+.middle, .table > thead > tr > th.middle, .table > tbody > tr > th.middle, .table > tfoot > tr > th.middle, .table > thead > tr > td.middle, .table > tbody > tr > td.middle, .table > tfoot > tr > td.middle {
+	background-color: #495460;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 1px solid #748699;
+}
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	background-color: #3a4148;
+}
+.glyphicon:empty {
+	color: white;
+}
+.table-bordered {
+	border: 1px solid #748699;
+}
+
+/* TXT COLOR SWAP */
+
+a {
+	color: bisque;
+}
+a:hover, a:focus {
+	color: #ffe5b0;
+}
+}
+
+
+@-moz-document url-prefix("https://hal.inrae.fr/moderate/embargo") {
+    /* COLOR SWAP */
+
+.table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
+	border: 0px solid #48596a;
+}
+
+/* TXT COLOR SWAP */
+
+a {
+	color: bisque;
+}
+a:hover, a:focus {
+	color: #ffe5b0;
+}
+}
+
+
+@-moz-document url-prefix("https://hal.inrae.fr/administrate/doublons") {
+    /* COLOR SWAP */
+
+.alert-success {
+	border-color: #4da44d !important;
+	background-color: #2d603a70 !important;
+}
+
+.label-danger {
+	background-color: #d9534f00;
+	border: 1px solid #ff9c99;
+	color: #ff9c99;
+}
+.label-default {
+	background-color: #9990;
+	border: 1px solid;
+	border-radius: 3px;
+	color: #e5ffec;
+}
+.label-primary {
+	background-color: #428bca00;
+	border: 1px solid #a1d3ff;
+	border-radius: 3px;
+	color: #c3e3ff;
+}
+
+.alert {
+	border-color: #bd3535;
+	background-color: #53272787;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	border-top: 0px solid #5f718500;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border: 0px solid #48596a00;
+}
+.form-control {
+	background-color: #2e313766;
+}
+blockquote {
+	color: white;
+}
+#flash-messages > div:nth-child(1) {
+	border-left: 88px solid #5b444d00;
+	border-right: 88px solid #5b444d00;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+.btn-success {
+	background-color: #609b6e;
+	border-color: #3d843d;
+}
+.btn-success:hover {
+	background-color: #4a7955;
+	border-color: #244f24;
+}
+.btn-defaut {
+	background-color: #b95050;
+	border: 1px solid #843d3d;
+}
+.btn-default:hover {
+    background-color: #a23535;
+    border: 1px solid #912929;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #609b6e;
+	border-color: #44824c;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+	background-color: #4a7955;
+	border-color: #244f24;
+}
+body {
+	background-color: #2f3e4e;
+}
+
+button.btn-primary:nth-child(2){
+	background-color: #609b6e;
+	border-color: #3d843d;
+}
+
+button.btn-primary:nth-child(2):hover {
+	background-color: #4a7955;
+	border-color: #244f24;
+}
+
+.glyphicon:empty {
+	width: 2em;
+	color: white;
+}
+
+/* PADDING */
+
+.alert-success {
+	border-left: 1px solid #5b444d00;
+	border-right: 1px solid #5b444d00;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#flash-messages > div:nth-child(1) {
+	border-left: 88px solid #5b444d00!important;
+	border-right: 88px solid #5b444d00!important;
+	margin-right: 50px!important;
+	margin-left: 50px!important;
+}
+
+/* TXT COLOR SWAP */
+
+b, strong {
+	color: #bef3ff;
+}
+div.col-md-5:nth-child(1) > div:nth-child(1) > label:nth-child(1){
+	color: #fff;
+}
+div.col-md-5:nth-child(2) > div:nth-child(1) > label:nth-child(1){
+	color: #fff;
+}
+.editable-empty, .editable-empty:hover, .editable-empty:focus {
+	color: #FF8080;
+}
+.alert-success {
+	color: #fff;
+}
+body {
+	color: #f7b9b9;
+}
+a {
+	color: #ffdf84;
+}
+a:hover, a:focus {
+	color: #fff6d1;
+}
+}
+
+
+@-moz-document url-prefix("https://hal.inrae.fr/search/advanced-export") {
+    /* COLOR SWAP */
+
+.panel-default > .panel-heading {
+	color: #fff;
+	border-color: #3a444f;
+	background-color: #3a444f;
+}
+
+#exportableFields .panel-body {
+	background-color: #465b71;
+}
+.panel-default {
+	border-color: #3a444f;
+}
+.panel {
+	background-color: #3a444f;
+}
+.panel-success > .panel-heading {
+	color: #a8ffa9;
+	background-color: #3c4638;
+	border-color: #3c4638;
+}
+.panel-success {
+	border-color: #3c4638;
+}
+.panel-footer {
+	background-color: #3a444f;
+	border-top: 1px solid #3a444f;
+}
+
+
+/* TXT COLOR SWAP */
+
+body {
+	color: #fff;
+}
+.help-block {
+	color: #FFF !important;
+}
+
+
+
+
+
+}
+
+
+@-moz-document url-prefix("https://cas.ccsd.cnrs.fr/") {
+    /* COLOR SWAP */
+
+body {
+	background: url(https://i.imgur.com/7LcXjoW.jpg);
+	background-position-x: 0%;
+	background-position-y: 65%;
+	background-repeat: repeat;
+	background-repeat: no-repeat;
+}
+.panel {
+	background-color: #424e5bd9;
+}
+.panel-default {
+	border-color: #515f6f;
+}
+.panel-default > .panel-heading {
+	color: #fff;
+	background-color: #515f6f00;
+	border-color: #515f6f00;
+}
+.panel-footer {
+	background-color: #424e5b00;
+	border-top: 1px solid #424e5b00;
+}
+
+.form-control {
+	color: #fff;
+	background-color: #2e3137;
+	border: 1px solid #2e6da4;
+}
+.navbar-inverse {
+	border-color: #275663;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+	background-color: #723d43;
+}
+
+/* TXT COLOR SWAP */
+    
+    
+    
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	color: #8ec5ff;
+}
+#forgot-login  {
+	color: #fff;
+}  
+#forgot-login:hover  {
+	color: #ffbaba;
+}      
+#forgot-password {
+	color: #fff;
+}  
+#forgot-password:hover {
+	color: #ffbaba;
+}      
+div.panel-footer:nth-child(3) > a:nth-child(1)   {
+	color: #fff;
+}   
+div.panel-footer:nth-child(3) > a:nth-child(1):hover   {
+	color: #ffbaba;
+}       
+.h1, h1 {
+	color: #fff;
+}
+a {
+	color: #db5e5e;
+}
+a:hover, a:focus {
+	color: #f00;
+}
+label {
+	color: white;
+}
+.text-info {
+	color: #041622;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color: #000;
+}
+.text-muted {
+	color: #041622;
+}
+
+/* SPECIAL LOGO SWAP */
+
+img.img-rounded:nth-child(2) {
+	width: 0;
+	height: 0;
+	padding: 66px 0 0 142px;
+	background: url(https://i.imgur.com/P59kbpH.png) no-repeat 0 0;
+}
+.profile-img {
+	width: 0;
+	height: 0;
+	padding: 90px 0 0 142px;
+	background: url(https://i.imgur.com/P59kbpH.png) no-repeat 0 0;
+}
+
+#logos-div > img:nth-child(1) {
+	filter: brightness(0) invert(100%);
+}
+img.img-rounded:nth-child(3){
+	filter: brightness(0) invert(100%);
+}
+
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/administrate/doublons"), url-prefix("https://hal.inrae.fr/moderate/embargo"), url-prefix("https://hal.inrae.fr/administrate/pending-modification"), url-prefix("https://hal.inrae.fr/moderate/message"),url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inserm"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/settings/metadata"), url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/collection/list"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/"), url-prefix("https://hal.inrae.fr/medihal"), url-prefix("https://hal.inrae.fr/pasteur"), url-prefix("https://hal.inrae.fr/patrol/index"), url-prefix("https://hal.inrae.fr/patrol/listdocuments"), url-prefix("https://hal.inrae.fr/patrol/doaction"), url-prefix("https://hal.inrae.fr/website/style"), url-prefix("https://hal.inrae.fr/website/footer"), url-prefix("https://hal.inrae.fr/website/index"), url-prefix("https://hal.inrae.fr/website/common"), url-prefix("https://hal.inrae.fr/moderate/index"), url-prefix("https://hal.inrae.fr/administrate/index"), url-prefix("https://hal.inrae.fr/collection/list"), url-prefix("https://hal.inrae.fr/user/search"), url-prefix("https://hal.inrae.fr/user/library"), url-prefix("https://hal.inrae.fr/user/ftp"), url-prefix("https://hal.inrae.fr/user/filerequest"), url-prefix("https://hal.inrae.fr/user"), url-prefix("https://hal.inrae.fr/stat/user"), url-prefix("https://hal.inrae.fr/stat/index"), url-prefix("https://hal.inrae.fr/website/search"), url-prefix("https://hal.inrae.fr/website/header"), url-prefix("https://hal.inrae.fr/website/menu"), url-prefix("https://hal.inrae.fr/website/news"), url-prefix("https://hal.inrae.fr/website/public"), url-prefix("https://hal.inrae.fr/user/related"), url-prefix("https://hal.inrae.fr/user/submissions"), url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant"), url-prefix("https://hal.inrae.fr/browse/domain"), url-prefix("https://hal.inrae.fr/browse/doctype"), url-prefix("https://hal.inrae.fr/browse/period"), url-prefix("https://hal.inrae.fr/page/par-collaboration"), url-prefix("https://hal.inrae.fr/search/index"), url-prefix("https://hal.inrae.fr/external/doc/?authType=ORCID")    {
+    
+    /* SWAP NOEL */
+    
+html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps {
+	background: url("https://i.imgur.com/2Te2r6G.jpg");
+}    
+.footer {
+	background: url(https://i.imgur.com/VP5vDYG.jpg);
+	padding-top: 231px;
+	background-position-y: 234px;
+}
+html {
+	background: #eff4f7;
+}   
+    
+    
+.well {
+	background-color: #2f3e4eba;
+	border: 1px solid #2f3e4eba;
+}    
+#container {
+	background: url("https://i.imgur.com/2Te2r6G.jpg");
+}
+
+    
+body {
+	background: url("https://i.imgur.com/ECuELnc.jpg");
+}    
+
+.form-actions {
+	background-color: #eff4f700;
+	border-top: 1px solid #eff4f700;
+}   
+#document .abstract-content {
+	background: #2f3e4e00;
+	border-bottom: 1px solid #4c5a6a00;
+} 
+    
+#paragraphes h1 {
+	background: left center no-repeat transparent url("https://i.imgur.com/bGqVKhC.png");
+    padding: 0 0 0 50px;
+}    
+
+#widget_map .widget > h2 {
+	background: left center no-repeat transparent url("https://i.imgur.com/bGqVKhC.png");
+	padding: 0 0 0 50px;
+}   
+    
+#paragraphes {
+	background-color: #3545535c;
+	border-radius: 15px;
+}    
+
+  
+    
+/* TXT SWAP NOEL */    
+    
+.titre_picto_hal h1, .titre_picto_hal h2 {
+	color: #fff;
+
+}    
+    
+    
+}
+
+@-moz-document url-prefix("https://hal.inrae.fr/browse/domain") {
+    
+.col-md-7 {
+	background-color: #3545535c;
+	border-radius: 5px;
+}     
+    
+}
+@-moz-document url-prefix("https://hal.inrae.fr/external/doc/?authType=ORCID") {
+ 
+/* SWAP NOEL */    
+    
+.panel {
+	background-color: #2f3e4e80;
+	border: 1px solid transparent;
+}   
+.panel-default {
+	border-color: #ddd0;
+}
+.orcid-doc-titre {
+	background-image: linear-gradient(#fff0, #edf5f200 );
+}    
+/* TXT COLOR SWAP */    
+    
+.orcid-doc-text {
+	color: #fff;
+}    
+    
+.orcid-doc-titre > h2:nth-child(1)    {
+	color: #fff!important;
+}      
+    
+    
+    
+    
+    
+    
+}
