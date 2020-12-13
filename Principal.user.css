@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css 
-@version        1.0.5
+@version        1.0.6
 @description    Plateforme pour les styles visuels sur le site Hal-Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -746,7 +746,7 @@ ul.dropdown-menu:nth-child(3) > li:nth-child(6){
     background-color: #428ac9;
     color:white;
     padding: 0px 0;
-    max-height: 370px !important;
+    max-height: 400px !important;
 }
 
 
@@ -897,6 +897,9 @@ li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(4) > a:nth-chi
 }
 li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover {
 	background-color: #00a3a5;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(10) > a:nth-child(1):hover{
+    background-color: #00a3a5;
 }
 }
 @-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
@@ -1634,13 +1637,24 @@ a {
 }
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11 {
 	float: left;
-	margin-left: 285px;
+	margin-left: 15vw;
 }
 .table {
 	margin-bottom: 0px;
 }
 
 }
+
+@-moz-document url-prefix("https://hal.inrae.fr/browse/domain") {
+    
+.col-md-7 {
+	margin-left: 15vw !important;
+}   
+    
+}
+    
+    
+    
 @-moz-document url-prefix("https://hal.inrae.fr/page/par-collaboration") {
     /* UNIV PADDING */
 
@@ -1660,7 +1674,7 @@ a {
 }
 
 }
-@-moz-document url-prefix("https://hal.inrae.fr/user/submissions") {
+@-moz-document url-prefix("https://hal.inrae.fr/user/submissions"), url-prefix("https://inrae.halpreprod.archives-ouvertes.fr/user/submissions") {
     /* UNIVERSAL PADDING */
 
 .corps > fieldset:nth-child(4) > div:nth-child(2) > form:nth-child(1) > div:nth-child(6) > div:nth-child(2) > button:nth-child(1) {
@@ -1766,6 +1780,10 @@ div.row:nth-child(5) > div:nth-child(2) > button:nth-child(1){
 	float: none;
 	margin-top: -31px;
 }
+.btn-group > .btn:first-child {
+	margin-left: 100px;
+    z-index: 1;
+}    
 .row {
 	padding-top: 20px;
 }
@@ -2024,6 +2042,10 @@ li.dropdown:nth-child(2) > button:nth-child(1) {
 }
 
 /* COLOR SWAP */
+    
+.table > thead > tr > td.warning, .table > tbody > tr > td.warning, .table > tfoot > tr > td.warning, .table > thead > tr > th.warning, .table > tbody > tr > th.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > tbody > tr.warning > td, .table > tfoot > tr.warning > td, .table > thead > tr.warning > th, .table > tbody > tr.warning > th, .table > tfoot > tr.warning > th {
+	background-color: #fcf8e300;
+}    
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
 	background-color: #b3b3b3;
@@ -2526,7 +2548,7 @@ div.btn-group:nth-child(7){
 	padding-top: 0em!important;
 }
 }
-@-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/settings/metadata"), url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/collection"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/"), url-prefix("https://hal.inrae.fr/medihal") {
+@-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/settings/metadata"), url-prefix("https://hal.inrae.fr/administrate/users"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/collection"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/"), url-prefix("https://hal.inrae.fr/medihal"), url-prefix("https://hal.inrae.fr/pasteur") {
     .opacity {
 	opacity: 1;
 }
@@ -2769,3 +2791,22 @@ a{
     transition:0.2s
 }
 }
+@-moz-document url-prefix("https://hal.inrae.fr/external/doc/?authType=ORCID") {
+ 
+  
+.separator {
+	min-height: 0px;
+}
+   
+/* TXT COLOR SWAP */    
+      
+.btn-group > a:nth-child(1)  {
+	color: #fff!important;
+}      
+  
+    
+}
+
+
+
+
