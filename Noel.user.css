@@ -2,7 +2,7 @@
 @name           Joyeuses Fêtes !
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
-@updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Noel.user.css 
+@updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css 
 @version        1.0.0
 @description    Variante Nuit pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
@@ -24,6 +24,7 @@
 	border-top-color: #ba5151;
 	border-bottom-color: #ba5151;
 }    
+
  
 /* SPECIAL ZONE RECHERCHE */  
     
@@ -52,10 +53,10 @@
 	color: #275663;
 }
 .navbar-inverse {
-	border-color: #275663;
+	border-color: #aa6069;
 }
 #nav-services > ul:nth-child(1) > li:nth-child(1) > button:nth-child(1) {
-	background-color: #275663;
+	background-color: #aa6069;
 	color: #fff;
 }
 #nav-services > ul:nth-child(1) > li:nth-child(1) > button:nth-child(1):hover {
@@ -2528,7 +2529,7 @@ body {
 	border: 1px solid #2e6da4;
 }
 .navbar-inverse {
-	border-color: #275663;
+	border-color: #aa6069;
 }
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
 	background-color: #723d43;
@@ -2577,7 +2578,7 @@ label {
 	color: #041622;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: #000;
+	color: #fff;
 }
 .text-muted {
 	color: #041622;
