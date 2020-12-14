@@ -29,7 +29,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 # Sommaire
   - [Comment faire](#Comment-faire-?)
   - [Contenu](#Contenu) 
-    - [Note de patch](#Note-de-patch)
+    - [Note de patch](#Notes-de-patch)
     - [Mise à jour](#Mise-à-jour) 
   - [Aperçu](#Aperçu)
   - [Contribution et Développement](#Contribution-et-Développement)
