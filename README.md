@@ -7,7 +7,7 @@
    <br>
    Seulement disponible pour le portail hal inrae. Les scripts ne sont pas compatibles avec les sites de collection, vous devrez alors les désactiver lors de la navigation.
    <br>
-  <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/wiki/Notes-de-patch">Voir les notes de patch</a>
+  <a href="https://github.com/Hypersoby/Hal-Inrae-Scripts/wiki/Notes-de-patch">Notes des patchs</a>
   ·
   <a href="mailto:christopher.lallemant@inrae.fr?subject=Mail from our Website">Contactez moi</a>
   
