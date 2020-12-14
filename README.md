@@ -144,7 +144,7 @@ Des `mises à jour` pourront être disponibles dans le futur en faisant `remonte
 ![Aperçu3](https://i.imgur.com/lwiIxNW.png)
 
 <p align="center">
-| Événement | HALLOWEEN | Joyeuses Fêtes ! |
+Événement | HALLOWEEN | Joyeuses Fêtes ! |
 <br>
 
 
