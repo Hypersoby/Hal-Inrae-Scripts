@@ -144,15 +144,11 @@ Des `mises à jour` pourront être disponibles dans le futur en faisant `remonte
 ![Aperçu3](https://i.imgur.com/lwiIxNW.png)
 
 <p align="center">
-| Special HALLOWEEN |
+| Événement | HALLOWEEN | Joyeuses Fêtes ! |
 <br>
+
 
 ![AperçusHL](https://i.imgur.com/DcGJcIg.png)
-
-<p align="center">
-| Joyeuses Fêtes ! |
-<br>
-  
 ![AperçusNL](https://i.imgur.com/mb2QBRH.jpg)
 
 
