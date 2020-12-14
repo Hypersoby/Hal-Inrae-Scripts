@@ -29,6 +29,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 # Sommaire
   - [Comment faire](#Comment-faire-?)
   - [Contenu](#Contenu) 
+    - [Dépannage](#Dépannage)
     - [Note de patch](#Note-de-patch)
     - [Mise à jour](#Mise-à-jour) 
   - [Aperçu](#Aperçu)
@@ -118,6 +119,13 @@ la page Dépôt sont plus grands et plus larges
 ## Note de patch
 
 Des notes sur les mises à jour seront ajoutées à chaque correctif. Voir ci-dessus.
+
+## Dépannage
+
+Parfois les scripts peuvent rencontrer un problème et vous disent qu'ils ne peuvent pas être `mis à jour`.
+Ou bien qu'après mises à jour vous rencontrez des bugs visuels. Exemple : Bandeau blanc qui n'était pas avant sur le `style nuit`.
+
+La solution est toute bête, il vous suffit de supprimer les scripts et de les réinstaller à nouveau. Pour éviter tous soucis je vous conseille de le faire pour chaque script.
 
 ## Mise à jour
 
