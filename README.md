@@ -119,8 +119,6 @@ la page Dépôt sont plus grands et plus larges
 
 Des notes sur les mises à jour seront ajoutées à chaque correctif.
 
-![Voir les notes de patch](https://github.com/Hypersoby/Hal-Inrae-Scripts/wiki/Notes-de-patch)
-
 ## Mise à jour
 
 Des `mises à jour` pourront être disponibles dans le futur en faisant `remonter les bugs` ou suite à `une demande de fonctionnalité`.
