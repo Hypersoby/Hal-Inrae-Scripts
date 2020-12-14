@@ -122,7 +122,7 @@ Des notes sur les mises à jour seront ajoutées à chaque correctif. Voir ci-de
 
 ## Dépannage
 
-Parfois les scripts peuvent rencontrer un problème et vous disent qu'ils ne peuvent pas être `mis à jour`.
+Parfois les scripts peuvent rencontrer un problème et vous disent qu'ils ne peuvent pas se `mettre à jour`.
 Ou bien qu'après mises à jour vous rencontrez des bugs visuels. Exemple : Bandeau blanc qui n'était pas avant sur le `style nuit`.
 
 La solution est toute bête, il vous suffit de supprimer les scripts et de les réinstaller à nouveau. Pour éviter tous soucis je vous conseille de le faire pour chaque script.
