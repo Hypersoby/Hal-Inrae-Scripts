@@ -29,7 +29,7 @@ Chrome ✔ | Firefox ✔ | Opera ✔ | Safari ✔ |  IE 8 et plus ❌ |
 # Sommaire
   - [Comment faire](#Comment-faire-?)
   - [Contenu](#Contenu) 
-    - [Note de patch](#Notes-de-patch)
+    - [Note de patch](#Note-de-patch)
     - [Mise à jour](#Mise-à-jour) 
   - [Aperçu](#Aperçu)
   - [Contribution et Développement](#Contribution-et-Développement)
@@ -115,7 +115,7 @@ la page Dépôt sont plus grands et plus larges
 - Couleur Orange. Une expérience plus chaleureuse basée sur des couleurs appuyées.
 ```
 
-## Notes de patch
+## Note de patch
 
 Des notes sur les mises à jour seront ajoutées à chaque correctif.
 
