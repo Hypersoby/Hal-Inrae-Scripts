@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css 
-@version        1.0.3
+@version        1.0.4
 @description    Variante Orange pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -493,6 +493,9 @@ li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(4) > a:nth-chi
     background-color: #eb6f4a;
 }
 li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover {
+    background-color: #eb6f4a;
+}
+li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(10) > a:nth-child(1):hover{
     background-color: #eb6f4a;
 }
 
@@ -996,7 +999,7 @@ a {
 }
 }
 
-@-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/inserm"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/"), url-prefix("https://hal.inrae.fr/medihal") {
+@-moz-document url-prefix("https://hal.inrae.fr/hal"), url-prefix("https://hal.inrae.fr/inria"), url-prefix("https://hal.inrae.fr/tel"), url-prefix("https://hal.inrae.fr/cea"), url-prefix("https://hal.inrae.fr/cirad"), url-prefix("https://hal.inrae.fr/ird"), url-prefix("https://hal.inrae.fr/lirmm"), url-prefix("https://hal.inrae.fr/pastel"), url-prefix("https://hal.inrae.fr/moderate/documents"), url-prefix("https://hal.inrae.fr/patrol/displaydocuments/"), url-prefix("https://hal.inrae.fr/inserm"), url-prefix("https://hal.inrae.fr/view/index/identifiant/"), url-prefix("https://hal.inrae.fr/view/index/docid/"), url-prefix("https://hal.inrae.fr/medihal"), url-prefix("https://hal.inrae.fr/pasteur") {
     /* COLOR SWAP */
     
 .references-section .reference-row {
@@ -1076,6 +1079,7 @@ div[id^="_altmetric_popover_el"].altmetric-embed div#_altmetric_container.altmet
 a {
     color: #087daa;
 }
+
 /* SPECIAL SWAP LOGO */
 .altmetric-embed > a:nth-child(1) {
     filter: invert(50%);
@@ -1122,7 +1126,11 @@ a {
 .panel-default > .panel-heading + .panel-collapse .panel-body {
 	border-top-color: #878a8e;
 }
-
+    /* TXT COLOR SWAP */
+    
+a {
+	color: #000;
+}    
 
 }
 @-moz-document url-prefix("https://hal.inrae.fr/administrate/pending-modification") {
