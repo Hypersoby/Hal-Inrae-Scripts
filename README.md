@@ -117,7 +117,7 @@ la page Dépôt sont plus grands et plus larges
 
 ## Note de patch
 
-Des notes sur les mises à jour seront ajoutées à chaque correctif.
+Des notes sur les mises à jour seront ajoutées à chaque correctif. Voir ci-dessus.
 
 ## Mise à jour
 
