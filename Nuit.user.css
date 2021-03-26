@@ -3,21 +3,44 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css 
-@version        1.0.6
+@version        1.0.7
 @description    Variante Nuit pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
 
 
+
 @-moz-document url-prefix("https://hal.inrae.fr") {
+   
+    /* TOP MENU DROPDOWN*/    
+    
+#global-navigation ul.nav-tabs > li > a {
+	color: #000;
+	background-image: linear-gradient(-13deg, #36798c8a 50%, transparent 50%);
+	border-bottom: 2px solid #fff;
+} 
+#global-navigation > ul.nav-tabs > li.active > a, #global-navigation > ul.nav-tabs > li.active > a:hover {
+	border-bottom: 2px solid #02dde1;
+}
+    
+#global-navigation > ul.nav-tabs > li > a:hover {
+	color: #fff;
+	border-bottom: 2px solid #02dde1;
+}       
+       
+/* BARRE DE RECHERCHE */    
+    
+
+.input-group {
+	border: 2px solid #1b2c3e;
+}     
+    
     /* SPECIAL COLOR ZOOM MODE */
  
 .logo {
 	background-color: #2f3e4e;
 }
-#global-navigation ul.nav-tabs > li > a {
-	background: #fff0;
-}
+
 #global-navigation > ul.nav-tabs > li.active > a {
 	background: #fff0;
 }
@@ -120,6 +143,7 @@ li.dropdown:nth-child(2) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):ho
 	background-color: #36798c;
     color: #fff;
 }
+    
 
 
 /* SPECIAL SWAP LOGO */
@@ -179,9 +203,6 @@ html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps{
 	color: #165a5c;
 }
 #global-navigation > ul.nav-tabs > li.active > a, #global-navigation > ul.nav-tabs > li.active > a:hover {
-	color: #02dde1;
-}
-#global-navigation > ul.nav-tabs > li > a:hover {
 	color: #02dde1;
 }
 #actualites .feed.item > .title, #actualites .feed.item > .title > a {
@@ -385,11 +406,8 @@ html {
 	justify-content: center;
 	align-items: center;
 	height: 400px;
-	background: url('https://i.imgur.com/NQFN18l.png') no-repeat;
-	background-attachment: fixed;
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: 75%;
+	background: url('https://i.imgur.com/dqBOsdp.jpg') no-repeat;
+	background-size: cover;
 }
 
 
@@ -704,8 +722,14 @@ li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(10) > a:nth-child(1):h
 	background-color: #36798c;
     color: #fff;
 }
-
-
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover{
+	background-color: #36798c;
+    color: #fff;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):hover{
+	background-color: #36798c;
+    color: #fff;
+}
 }
 
 @-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
@@ -1318,7 +1342,7 @@ small, .small {
 }
 }
 
-@-moz-document url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant") {
+@-moz-document url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant"), url-prefix("https://hal.inrae.fr/page/utilisation-du-thesaurus-inrae"), url-prefix("https://hal.inrae.fr/page/modeles-de-cv-hal-inrae") {
     /* TXT COLOR SWAP */
 
 #paragraphes .para_texte p {
@@ -2404,10 +2428,52 @@ img.img-rounded:nth-child(3){
 	color: #fff!important;
 }      
     
-    
-    
-    
-    
+   
     
 }
 
+@-moz-document url-prefix("https://hal.inrae.fr/page/par-collection") {
+    
+/* COLOR SWAP */    
+    
+table.dataTable tbody tr {
+	background-color: #4f5b71;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+	background-color: #8992a4;
+}
+table.dataTable tbody tr:hover {
+	background-color: #a4aebf;
+}    
+table.dataTable.stripe tbody tr.odd:hover, table.dataTable.display tbody tr.odd {
+	background-color: #a4aebf;
+}        
+    
+/* TXT COLOR SWAP */  
+    
+.dataTables_wrapper .dataTables_filter input {
+	color: black;
+}    
+
+a{
+	color: #a4ffeb;
+}      
+a:hover, a:focus {
+	color: #fff;
+}    
+p {
+	color: white;
+}    
+div, table, label, input, button, select, textarea {
+	color: white;
+}    
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+	color: #fff;
+}    
+.dataTables_wrapper .dataTables_length select {
+	color: black;
+}    
+    
+    
+    
+}    
