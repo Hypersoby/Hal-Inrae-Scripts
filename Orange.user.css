@@ -3,13 +3,38 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css 
-@version        1.0.4
+@version        1.0.5
 @description    Variante Orange pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
 
 
 @-moz-document url-prefix("https://hal.inrae.fr/") {
+    
+ /* BARRE DE RECHERCHE */
+    
+.input-group {
+	border: 2px solid #885748;
+}    
+    
+    
+    /* TOP MENU DROPDOWN*/    
+    
+#global-navigation ul.nav-tabs > li > a {
+	color: #000;
+	background-image: linear-gradient(-13deg, #d3826a42 50%, transparent 50%);
+	border-bottom: 2px solid #000;
+} 
+#global-navigation > ul.nav-tabs > li.active > a, #global-navigation > ul.nav-tabs > li.active > a:hover {
+	border-bottom: 2px solid #d3826a;
+}   
+    
+#global-navigation > ul.nav-tabs > li > a:hover {
+	color: #fff;
+	border-bottom: 2px solid #d3826a;
+}       
+    
+    
     /* SPECIAL CCSD BAR + ADDON COLOR SWAP */
 #nav-services > .navbar-nav > .active > button::after {
     color: #c85d3e;
@@ -280,11 +305,8 @@ html {
 	justify-content: center;
 	align-items: center;
 	height: 400px;
-	background: url('https://i.imgur.com/QlUQ9WD.png') no-repeat;
-	background-attachment: fixed;
-	background-position: right;
-	background-repeat: no-repeat;
-	background-size: 75%;
+	background: url('https://i.imgur.com/LqJ3ekG.jpg') no-repeat;
+	background-size: cover;
 }
 .nav .caret {
     border-top-color: #6d626a;
@@ -498,8 +520,12 @@ li.dropdown-submenu:nth-child(6) > ul:nth-child(2) > li:nth-child(5) > a:nth-chi
 li.dropdown:nth-child(6) > ul:nth-child(2) > li:nth-child(10) > a:nth-child(1):hover{
     background-color: #eb6f4a;
 }
-
-	
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(6) > a:nth-child(1):hover{
+    background-color: #eb6f4a;
+}
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):hover{
+    background-color: #eb6f4a;
+}
 }
 @-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
     /* SPECIAL SWAP */
@@ -1315,3 +1341,49 @@ a:focus, a:hover {
 
 }
 
+@-moz-document url-prefix("https://hal.inrae.fr/page/par-collection") {
+    
+/* COLOR SWAP */    
+    
+table.dataTable tbody tr {
+	background-color: #dde1e3;
+}
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+	background-color: #adb2b5;
+}
+table.dataTable tbody tr:hover {
+	background-color: #d0a28691;
+}    
+table.dataTable.stripe tbody tr.odd:hover, table.dataTable.display tbody tr.odd {
+	background-color: #d0a28691;
+}       
+    
+/* COLOR SWAP */    
+    
+a {
+	color: #bd3e00;
+}    
+a:hover, a:focus {
+	color: #7b4524;
+	text-decoration: underline;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
