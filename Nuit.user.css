@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css 
-@version        1.0.71
+@version        1.0.8
 @description    Variante Nuit pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -32,7 +32,7 @@
     /* SPECIAL COLOR ZOOM MODE */
  
 .logo {
-	background-color: #2f3e4e;
+	background-color: #2f3e4e00;
 }
 
 #global-navigation > ul.nav-tabs > li.active > a {
@@ -173,8 +173,8 @@ li.dropdown:nth-child(2) > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1):ho
 	content: url('https://i.imgur.com/OPOckim.png');
 	filter: brightness(77%) hue-rotate(38deg)
 }
-html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps{ 
-	background: #2f3e4e!important;
+html body div#container.container-fluid div.row-fluid div.col-md-12 div.corps {
+	background: #f3f2f000;
 }
 
 .label-danger {
@@ -295,6 +295,14 @@ blockquote small {
 
 
 /* COLOR SWAP */
+    
+html {
+	background-color: #2f3e4e;
+}    
+    
+body {
+	background-color: #2f3e4e00;
+}    
 
 .modal-content {
 	background-color: #3a444f;
@@ -321,7 +329,7 @@ blockquote {
 }
 
 #container {
-	background-color: #2f3e4e;
+	background-color: #2f3e4e00;
 }
 
 .nav .caret {
@@ -357,26 +365,23 @@ blockquote {
 }
 
 .container-gris {
-	background-color: #2f3e4e;
+	background-color: #2f3e4e00;
 }
 #global-navigation {
-	background-color: #2f3e4e;
+	background-color: #2f3e4e00;
 }
 .container-blanc {
-	background-color: #2f3e4e;
+	background-color: #2f3e4e00;
 }
 .form-actions {
-	background-color: #2f3e4e;
-    border-top: 1px solid #2f3e4e; 
+	background-color: #2f3e4e00;
+	border-top: 1px solid #2f3e4e00;
 }
 .footer {
-	background: #2f3e4e;
+	background: #2f3e4e00;
 }
 #footer-content {
-	background: #2f3e4e url("https://i.imgur.com/8iw9wTK.png") no-repeat 0 center;
-}
-html {
-	background: #2f3e4e;
+	background: #2f3e4e00 url("https://i.imgur.com/8iw9wTK.png") no-repeat 0 center;
 }
 #actualites .feed.item::before {
 	border-color: #fff #2f3e4e #627384 #fff;
@@ -724,12 +729,18 @@ li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(7) > a:nth-child(1):ho
 	background-color: #36798c;
     color: #fff;
 }
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):hover{
+	background-color: #36798c;
+    color: #fff;
+}   
+li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
+	background-color: #36798c;
+    color: #fff;
+}      
 }
 
 @-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
     /* COLOR SWAP */
-
-
 
 .ui-widget-content .ui-icon {
 	background-image: url(images/ui-icons_222222_256x240.png);
@@ -802,10 +813,7 @@ a.btn:nth-child(2):hover {
 	border-top: 1px solid #424e5b;
 	background-color: #424e5b;
 }
-.form-actions {
-	background-color: #424e5b;
-	border-top: 1px solid #424e5b;
-}
+
 #render-step .panel-default > .panel-heading {
 	background-color: #515f6f;
 }
@@ -1336,7 +1344,7 @@ small, .small {
 }
 }
 
-@-moz-document url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant"), url-prefix("https://hal.inrae.fr/page/utilisation-du-thesaurus-inrae"), url-prefix("https://hal.inrae.fr/page/modeles-de-cv-hal-inrae") {
+@-moz-document url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant"), url-prefix("https://hal.inrae.fr/page/utilisation-du-thesaurus-inrae"), url-prefix("https://hal.inrae.fr/page/modeles-de-cv-hal-inrae"), url-prefix("https://hal.inrae.fr/page/journees-casuhal-casuhalathon") {
     /* TXT COLOR SWAP */
 
 #paragraphes .para_texte p {
@@ -2467,7 +2475,22 @@ div, table, label, input, button, select, textarea {
 .dataTables_wrapper .dataTables_length select {
 	color: black;
 }    
+ 
+} 
+@-moz-document url-prefix("https://hal.inrae.fr/public/Doublons") {
     
+/* COLOR SWAP */    
     
-    
+input[type="text"], input[type="password"], .ui-autocomplete-input, textarea, .uneditable-input {
+	color: #000;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.form-control {
+	color: #000;
+	border: 1px solid #ccc;
+	background-color: #fff;
 }    
+    
+    
+}
