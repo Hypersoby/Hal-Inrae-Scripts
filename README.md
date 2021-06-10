@@ -58,7 +58,7 @@ Pour le script `Principal` : ![Script Principal](https://github.com/Hypersoby/Ha
 
 Pour le `Mode Nuit` : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nuit.user.css)
   
-Pour le `Mode Nuit` : ![Script Mode Nuit](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nocturne.user.css)  
+Pour le `Mode Nocturne` : ![Script Mode Nocturne](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Nocturne.user.css)  
 
 Pour le `Orange` : ![Script Couleur Orange](https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css)
 
