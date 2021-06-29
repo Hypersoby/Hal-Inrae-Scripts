@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Principal.user.css 
-@version        1.0.8
+@version        1.0.81
 @description    Plateforme pour les styles visuels sur le site Hal-Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -952,7 +952,10 @@ li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):ho
 }
 li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
     background-color: #00a3a5;
-}      
+} 
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(9) > a:nth-child(1):hover{
+    background-color: #00a3a5;
+}    
 }
 @-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
     /* UNIVERSAL TR */
@@ -1737,7 +1740,7 @@ a {
 	margin-top: 2px;
 }
 }
-@-moz-document url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant"), url-prefix("https://hal.inrae.fr/page/utilisation-du-thesaurus-inrae"), url-prefix("https://hal.inrae.fr/page/modeles-de-cv-hal-inrae"), url-prefix("https://hal.inrae.fr/page/journees-casuhal-casuhalathon") {
+@-moz-document url-prefix("https://hal.inrae.fr/page/presentation-de-hal-inrae"), url-prefix("https://hal.inrae.fr/page/pour-les-chercheurs"), url-prefix("https://hal.inrae.fr/page/creer-son-idhal"), url-prefix("https://hal.inrae.fr/page/pour-le-reseau-hal-inrae"), url-prefix("https://hal.inrae.fr/page/a-lattention-du-deposant"), url-prefix("https://hal.inrae.fr/page/utilisation-du-thesaurus-inrae"), url-prefix("https://hal.inrae.fr/page/modeles-de-cv-hal-inrae"), url-prefix("https://hal.inrae.fr/page/journees-casuhal-casuhalathon"), url-prefix("https://hal.inrae.fr/page/signaler-un-doublon") {
     /* TXT COLOR SWAP */
 
 #paragraphes .para_texte p {
