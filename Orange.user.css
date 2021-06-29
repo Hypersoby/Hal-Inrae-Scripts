@@ -3,7 +3,7 @@
 @namespace      Hypersoby
 @homepageURL 	https://github.com/Hypersoby/Hal-Inrae-Scripts
 @updateURL   	https://github.com/Hypersoby/Hal-Inrae-Scripts/raw/master/Orange.user.css 
-@version        1.0.6
+@version        1.0.71
 @description    Variante Orange pour Hal Inrae
 @author         Lallemant Christopher (HS|HyperSoby)
 ==/UserStyle== */
@@ -527,7 +527,9 @@ li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(8) > a:nth-child(1):ho
 li.dropdown:nth-child(4) > ul:nth-child(2) > li:nth-child(5) > a:nth-child(1):hover{
     background-color: #eb6f4a;
 }   
-    
+li.dropdown:nth-child(5) > ul:nth-child(2) > li:nth-child(9) > a:nth-child(1):hover{
+    background-color: #eb6f4a;
+}        
 }
 @-moz-document url-prefix("https://hal.inrae.fr/submit/index") {
     /* SPECIAL SWAP */
